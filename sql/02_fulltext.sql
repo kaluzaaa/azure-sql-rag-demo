@@ -1,0 +1,11 @@
+-- Polish full-text indexes (LCID 1045): the word breaker and stemmer find inflected forms.
+CREATE FULLTEXT CATALOG DemoCatalog AS DEFAULT;
+GO
+CREATE FULLTEXT INDEX ON dbo.TranscriptChunks (transcript_text LANGUAGE 1045)
+    KEY INDEX PK_TranscriptChunks WITH CHANGE_TRACKING AUTO;
+
+CREATE FULLTEXT INDEX ON dbo.Episodes (title LANGUAGE 1045, summary LANGUAGE 1045, tags LANGUAGE 1045)
+    KEY INDEX PK_Episodes WITH CHANGE_TRACKING AUTO;
+
+CREATE FULLTEXT INDEX ON dbo.Links (title LANGUAGE 1045, tldr LANGUAGE 1045, tags LANGUAGE 1045)
+    KEY INDEX PK_Links WITH CHANGE_TRACKING AUTO;

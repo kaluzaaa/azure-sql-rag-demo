@@ -14,7 +14,8 @@ TOKEN_SCOPE = "https://ai.azure.com/.default"
 def _client() -> tuple[OpenAI, str]:
     settings = load_settings()
     token_provider = get_bearer_token_provider(DefaultAzureCredential(), TOKEN_SCOPE)
-    client = OpenAI(base_url=settings.foundry_endpoint, api_key=token_provider)
+    # Extra retries: the SDK waits and retries on HTTP 429 when a load exceeds the tokens per minute.
+    client = OpenAI(base_url=settings.foundry_endpoint, api_key=token_provider, max_retries=10)
     return client, settings.embedding_deployment
 
 
