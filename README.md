@@ -2,6 +2,10 @@
 
 Demo repository for the talk. Podcast episodes live in Azure SQL Database: vectors, a DiskANN vector index, Polish full-text search and plain joins, all in T-SQL.
 
+## Slides
+
+The slides of the talk (Azure Club, 2026-11-19, in Polish): [slides/azure-club-2026.pdf](slides/azure-club-2026.pdf). The links in the PDF are clickable.
+
 ## Prerequisites
 
 - An Azure subscription where you can create a resource group, an Azure SQL server and a Microsoft Foundry (AI Services) resource.
