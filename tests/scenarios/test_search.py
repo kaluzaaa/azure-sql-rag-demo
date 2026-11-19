@@ -51,11 +51,10 @@ def test_fused_search_puts_the_expected_episode_first(cursor, text, episode):
 def test_title_question_lands_mostly_in_its_episode(cursor):
     # "Przekonaj mnie do OpenTelemetry" is the title of #164, not a phrase of any transcript
     # (they write "Open Telemetry"), so the first turn can come from another episode;
-    # #164 still has more of the top 10 than any other episode.
+    # #164 still holds the strict majority of the top 10.
     rows = search(cursor, "przekonaj mnie do OpenTelemetry")
     episodes = [r["episode_number"] for r in rows]
-    others = [episodes.count(e) for e in set(episodes) - {164}]
-    assert episodes.count(164) > max(others, default=0), episodes
+    assert episodes.count(164) > len(episodes) / 2, episodes
 
 
 def test_date_range_returns_only_rows_inside_it(cursor):
