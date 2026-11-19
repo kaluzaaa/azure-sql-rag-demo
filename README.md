@@ -49,10 +49,10 @@ uv run python -m ipykernel install --user --name azure-sql-rag-demo --display-na
 
 ## Ask the live Patoarchitekci MCP server from GitHub Copilot
 
-`.vscode/mcp.json` registers the public MCP server `https://mcp.patoarchitekci.io/mcp`. It serves the full podcast archive, not the 15 demo episodes of this repository.
+`.mcp.json` registers the public MCP server `https://mcp.patoarchitekci.io/mcp`. It serves the full podcast archive, not the 15 demo episodes of this repository.
 
-1. Open `.vscode/mcp.json` and select **Start** above the `patoarchitekci` entry.
-2. Sign in with GitHub when VS Code asks. The server has per-user limits.
+1. Run **MCP: List Servers** from the Command Palette, select `patoarchitekci` and start it.
+2. Sign in with GitHub when VS Code asks. The server has per-user limits. In a browser Codespace the sign-in callback can fail with "No valid session for this codespace": open the Codespace in VS Code Desktop and sign in there.
 3. Open Copilot Chat, select **Agent** mode and check that the `patoarchitekci` tools are enabled.
 4. Ask a question in Polish. The archive is Polish.
 
