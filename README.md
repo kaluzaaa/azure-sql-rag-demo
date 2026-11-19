@@ -39,6 +39,14 @@ The bundled SQL driver loads only OpenSSL 1.x or 3.x from `/opt/homebrew/opt/ope
 
 Authentication is Entra ID only: no SQL password and no API key.
 
+## Notebook kernel
+
+The notebooks name the Jupyter kernel `azure-sql-rag-demo`. The devcontainer registers it, so VS Code does not ask which kernel to use. Outside the devcontainer, register it once:
+
+```bash
+uv run python -m ipykernel install --user --name azure-sql-rag-demo --display-name azure-sql-rag-demo
+```
+
 ## Ask the live Patoarchitekci MCP server from GitHub Copilot
 
 `.vscode/mcp.json` registers the public MCP server `https://mcp.patoarchitekci.io/mcp`. It serves the full podcast archive, not the 15 demo episodes of this repository.
