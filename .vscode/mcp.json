@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "patoarchitekci": {
+      "type": "http",
+      "url": "https://mcp.patoarchitekci.io/mcp"
+    }
+  }
+}

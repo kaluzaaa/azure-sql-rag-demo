@@ -38,3 +38,21 @@ The bundled SQL driver loads only OpenSSL 1.x or 3.x from `/opt/homebrew/opt/ope
 `infra/teardown.sh` deletes the resource group, then purges the soft-deleted Foundry resource, so a later `deploy.sh` can reuse the same names.
 
 Authentication is Entra ID only: no SQL password and no API key.
+
+## Ask the live Patoarchitekci MCP server from GitHub Copilot
+
+`.vscode/mcp.json` registers the public MCP server `https://mcp.patoarchitekci.io/mcp`. It serves the full podcast archive, not the 15 demo episodes of this repository.
+
+1. Open `.vscode/mcp.json` and select **Start** above the `patoarchitekci` entry.
+2. Sign in with GitHub when VS Code asks. The server has per-user limits.
+3. Open Copilot Chat, select **Agent** mode and check that the `patoarchitekci` tools are enabled.
+4. Ask a question in Polish. The archive is Polish.
+
+Questions that show different tools:
+
+| Question | What to watch for |
+|---|---|
+| Co Patoarchitekci mówili o Kubernetesie w 2025 i z kim? | `search_transcript` with a date range |
+| Jaki jest najnowszy odcinek Patoarchitektów i o czym jest? | `list_episodes`, then `get_episode_summary`: no search |
+| Ile razy w podcaście padło słowo OpenTelemetry? Podaj liczbę na odcinek. | `count_transcript_mentions`: an aggregate, not a top-k list |
+| W którym odcinku mówili o Holmes GPT i jaki link polecali? | `search_transcript` and `find_episode_links` |
