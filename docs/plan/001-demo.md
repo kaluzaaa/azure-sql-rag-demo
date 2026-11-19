@@ -41,6 +41,7 @@ Done when:
 | D10 | Driver | `mssql-python`; no system ODBC package |
 | D11 | Language | Repository text in English; the data stays Polish |
 | D12 | Out of scope | No agent or MCP server in this repository; no English copy columns; no context windows; no CI deploy. The talk can show the production MCP in Claude on a slide or live; that is not part of this plan or of the 20 demo minutes |
+| D14 | Explicit data first | Owner, 2026-11-19: the talk must show that explicitly extracted metadata is knowledge for the agent, and that many questions need no vector search and no full-text search at all. Notebook 3 starts with questions answered by plain SQL and shows one case where the search gives a wrong answer and `ORDER BY` gives the right one. New tables `EpisodeChapters` and `EpisodeTags` hold the metadata that `episode.yaml` already has |
 | D13 | Vector index | Notebook 1 owns it: `DROP INDEX IF EXISTS` then `CREATE VECTOR INDEX`. The loader creates only tables, full-text indexes, functions and procedures |
 
 ## Repository layout
@@ -62,6 +63,7 @@ Done when:
 - `TranscriptChunks(chunk_id PK identity, episode_number FK, chunk_number, publication_date, speaker, start_timestamp, transcript_text, embedding vector(1536))` — one row per speaker turn; `publication_date` is a copy from `Episodes`, so `VECTOR_SEARCH` filters on the indexed table itself
 - `Links(link_slug PK, url, title, tldr, tags, embedding vector(1536))`, `EpisodeLinks(episode_number, link_slug, position)`
 - `People(person_slug PK, name)`, `EpisodeGuests(episode_number, person_slug)`
+- `EpisodeChapters(episode_number, position, start_timestamp, title)`, `EpisodeTags(episode_number, tag)` (D14); `Episodes.tags` keeps the same tags as text for the full-text index
 - Full-text indexes (Polish, LCID 1045) on `TranscriptChunks.transcript_text`, `Episodes(title, summary, tags)`, `Links(title, tldr, tags)`
 - `dbo.SearchChunks(@searchText, @embedding, @topK, @fromDate, @toDate, @wVector)`: three legs (Polish `FREETEXTTABLE`, exact phrase `CONTAINSTABLE`, vector) fused with RRF — a short form of production `SearchChunksFused`
 - `dbo.CountMentions(@searchText, @fromDate, @toDate)`: turns per episode that hold every word
@@ -72,7 +74,11 @@ Every notebook ends each step with an assert cell, so a wrong or empty result fa
 
 1. `01_vectors.ipynb` (about 6 minutes). Given the loaded database. When the cells run: create an embedding in Foundry; show the `vector` column; exact `VECTOR_DISTANCE` top 10; `CREATE VECTOR INDEX`; `VECTOR_SEARCH` with `WITH APPROXIMATE` and a date filter. Then asserts: the unfiltered searches return 10 rows each, and the filtered search returns at least one row with every row inside the date range. A cell prints the overlap of the exact and the approximate result and the timing (printed, not asserted: recall is not guaranteed).
 2. `02_hybrid_search.ipynb` (about 8 minutes). When the cells run each leg alone for "HolmesGPT", "vendor lock-in" and "przekonaj mnie do OpenTelemetry", then the fused procedure. Then a table shows the rank of the expected episode per leg and after fusion. Asserts: #182, #10 and #164 are first after fusion.
-3. `03_structured_data.ipynb` (about 6 minutes). When the cells answer "what did we say about Kubernetes in 2025 and with whom" in SQL: semantic search with a date range, joined to `EpisodeGuests` and `People`, grouped per episode; `CountMentions('Kubernetes', '2025-01-01', '2025-12-31')`; links of the matching episodes. Asserts: every query returns at least one row and only rows of 2025; the guest join returns at least one guest name.
+3. `03_structured_data.ipynb` (about 6 minutes), in three parts (D14):
+   - No search at all. Plain SQL answers "the latest 3 episodes", "the chapters of #164 with timestamps", "the links of #164", "the episodes with a guest and the guest's name", "episodes per tag in 2025". One contrast cell: the vector search for "najnowszy odcinek" does not return the latest episode first; `ORDER BY publication_date DESC` does. Asserts: each query returns rows; the latest episode by date is #182.
+   - Search plus structure. "What did we say about Kubernetes in 2025 and with whom": `SearchChunks` with a date range, joined to `Episodes`, `EpisodeGuests` and `People`, grouped per episode with the speakers of the matching turns. Asserts: at least one row, only rows of 2025.
+   - Counting. `CountMentions('Kubernetes', '2025-01-01', '2025-12-31')`: an aggregate, not a top-k list. Asserts: at least one row, only episodes of 2025.
+   - Last cell: a table "question type → what answers it" (lookup, list, count, exact phrase, meaning), the same split as the production MCP tools.
 
 ## Tasks
 
@@ -99,3 +105,4 @@ Every notebook ends each step with an assert cell, so a wrong or empty result fa
 - 2026-11-19 Codex (plan), 14 defects. Fixed: configurable deployment (D4), repository-wide secret scan and allow-lists for links and people (D3, task 3), people reduced to `name`, vector index ownership (D13), date range in `CountMentions`, assert cells in notebooks, owner approval before a paid tier (D6), idempotency and readiness probe of `deploy.sh`, warm-up cell, dead `AI_GENERATE_EMBEDDINGS` fact removed, production MCP demo marked as outside the plan (D12). Rejected: the workspace `CLAUDE.md`/`.gitignore` update stays (workspace rule: the map lists every sub-repository), now marked as housekeeping outside the done criteria.
 - 2026-11-19 Codex (plan, second run), 4 defects, all fixed: `publication_date` on `TranscriptChunks` for the filtered `VECTOR_SEARCH`, overlap printed instead of asserted, scan covers untracked files, URL shape check plus a host list for the owner.
 - 2026-11-19 owner: database tier Standard S0 instead of the free offer (D6). The warm-up cell and the resume-time measurement are removed: S0 does not pause.
+- 2026-11-19 owner: explicit metadata as agent knowledge, search is not always needed (D14); notebook 3 reordered, `EpisodeChapters` and `EpisodeTags` added.
