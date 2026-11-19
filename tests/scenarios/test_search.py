@@ -82,6 +82,10 @@ def test_text_without_words_uses_only_the_vector_leg(cursor, text):
     assert all(r["rank_vector"] and not r["rank_fulltext"] and not r["rank_phrase"] for r in rows)
 
 
+def test_top_k_above_the_leg_size_returns_top_k_rows(cursor):
+    assert len(search(cursor, "---", top_k=60, vector_text="Kubernetes")) == 60
+
+
 def test_count_mentions_counts_2025_episodes_only(cursor):
     rows = count_mentions(cursor, "Kubernetes", FROM_2025, TO_2025)
     assert rows

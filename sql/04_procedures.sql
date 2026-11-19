@@ -3,7 +3,7 @@
 --   fulltext: Polish FREETEXT, finds inflected forms ("kontenerów" -> "kontener")
 --   phrase:   the words of the text as one exact phrase (skipped for fewer than two words)
 --   vector:   cosine distance to @embedding, exact scan (works with or without a vector index)
--- Each leg keeps its top 50 inside the date range. A NULL date is an open bound.
+-- Each leg keeps its top 50 (or @topK, if larger) inside the date range. A NULL date is an open bound.
 CREATE OR ALTER PROCEDURE dbo.SearchChunks
     @searchText NVARCHAR(4000),
     @embedding  VECTOR(1536),
@@ -14,7 +14,7 @@ CREATE OR ALTER PROCEDURE dbo.SearchChunks
 AS
 BEGIN
     SET NOCOUNT ON;
-    DECLARE @candidates INT = 50;
+    DECLARE @candidates INT = IIF(@topK > 50, @topK, 50);  -- per leg; never fewer than @topK
     DECLARE @phrase NVARCHAR(4000) = dbo.FulltextPhraseCondition(@searchText);
     DECLARE @hasWords BIT = IIF(EXISTS (SELECT 1 FROM dbo.FulltextWords(@searchText)), 1, 0);
     SET @fromDate = ISNULL(@fromDate, '0001-01-01');
