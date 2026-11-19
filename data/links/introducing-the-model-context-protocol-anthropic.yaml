@@ -1,0 +1,22 @@
+url: https://www.anthropic.com/news/model-context-protocol
+title: Introducing the Model Context Protocol \ Anthropic
+created: 2024-11-30
+tldr:
+- Anthropic udostępniło open source Model Context Protocol (MCP), otwarty standard łączący asystentów
+  AI ze źródłami danych i narzędziami.
+- 'MCP umożliwia bezpieczne, dwukierunkowe połączenia: serwery MCP udostępniają dane, a aplikacje AI łączą
+  się z nimi jako klienci.'
+- Wraz z protokołem udostępniono specyfikację i SDK, obsługę lokalnych serwerów w Claude Desktop oraz
+  repozytorium serwerów MCP.
+- Przygotowane serwery obejmują integracje m.in. z Google Drive, Slack, GitHub, Git, Postgres i Puppeteer.
+- Block i Apollo wdrożyły MCP, a Zed, Replit, Codeium i Sourcegraph pracują nad jego integracją ze swoimi
+  narzędziami.
+tags:
+- model-context-protocol
+- mcp
+- mcp-servers
+- claude-desktop
+- ai-integrations
+- github
+- postgres
+- puppeteer

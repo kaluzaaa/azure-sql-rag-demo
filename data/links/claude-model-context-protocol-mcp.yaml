@@ -1,0 +1,24 @@
+url: https://docs.claude.com/en/docs/mcp
+title: Claude - Model Context Protocol (MCP)
+created: 2025-09-26
+tldr:
+- MCP to otwarty standard łączący aplikacje AI z zewnętrznymi systemami, takimi jak źródła danych, narzędzia
+  i workflow.
+- MCP działa jak USB-C dla aplikacji AI, zapewniając ustandaryzowany sposób integracji.
+- Przykłady zastosowań obejmują dostęp agentów do Google Calendar i Notion oraz generowanie aplikacji
+  na podstawie projektu Figma.
+- MCP ma ograniczać czas i złożoność integracji; daje aplikacjom AI dostęp do ekosystemu danych, narzędzi
+  i aplikacji.
+- Protokół wspierają m.in. Claude, ChatGPT, Visual Studio Code, Cursor i MCPJam.
+- Dokumentacja zawiera ścieżki tworzenia serwerów MCP, klientów i interaktywnych MCP Apps, a także informacje
+  o architekturze i bezpieczeństwie.
+tags:
+- model-context-protocol
+- mcp-servers
+- mcp-clients
+- mcp-apps
+- ai-agents
+- claude-code
+- chatgpt
+- visual-studio-code
+- cursor

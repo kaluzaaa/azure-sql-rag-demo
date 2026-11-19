@@ -1,0 +1,25 @@
+url: https://flobotics.io/blog/rpa/what-processes-to-automate
+title: What Processes Should I Automate to Boost Business Efficiency?
+author: Krzysztof Szwed
+created: 2025-10-16
+tldr:
+- Procesy warto automatyzować wtedy, gdy ich wartość biznesowa uzasadnia koszt wdrożenia i utrzymania,
+  a nie tylko po to, by zwiększyć liczbę automatyzacji.
+- Potencjał automatyzacji zależy od kosztu wykonania, błędów, opóźnień i innych korzyści; łatwość wdrożenia
+  od stabilności, standaryzacji, dostępności danych i złożoności.
+- Macierz wartości i wysiłku wskazuje, by najpierw automatyzować procesy o wysokiej wartości i niskim
+  nakładzie pracy; pozostałe oceniać zależnie od potrzeb i zasobów.
+- 'Dobór rozwiązania zależy od złożoności: od makr i skryptów, przez RPA łączące aplikacje, po dedykowane
+  systemy.'
+- Przy wyborze procesów należy uwzględniać synergie i ponowne wykorzystanie komponentów, a pierwsze wdrożenia
+  zaczynać od prostszych zadań.
+- Przykładem procesu odpowiedniego na początek jest monitorowanie zaległych płatności i wysyłanie przypomnień;
+  artykuł wymienia też przesyłanie faktur przychodzących.
+tags:
+- robotic-process-automation
+- rpa
+- uipath
+- blue-prism
+- business-process-automation
+- process-automation
+- automation-assessment

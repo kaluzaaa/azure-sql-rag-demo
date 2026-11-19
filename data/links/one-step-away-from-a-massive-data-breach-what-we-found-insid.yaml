@@ -1,0 +1,26 @@
+url: https://www.ox.security/blog/one-step-away-from-a-massive-data-breach-what-we-found-inside-moltbot
+title: 'One Step Away From a Massive Data Breach: What We Found Inside MoltBot'
+author: Moshe Siman Tov Bustan, Nir Zadok
+created: 2026-02-17
+tldr:
+- OX Security ostrzega, że MoltBot łączy dostęp do wielu wrażliwych kont z niewystarczającymi zabezpieczeniami,
+  co może zwiększyć skutki przejęcia jednego urządzenia lub konta.
+- Według badaczy MoltBot zapisuje credentials, API keys i zmienne środowiskowe jawnym tekstem w katalogu
+  ~/.clawdbot; usunięte sekrety mogą pozostać w maksymalnie pięciu plikach .bak.X.
+- Badacze wskazują na ryzyko ataku na łańcuch dostaw przy ponad 300 kontrybutorach oraz na publiczne ujawnianie
+  dziesiątek problemów bezpieczeństwa w GitHub Issues.
+- W kodzie znaleziono m.in. ponad 100 użyć eval i 9 użyć execSync; według autorów niebezpieczne wzorce
+  mogą prowadzić do RCE, path traversal, DDoS i XSS.
+- Skanowanie Shodan wykazało 1 238 publicznie dostępnych serwerów MoltBot, z czego 34% znajdowało się
+  w USA.
+- Artykuł podaje, że projekt osiągnął około 98 tys. GitHub stars, ponad 350 tys. pobrań z NPM i szacunkowo
+  300–400 tys. użytkowników; MoltBot został później przemianowany na OpenClaw.
+tags:
+- moltbot
+- openclaw
+- credential-storage
+- supply-chain-security
+- prompt-injection
+- infostealer
+- application-security
+- open-source-security

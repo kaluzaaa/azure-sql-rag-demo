@@ -1,0 +1,18 @@
+url: https://internaldeveloperplatform.org
+title: Internal Developer Platform
+created: 2025-04-18
+tldr:
+- Serwis gromadzi wiedzę, wiadomości i informacje o budowaniu Internal Developer Platforms (IDP).
+- Według strony samodzielnie budowane IDP działały w czołowych zespołach od około 5 lat, a w 2021 roku
+  zaczęły trafiać do dużych firm, takich jak Spotify, Airbnb i Zalando.
+- Współtwórcy mają doświadczenie w tworzeniu IDP, wewnętrznych narzędzi dla programistów i zarządzaniu
+  technologią; część pracuje w Humanitec.
+- Serwis jest skierowany do osób chcących poprawić developer experience i usprawnić dostarczanie oprogramowania.
+- Społeczność może współtworzyć serwis, zgłaszając pull requesty do publicznego repozytorium GitHub.
+tags:
+- internal-developer-platform
+- platform-engineering
+- developer-experience
+- internal-developer-tooling
+- software-delivery
+- humanitec

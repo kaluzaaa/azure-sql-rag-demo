@@ -1,0 +1,30 @@
+url: https://openai.com/index/scaling-postgresql
+title: Scaling PostgreSQL to power 800 million ChatGPT users
+author: Bohan Zhang, Member of the Technical Staff
+created: 2026-02-17
+tldr:
+- OpenAI skaluje PostgreSQL do milionów queries per second dla 800 milionów użytkowników ChatGPT, używając
+  jednego primary Azure PostgreSQL Flexible Server i niemal 50 read replicas w wielu regionach.
+- Obciążenie PostgreSQL wzrosło w ciągu roku ponad 10×; read-heavy workload dobrze się skaluje, ale write
+  spikes, MVCC, write amplification, bloat i autovacuum powodują ryzyko awarii.
+- Shardable, write-heavy workloads są migrowane do Azure Cosmos DB, a nowe tabele nie są dodawane do obecnego
+  deploymentu PostgreSQL; sharding PostgreSQL nie jest priorytetem krótkoterminowym.
+- Load primary ograniczają read replicas, lazy writes, usuwanie redundant writes i rate limiting backfillów;
+  kosztowne zapytania, w tym join 12 tabel, są upraszczane lub przenoszone do application layer.
+- HA hot standby, wiele replicas na region, workload isolation oraz podział na priorytety ograniczają
+  wpływ awarii primary, replica failures i noisy neighbors.
+- PgBouncer w statement lub transaction pooling zmniejszył średni czas ustanawiania połączenia z 50 ms
+  do 5 ms; limity połączeń Azure PostgreSQL wynoszą 5000 na instancję.
+- Cache locking i leasing sprawiają, że podczas cache-miss storm tylko jeden reader pobiera dane z PostgreSQL
+  dla danego klucza.
+tags:
+- postgresql
+- azure-postgresql
+- azure-cosmos-db
+- pgbouncer
+- database-scaling
+- read-replica
+- high-availability
+- connection-pooling
+- caching
+- mvcc

@@ -1,0 +1,24 @@
+url: https://opentelemetry.io
+title: OpenTelemetry
+created: 2025-10-02
+tldr:
+- OpenTelemetry to otwarty, neutralny wobec dostawców framework observability dla aplikacji cloud native,
+  służący do zbierania traces i metrics.
+- Wspólne APIs i SDKs pozwalają instrumentować kod raz i eksportować dane do różnych backendów, takich
+  jak Jaeger i Prometheus.
+- Framework obsługuje traces, metrics, logs i baggage oraz propagację kontekstu między usługami.
+- OpenTelemetry Collector przyjmuje, przetwarza, filtruje i eksportuje telemetry; udostępnia ponad 200
+  komponentów.
+- Dostępne są natywne SDKs dla ponad 12 języków, m.in. Java, Python, Go, JavaScript, .NET, Rust i C++.
+- Projekt jest częścią CNCF i powstał z połączenia OpenTracing i OpenCensus.
+tags:
+- opentelemetry
+- opentelemetry-collector
+- otlp
+- distributed-tracing
+- observability
+- metrics
+- logs
+- instrumentation
+- context-propagation
+- cncf

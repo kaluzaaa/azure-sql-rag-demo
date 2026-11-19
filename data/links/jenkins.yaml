@@ -1,0 +1,20 @@
+url: https://www.jenkins.io
+title: Jenkins
+created: 2025-04-18
+tldr:
+- Jenkins to open source automation server do CI/CD, budowania, wdrażania i automatyzacji projektów.
+- Może działać jako prosty serwer CI albo centrum continuous delivery dla projektu.
+- Setki pluginów integrują Jenkins z narzędziami używanymi w procesie CI/CD; architektura pluginów pozwala
+  rozszerzać jego funkcje.
+- Jenkins jest samodzielnym programem opartym na Javie, dostępnym dla Windows, Linux, macOS i systemów
+  Unix-like.
+- Praca może być rozdzielana między wiele maszyn, aby przyspieszyć buildy, testy i wdrożenia na różnych
+  platformach.
+tags:
+- jenkins
+- continuous-integration
+- continuous-delivery
+- ci-cd
+- build-automation
+- jenkins-plugins
+- devops

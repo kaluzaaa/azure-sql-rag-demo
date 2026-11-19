@@ -1,0 +1,24 @@
+url: https://redis.io
+title: Redis - The Real-time Data Platform
+created: 2025-04-18
+tldr:
+- Redis pozycjonuje swoją platformę jako real-time context engine dla agentów AI i aplikacji.
+- Redis Context Retriever wykorzystuje vector search do błyskawicznego wyszukiwania kontekstu w danych
+  strukturalnych i niestrukturalnych.
+- Redis można wdrażać w chmurze, on-premises, w modelu hybrid cloud lub jako open source; strona promuje
+  Redis 8.
+- Redis Flex łączy RAM i pamięć flash, oferując skalowanie do terabajtów przy kosztach niższych nawet
+  o 80%.
+- Active-active geo-distribution zapewnia replikację między regionami, lokalnie szybkie odczyty i failover
+  bez przestoju.
+- Strona podaje, że 80% projektów AI zatrzymuje się bez real-time context.
+tags:
+- redis
+- vector-search
+- context-retriever
+- context-engineering
+- ai-agents
+- redis-cloud
+- redis-8
+- tiered-storage
+- active-active-replication

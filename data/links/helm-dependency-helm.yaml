@@ -1,0 +1,17 @@
+url: https://helm.sh/docs/helm/helm_dependency
+title: helm dependency | Helm
+created: 2025-12-04
+tldr:
+- Polecenia `helm dependency` synchronizują zależności zadeklarowane w `Chart.yaml` z zawartością katalogu
+  `charts/`.
+- Zależność określa się przez nazwę chartu, wersję lub zakres semver oraz URL repozytorium; Helm pobiera
+  indeks repozytorium z `index.yaml`.
+- Repozytorium zależności może być aliasem zaczynającym się od `alias:` lub `@`, albo lokalną ścieżką
+  `file://`; dla ścieżek lokalnych nie trzeba wcześniej dodawać repozytorium do Helma.
+- Dostępne podpolecenia to `helm dependency build`, `list` i `update`; dokumentacja dotyczy Helm 4.3.0.
+tags:
+- helm-dependency
+- helm-charts
+- chart-yaml
+- kubernetes
+- helm

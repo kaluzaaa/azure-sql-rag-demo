@@ -1,0 +1,24 @@
+url: https://artifacthub.io
+title: Artifact Hub
+created: 2025-12-04
+tldr:
+- Artifact Hub to aplikacja webowa do wyszukiwania, instalowania i publikowania pakietów oraz konfiguracji
+  Cloud Native.
+- Strona podaje 21 871 pakietów i 498 751 wydań.
+- Katalog obejmuje m.in. Helm charts, obrazy kontenerów, operatory OLM, wtyczki kubectl, polityki OPA
+  i Gatekeeper oraz szablony Argo.
+- Projekt zapewnia wspólny katalog artefaktów dla projektów CNCF, aby ograniczyć powielanie hubów i ułatwić
+  ich odkrywanie.
+- Artifact Hub jest projektem open source na licencji Apache License 2.0 i projektem inkubowanym przez
+  CNCF.
+tags:
+- artifact-hub
+- kubernetes
+- helm
+- cloud-native
+- cncf
+- opa
+- gatekeeper
+- argo
+- kubectl-plugins
+- container-images

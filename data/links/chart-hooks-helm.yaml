@@ -1,0 +1,22 @@
+url: https://helm.sh/docs/topics/charts_hooks
+title: Chart Hooks | Helm
+created: 2025-12-04
+tldr:
+- Helm hooks pozwalają uruchamiać zasoby Kubernetes w określonych momentach cyklu życia release’u, np.
+  przed instalacją, po aktualizacji lub podczas usuwania.
+- Dostępne hooki obejmują m.in. `pre-install`, `post-install`, `pre-upgrade`, `post-upgrade`, `pre-delete`,
+  `post-delete`, `pre-rollback`, `post-rollback` i `test`.
+- Hooki są manifestami Kubernetes z adnotacją `helm.sh/hook`; mogą korzystać ze zwykłych funkcji szablonów
+  Helm i obsługiwać wiele zdarzeń.
+- Helm sortuje hooki według wagi rosnąco; dla zasobów `Job` i `Pod` czeka na pomyślne zakończenie, a niepowodzenie
+  hooka powoduje niepowodzenie release’u.
+- Zasoby utworzone przez hooki nie są zarządzane jako część release’u, więc ich usuwanie trzeba skonfigurować
+  osobno.
+- Adnotacja `helm.sh/hook-delete-policy` obsługuje `before-hook-creation`, `hook-succeeded` i `hook-failed`;
+  domyślnie działa `before-hook-creation`.
+tags:
+- helm-hooks
+- helm-charts
+- helm
+- kubernetes
+- kubernetes-jobs

@@ -1,0 +1,26 @@
+url: https://mountainss.wordpress.com/2025/02/07/docker-desktop-update-version-4-38-0-with-kubernetes-multi-node-feature
+title: Docker Desktop Update version 4.38.0 with Kubernetes Multi-Node feature
+author: James van den Berg
+created: 2025-04-02
+tldr:
+- Docker Desktop 4.38.0 dodaje możliwość tworzenia wielowęzłowych klastrów Kubernetes oraz wprowadza inne
+  aktualizacje narzędzi i funkcji.
+- W ustawieniach Kubernetes można wybrać Kind, wersję Kubernetes i liczbę węzłów; autor pokazuje zmianę
+  klastra z 1 węzłem na 4.
+- Utworzenie nowego klastra zastępuje dotychczasowy klaster jednowęzłowy.
+- Po włączeniu opcji „Show System Containers” w ustawieniach Kubernetes cztery węzły klastra są widoczne
+  w VSCode.
+- Docker Compose, Docker Scout, Docker CLI i Ask Gordon można aktualizować niezależnie od Docker Desktop;
+  ta funkcja jest w wersji beta.
+- Bake jest ogólnie dostępne z obsługą entitlements i composable attributes, a polecenie aktualizacji
+  Docker Desktop CLI działa na Macu.
+tags:
+- docker-desktop
+- kubernetes
+- kind
+- multi-node-kubernetes
+- docker-compose
+- docker-scout
+- docker-cli
+- docker-bake
+- vscode

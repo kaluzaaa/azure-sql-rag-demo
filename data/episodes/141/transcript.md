@@ -1,0 +1,146 @@
+# 141.mp4
+
+[00:00:11.02] **Łukasz Kałużny:** Cześć, słuchacie Patoarchitektów. Prowadzą Łukasz Kałużny...
+
+[00:00:14.13] **Szymon Warda:** I Szymon Warda. Wszystkie linki do odcinka Patoarchtekci.io lub gdzieś na dole w opisie. Dacie radę. Mądre chłopaki i dziewczyny jesteście. Dobrze. Odcinek dzisiejszy z serii prosto i praktycznie wyjaśniamy, zawdzięczamy...
+
+[00:00:27.04] **Łukasz Kałużny:** Radkowi na Discordzie i tematowi, który nazwał "Kontenery to nie tylko Docker".
+
+[00:00:33.17] **Szymon Warda:** No wybitnie nie tylko Docker, wybitnie.
+
+[00:00:36.07] **Łukasz Kałużny:** I dzisiaj chyba rozbijemy to sobie na, te wyjaśnienie kontenerów, rozbijemy sobie na dwa odcinki. Dziś zajmiemy się stosem technologicznym, co tam działa bez wchodzenia w konkretne... Może inaczej, tam gdzie się to da, bez wchodzenia w konkretne projekty, bo Docker rozpoczął cały duży ekosystem. A w którymś kolejnym odcinku wyjaśnimy sobie o co chodzi z tym ekosystemem już dokładnie i co tam się znajduje, bo jest tego za dużo w niektórych miejscach jeżeli popatrzymy, chociaż wszyscy nie wiedząc używają tylko jedynej słusznej linii.
+
+[00:01:12.01] **Szymon Warda:** Czyli dzisiaj jak działa, a kolejny odcinek będzie gdzie to uruchomić.
+
+[00:01:15.22] **Łukasz Kałużny:** Dobra i chyba zaczniemy od historii w ogóle konteneryzacji, bo technicznie jak popatrzymy, to całe IT jest stare jak świat i my tylko odkurzamy nowe koncepty, budując w nowy sposób kolejne elementy.
+
+[00:01:36.06] **Szymon Warda:** Budując, korzystając z nowych narzędzi, ewentualnie budujemy jedne rzeczy na bazie kolejnych rzeczy.
+
+[00:01:41.01] **Łukasz Kałużny:** Koncepcji, algorytmów. I teraz tak. Zaczęło się to wszystko w 1979 roku od chroota w Unixie w wersji 7. I to była pierwsza taka rzecz, jeżeli chodzi o konteneryzację. Polegało to na tym, że komenda chroot pozwalała procesowi, który startował, wyizolować system, żeby nie widział całego file systemu. Czyli mówimy, że np. jakaś tam binarka ma widzieć tylko coś od ścieżki np. var/run/nazwa\_procesu powiedzmy sobie w Linuksie. Czyli technologia, taka pierwsza podstawowa technologia izolacji. No i co, idziemy spać na 20 lat.
+
+[00:02:19.08] **Szymon Warda:** Dokładnie tak, bo 2000 rok FreeBSD Jail, czyli rozszerzamy trochę i w tym momencie nie tylko system plików, ale też dorzucamy izolacje procesów sieci i użytkowników, czyli prawie wszystko co potrzebujemy i tworzymy takie więzienie, z którego aplikacja sobie nie może wyjść. No i to oczywiście czemu? No bo hosting nagle wchodzi nam. Wchodzi nam to, że na jednym serwerze nie trzymamy tylko jednej usługi, tylko tych usług zaczyna być dużo i to zaczyna mieć sens typowo ekonomiczny.
+
+[00:02:45.21] **Łukasz Kałużny:** Tak, zaczynamy ruch internetowy, jeżeli popatrzycie na to, .com, można się pośmiać z tego.
+
+[00:02:53.12] **Szymon Warda:** Już ruszyło się szybko.
+
+[00:02:55.02] **Łukasz Kałużny:** Tak i wchodzimy tutaj, jeżeli teraz popatrzymy, to są dwie rzeczy, które się dzieją. Pierwsza, jeżeli pójdziemy, to jest to, co się dzieje zaraz po tym od strony Linuxa, czyli IBM wprowadza w kernelu, to będzie 2.4.19 bodajże, wprowadza technologię namespace'ów, które pozwalają wydzielać osobne przestrzenie nazw dla procesów. Czyli tak jak mieliśmy chroota i izolację, pozwalają wydzielać takie osobne rzeczy. No i Szymon potem zaczyna się też w innych produktach, zaczynają się dziać troszeczkę inne rzeczy, które są.
+
+[00:03:36.07] **Szymon Warda:** Potem działy się... W ogóle ciekawe, ile osób kojarz Solarisa tak naprawdę, bo ten system istniał jak jeszcze byłem na studiach, a teraz już nie za bardzo, ale wcale się działo dużo ciekawych rzeczy, bo Solaris Container Zones, czyli wiadomo Sun Microsystems, Solaris w wersji 10. I on zapewnia taką kompletną izolację procesów w sieci, systemu plików, itd. i dzielimy to faktycznie, ładnie sobie wirtualizujemy. Potem to się kawałek jeszcze rozwinęło w formie Open VS. I w tym momencie mamy implementację kontenerów już w Linuxie tak naprawdę. I nam to wchodzi, ładnie zaczyna działać i mamy tą izolację już na poziomie kernela.
+
+[00:04:14.08] **Łukasz Kałużny:** Tak. I potem pojawia się jedna rzecz, która tworzy ostatnią ważną podwalinę dla tego co znamy jako kontenery, czyli Control Groupsy. Na początku to się nazywało Process Container stworzone przez Google'a po to, żeby limitować dostęp na schedulerze do zasobów w postaci CPU, pamięci, IO-ów dla grup procesów. Czyli jesteśmy w stanie podgrupę procesów powiedzieć, że izolujemy zasoby i nie pozwalamy przekroczyć czegoś. Czyli, że mówimy, że dany procesie możesz mieć tylko 10% czasu procesora np., albo 100M pamięci.
+
+[00:04:51.02] **Szymon Warda:** Ogarniamy temat hałaśliwych sąsiadów po prostu.
+
+[00:04:53.20] **Łukasz Kałużny:** Tak.
+
+[00:04:55.03] **Szymon Warda:** Dobrze. To co się dalej działo? Dalej na chwilę jeszcze sobie wracamy do rzeczy wokoło Solarisa. Mamy LXC czy Linux Containers tak naprawdę. No i co tam się działo? Działy się tam całkiem fajne rzeczy właśnie, że połączyły się CGroupsy, połączyły się namespace'y i uruchamiamy to ładnie sobie wyizolowane na pojedynczym hoście. Czyli mamy całość.
+
+[00:05:19.03] **Łukasz Kałużny:** I tak, tutaj ważne to jest współdzielimy, po prostu możemy odpalić sobie w łatwy sposób kontener.
+
+[00:05:26.03] **Szymon Warda:** Tak, jeszcze tam dochodzi taka opcja, że mamy tam te grupy globalne, mamy grupy wydzielone i one mogą się ze sobą komunikować, mają część rzeczy wspólnych, dość sporo możemy zrobić właśnie pod hostowanie i też pod rzeczy enterprise'owe, ładnie to ogarnąć.
+
+[00:05:39.14] **Łukasz Kałużny:** Tak, przy czym patrzmy, to wszystko jest bardzo mocno w tym momencie, jak popatrzymy dla administratorów z brodą, którzy siedzą w piwnicy. I to jest bardzo ważne, to są bardzo niskopoziomowe rzeczy i mechanizmy, jak o tym mówimy. I teraz słuchajcie, 2013 rok to jest przełom pod tytułem Docker. I tutaj chodziło o to, że Docker nie wymyślił to, co jest najciekawsze, Docker nie wymyślił nic nowego, tylko przykrył bardzo przyjemnym command linem i API właśnie na początku LXC. Czyli przykrył Linux Container, żeby w łatwy sposób dało się stworzyć kontener, dystrybuować go i w przyjemny sposób dając całą filozofię narzędzi.
+
+[00:06:24.14] **Szymon Warda:** Do dystrybucji, ten obraz kontenera, ten docker image nam powstał i to było po prostu, użyteczność tego była lepsza niż cokolwiek innego, co powstało wcześniej. I dlatego odniósł taki niesamowity sukces.
+
+[00:06:36.20] **Łukasz Kałużny:** Tak, potem słuchajcie jeszcze, jak historycznie były tam takie pomysły jak od firmy Coroes, jak Rocket, w międzyczasie była próba powstania. Zginęło to śmiercią tragiczną, jak każda taka technologia. I Docker teraz, co ważne, w 2015 roku zaczyna się cała standaryzacja wokół Dockera, tego, co rozumiemy przez kontener. I w ramach Cloud Native Computing Foundation dzieją się chyba takie dwie ważne rzeczy. Pierwsza to przekazanie ContainerD, czyli silnika, który zastąpił LXC w Dockerze oraz runc, czyli sposobu odpalania, zostały przekazane de facto do CNCF-u. No i druga sprawa, chyba najważniejsza, to OCI.
+
+[00:07:29.17] **Szymon Warda:** Tak, które powstało z tego, że Kubernetes kiedyś był mocno powiązany z Dockerem, ale chcieli się od tego trochę uniezależnić, więc powstało właśnie OCI, czyli Open Container Initiative, które miało być taką warstwą, żeby faktycznie tych kontenerów było trochę więcej, żeby było to ustandaryzowane. I to był sposób, w jaki uruchamiać natywne API, jak uruchamiać i obsługiwać kontenery z zewnątrz, żeby działały, żeby być niezależnym od tego, czy jest Docker, czy jest cokolwiek innego.
+
+[00:07:56.12] **Łukasz Kałużny:** Tak. Czyli całe założenie to są specyfikacje.
+
+[00:08:00.14] **Szymon Warda:** Tak.
+
+[00:08:00.15] **Łukasz Kałużny:** Jeżeli na to popatrzymy. I potem w międzyczasie jeszcze w ramach właśnie tego trendu kubernetesowego, bo tak patrząc się bardziej dokładnie, najpierw powstaje, ContainerD jest wydzielone, potem powstaje Open Container Initiative i pierwsza implementacja w postaci runc, które właśnie pozwala uruchamiać te kontenery na namespace'ach i CGroupsach. I potem powstaje sobie w ramach Red Hata i Kubernetesa lekki runtime do kontenerów, który się nazywa CRI-O, czy w zależności jak Kubernetes Interface Open Runtime, jeżeli dobrze pamiętam nazwę. I na tym kończy się taka historia i wpadamy już w czasy nowoczesne sieczki całego ekosystemu, o które też było pytanie od właśnie Marka i Radka na Discordzie.
+
+[00:08:47.15] **Szymon Warda:** Tak, znaczy Łukasz nie, jeszcze to się kończy oczywiście dramatem. Tym, że Kubernetes pozbywa się Dockera, bo do tego doprowadziło, że mieliśmy [niesłyszalne 00:08:57] i nagle już nie ma wbudowanego, tylko musieliśmy instalować konkretny runtime. Ale do tego dojdziemy za chwilę opowiemy właśnie, jak to w ogóle zbudować.
+
+[00:09:05.15] **Łukasz Kałużny:** I słuchajcie, zostawiamy Wam jednego linka, w tym - Run Your own container without Docker. Znajdziecie jeszcze sporo takich tutoriali. Tam jest akurat prosty, ale chodzi o to, że jest wytłumaczone w jaki sposób możecie z basha po prostu wchodząc w command line zbudować kontener. Bo to nie ma żadnej magii, tylko wszystkie technologie o których powiedzieliśmy, czyli namespace'y, Control Groupsy pozwalają wam samodzielnie zbudować ten kontener. Dobra, chyba teraz czas na mięso.
+
+[00:09:38.13] **Szymon Warda:** Czyli czas odpowiedzieć na to, jak to działa po kolei? No więc Łukaszu, Łukaszu, no to robimy sobie docker run, co się dzieje?
+
+[00:09:44.13] **Łukasz Kałużny:** Dobra, jak odpalimy docker run, to tak naprawdę z perspektywy Kubernetesa, raczej Dockera nie dzieje się za dużo, bo wysyłamy polecenie poprzez API. Docker wtedy przetwarza sobie tą komendę, wrzuca to do ContainerD i ContainerD sprawdza sobie przy okazji czy obraz jest dostępny. Jeżeli nie ma go, to pobiera go z repozytorium.
+
+[00:10:08.22] **Szymon Warda:** To ja jeszcze doprecyzuję. CLI, czyli Command Line Interface, bo to co wiele ludzi trochę nie ogarnia to jest to, że jak piszemy docker run to my nie robimy nic, tylko nasza linia poleceń przekazuje polecenie do demona, który faktycznie wykonuje tą całą robotę, właśnie do ContainerD i on tam zarządza tym wszystkim tak naprawdę.
+
+[00:10:28.16] **Łukasz Kałużny:** Docker jest nakładką na [niesłyszalne 00:10:30] API.
+
+[00:10:31.21] **Szymon Warda:** Dokładnie tak.
+
+[00:10:33.12] **Łukasz Kałużny:** Dobra i potem co Szymon, co się dzieje jak ContainerD dostaje request?
+
+[00:10:37.23] **Szymon Warda:** No i dostaje request, więc zaczyna przygotowywać wszystko. Zaczyna przygotowywać rzeczy jak zasoby, sieci, wolumeny, tworzy nowy proces do ContainerD shima, żeby to wszystko mogło uruchomić i to i ten kontener D shim tworzy instancję i odpala runc, który właśnie zajmie się uruchomieniem tego faktycznego kontenera. No i przy okazji ContainerD też siedzi i monitoruje stan i zarządza tym cyklem życia naszego wspaniałego kontenera. No i teraz wchodzimy na poziom runc, czyli OCI, Open Container Initiative tego elementu wspólnego, że w teorii możemy z Docker CLI odpalić nawet sobie inny kontenerek. I co on tam robi?
+
+[00:11:17.06] **Łukasz Kałużny:** I tak. Czyli jeszcze jedna rzecz do ContainerD shim, to jest takie międzymordzie, czyli interfejs z procesami pomiędzy tym procesem faktycznego kontenera a ContainerD. Czyli możemy te ContainerD też w teorii zrebootować, a kontener będzie sobie dalej był uruchomiony. I właśnie jak mówimy, już wchodzimy na poziom tej specki OCI i dokładnie implementacji, którą najczęściej wykorzystujecie na co dzień, czyli runc, to on czyta tą specyfikację naszego kontenera, który chcemy uruchomić, tego co zostało wyplute. Następnie komunikuje się właśnie z, wysyła sobie już calle do kernela, wykonuje rzeczy na API kernelowym już. I to co się dzieje? Przestrzeń nazw dla naszego procesu, jeżeli ustawiliśmy wrzuca request, wrzuca limity na zasoby, czyli w tym wypadku CGrupy. Następnie jeszcze jest jedna rzecz, której wcześniej jeszcze nie wspominaliśmy i do tego dojdziemy, to przygotowuje system plików, bo obraz kontenera to pod spodem jest system plików, czyli tutaj OverlayFS, czyli skleja nam snapshoty w odpowiedni sposób z tych wszystkich warstw.
+
+[00:12:25.15] **Szymon Warda:** Które robiliśmy w image'u.
+
+[00:12:28.04] **Łukasz Kałużny:** Tak. I uruchamia wtedy już w systemie operacyjnym, w tym sandboxie uruchamia ten główny proces kontenera, czyli ten pierwszy, który mamy wskazany w poleceniu bądź domyślnie ustawiony w obrazie.
+
+[00:12:42.00] **Szymon Warda:** Jeszcze dorzucę jedną małą rzecz, bo w tym momencie mówimy właśnie co robi runc. A czemu w ogóle tak powstało? Dlatego, że w sumie mając OCI strona takiej implementacji, trochę wyprzedzam, które załóżmy robią to samo, tylko robią np. na mikromaszynach wirtualnych i takich innych rzeczach. Więc żebyście wiedzieli w ogóle czemu jest tam tyle tych warstw abstrakcji. No dobra, ale weźmy sobie to runc, co on dalej robi? To już powiedzieliśmy tak naprawdę, przekłada te wszystkie wymagania, które mamy w obrazie dockerowym i w samym uruchomieniu tak naprawdę, przekłada dokładnie na co, na wywołania do kernela, czyli właśnie inicjujemy procesy, sieć i użytkowników, czyli cztery podstawowe rzeczy. A potem CGroup, sami nakładamy kontrolę na CPU, pamięć RAM, dyski IO-y i sieć. Czyli pakujemy nasz kontener pracujący w pudełeczko ładne.
+
+[00:13:31.02] **Łukasz Kałużny:** Tak. I słuchajcie i tyle to wygląda jeżeli chodzi o Dockera. Jeżeli byśmy przeszli, czyli tak jak robicie sobie właśnie docker run. Jak powiedzielibyśmy sobie jak wygląda KubeCTL CreatePod. Ja bym tutaj zostawił, bo wysyłamy te żądanie do Control Plane'u poprzez API Server. Następnie kubelet je pobiera i przejdźmy do tego co się dzieje na węźle, kiedy już faktycznie musi być odpalony.
+
+[00:13:58.12] **Szymon Warda:** Dobra, czyli wywołujemy po kolei run pod sandbox. Czyli tworzymy środowisko pod poda uruchamiamy postcontainer. Potem robimy pull image.
+
+[00:14:07.11] **Łukasz Kałużny:** A właśnie, jeszcze zrobiłbym taką sekundkę, bo to jest największy mindfuck Szymon, jak się tłumaczy. Bo Wy, jeżeli robicie sobie w Kubernetesie pod, to widzicie swój pod, w ramach poda widzicie swoje jakieś różne rzeczy, które są, czyli np. swój główny kontener aplikacyjny, jakieś sidecary. A pod spodem jest jeszcze taki dziwoląg, który jest właśnie pause container, który utrzymuje, czyli pusty taki kontener z procesem, który po prostu nic nie robi, jak sama nazwa mówi i utrzymuje ciągle w ruchu tą gotową grupę, wyizolowaną całą w systemie operacyjnym, która jest i utrzymuje tam fizycznie tego poda.
+
+[00:14:49.23] **Szymon Warda:** Żeby można było łatwo uruchomić. No i co robimy? Ściągamy obraz. Albo nie ściągamy, jeżeli on został zcache'owany na konkretnym node'dzie, co jest bardzo ważne. Potem robimy create container, czyli przygotowujemy całą specyfikację OSI, to samo co byście robili tworząc docker run i wszystkie zasoby, itd., zgodnie ze specyfikacją. Potem startujemy ten kontener przez start container, nazwa tłumaczy sama siebie. I potem container status, czyli monitorujemy co tam się właściwie w ogóle zadziało i wysyłamy to do Control Plane'a tak naprawdę.
+
+[00:15:23.09] **Łukasz Kałużny:** Tak, potem przez ten container runtime interface, który sobie wymieniliśmy, fizycznie wlatuje to właśnie np. na ContainerD czy CRI-O i jest odpalone. Wtedy już faktycznie np. odpala się runc, konfigurowana jest jeszcze sieć, montowane są wolumeny, zasoby, które wynikają z życia w Kubernetesie. Ale jeżeli popatrzymy na to tak faktycznie, to kubelet można porównać do docker run. To co się dzieje na takim kubelet'cie można wymienić właśnie, czyli kubelet, agent Kubernetesa na tym węźle, odpowiada troszeczkę całej tej części docker run i on wywołuje potem te ContainerD.
+
+[00:16:08.16] **Szymon Warda:** Kubernetes tak naprawdę on wywołuje CRI, czyli Container Runtime Interface i potem w zależności od tego, czy korzystamy właśnie z ContainerD od Dockera czy korzystamy właśnie z CRI-O, te polecenia są wykonywane przez różne operacje. Finalnie to się skończy na tym, że tak naprawdę albo i ContainerD i CRI-O będą wykorzystywały właśnie OCI, czyli Open Container Initiative, żeby dalej to uruchomić. Więc mamy parę miejsc do wymiany i to zależą w kontekście Kubernetesa jak i co. Ale tak, ta ścieżka, jeżeli korzystamy z Docekra, jest taka sama praktycznie, tak.
+
+[00:16:43.11] **Łukasz Kałużny:** Żeby zostawić Wam lekki mindfuck na przyszłość, bo to też się dzieje, to być może zamiast Container Runtime, zamiast ContainerD, czy jakiegoś systemu do mikroVM będziemy mieli tutaj runtime, który implementuje te CRI, ale odpala nam Web Assembly w trybie serwerowym.
+
+[00:17:02.04] **Szymon Warda:** Ale są w ogóle runtime'y, które odpalają po prostu VM-ki tak naprawdę.[Niesłyszalne 00:17:05] Kubernetesa, który zamiast pody są mikroVM-kami. Można.
+
+[00:17:10.23] **Łukasz Kałużny:** Można. Do tego jeszcze sobie przejdziemy w kolejnych odcinkach.
+
+[00:17:13.22] **Szymon Warda:** Tak, taka reklama na przyszłość.
+
+[00:17:15.14] **Łukasz Kałużny:** Tak.
+
+[00:17:16.23] **Szymon Warda:** Dobrze.
+
+[00:17:17.08] **Łukasz Kałużny:** Dobra.
+
+[00:17:18.05] **Szymon Warda:** To śmigamy dalej. Budowanie obrazów Łukaszu, jak to wygląda?
+
+[00:17:21.20] **Łukasz Kałużny:** I teraz o co chodzi? Bo powiedzieliśmy sobie kontener to jest, trochę jeszcze na chwilę się cofając, kontener dostarcza nam dwie rzeczy. Czyli odpala nam ten proces, ale również skądś musi się wziąć nasza aplikacja i całe te zależności z systemu operacyjnego w środku, jak i serwer aplikacyjny, nasz kod. I tu mówimy o obrazie kontenera. Jak teraz popatrzymy, to jest spakowana aplikacja, spakowany FileSystem ze wszystkimi naszymi potrzebnymi zależnościami i on się składa z warstw i każda warstwa jest read only, jest snapshotem systemu plików. Czyli możecie popatrzeć na to, jeżeli ktoś z Was używał dysków różnicowych np. w VirtualBoxie, to jest to, czy w VMware Player Workstation, to jest po prostu taki łańcuch, dysk do dysku, do obrazu, do obrazu, do obrazu, czyli taka różnicówka zbudowana, cały chain.
+
+[00:18:19.00] **Szymon Warda:** Co często widzicie, jak robicie docker build, to widzicie, że niektóre warstwy są faktycznie liczone, że tak powiem, a niektóre są po prostu brane z cache'a i mówi, że nie będzie tego robił. To jest też...
+
+[00:18:28.18] **Łukasz Kałużny:** Przy pobieraniu też widać właśnie te warstwy.
+
+[00:18:31.05] **Szymon Warda:** Tak, dokładnie. Jaka jest warstwa najniższa? To jest ten base layer, który nam właśnie mówi o tym systemie operacyjnym, czyli co, od czego zaczynamy. Czy to będzie Alpine, czy to będzie Ubuntu, czy to będzie Debianek, czy cokolwiek innego. I on jest często współdzielony, przez co też często jest niepobierany, mimo że ten obraz po prostu jest duży. Co jest dalej, Łukaszu?
+
+[00:18:51.00] **Łukasz Kałużny:** Czy wiesz co jeszcze bym dodał, że podstawowa warstwa, ta taka base'owa, rozdzieliłbym jeszcze dwie rzeczy, że zazwyczaj to są jakieś podstawowe procesy wokół systemu operacyjnego, podstawowe narzędzia. Głupi ls, cut, grep, dir te wszystkie komendy lub w wersji super bezpiecznej, tak zwanej distroless albo from scratch, mamy tylko bardzo podstawowe binarki bez żadnego pełnego systemu operacyjnego.
+
+[00:19:17.16] **Szymon Warda:** O ile pamiętam GO tak leci w ogóle właśnie.
+
+[00:19:20.17] **Łukasz Kałużny:** Pozwala w łatwy sposób np., tak. Ale teraz też .Net się dorobił, Java, więc można lecieć. I potem mamy te środkowe warstwy. One są równoważne, technicznie one są ze sobą równoważne. I tu zazwyczaj to, co robicie, to np. instalujecie pipem, npmem zależności, jakimś aptem lub innym package managerem instalujecie zależności w systemie operacyjnym, więc konfigurujecie.
+
+[00:19:46.23] **Szymon Warda:** Tak, a na końcu przykrywamy to górną warstwą, która zawiera wszystkie metadane, czyli właśnie jakie porty, jakie mamy wolumeny, jakie mamy zmienne. A na sam koniec mamy nasze ukochane cmd/entrypoint, który mówi co właściwie ma się wydarzyć. Jak odpalamy ten, upraszczając oczywiście, docker run, to jaka komenda ma być uruchomiona.
+
+[00:20:07.05] **Łukasz Kałużny:** Tak. I potem, teraz jak popatrzymy sobie, jest docker file, ale jest również on pod nazwą container file. Czyli mamy skrypt, który mówi nam jak zbudować obraz. I tam są po prostu komendy, imperatywnie komenda po komendzie. Czyli weź mi np. obraz bazowy, weź mi Ubuntu i następnie spatchuj system, zainstaluj np. Pythona, zainstaluj jakiś serwer aplikacyjny i potem wkopiowujemy. I każde takie polecenie, słuchajcie, to jest oddzielnie uruchamiany tymczasowy kontener, w którym jest wykonywana ta komenda i po jego stworzeniu jego file system jest zipowany, oznaczony shome i jest on właśnie tą warstwą. I kolejne polecenie startuje z tego poprzedniego snapshota file systemu i na nim wykonuje komendę, zamyka się, aż tak dojdziemy do samego końca.
+
+[00:21:04.06] **Szymon Warda:** Dlatego właśnie między innymi przez komendę rozumiemy same run albo samą komendę na poziomie docker file'a, nie na poziomie systemu operacyjnego. Dlatego np. endowanie, czy po prostu w jedną linię wrzucanie wielu komend opłaca się, bo w tym momencie po prostu mamy mniej tych obrazów po drodze.
+
+[00:21:20.18] **Łukasz Kałużny:** Tak, jeżeli popatrzycie, to technicznie będziemy mówić zazwyczaj o dwóch projektach, jeżeli chodzi o budowanie. To jest uproszczenie, ale z nimi się najczęściej spotykacie. To jest buildx i buildkit, jeżeli popatrzymy tutaj. I build, jeżeli popatrzymy, buildkit to jest cały taki toolkit od Dockera, który służy do budowania, pozwala nam, daje wszystkie potrzebne binarki, artefakty, żeby zbudować obraz. I on daje teraz takie rzeczy jak właśnie multi-stage build, budowanie pomiędzy wieloma platformami, cashe'owanie, współbieżne budowanie jeżeli wyliczy sobie zależności. A buildx to jest CLI od Dockera, który jest też w samym Dockerze, do budowania obrazu. Czyli jeżeli teraz odpalacie docker build, to tak naprawdę buildx jest odpalany pod spodem. Czyli właśnie wcześniej to był plugin jako CLI, teraz po prostu buduje kontenery, to natywnie w ramach Dockera, jeżeli odpalacie.
+
+[00:22:26.21] **Szymon Warda:** Dokładnie. I jakby ktoś nie kojarzył czym są multi-stage build, to jest ten moment, kiedy mamy osobne kroki, które budują i potem zawartość tego obrazu kopiujemy do faktycznego kontenera uruchomieniowego. I w tym kontenerze uruchomionym nie mamy już śladu po tym kontenerze, który nam budował. No bo trzymanie wersji zdebugowanej i z narzędziami debugowania nie jest dobrym pomysłem w obrazach.
+
+[00:22:50.15] **Łukasz Kałużny:** Można porozbijać. I na koniec słuchajcie, jest jeszcze ważna rzecz, czyli repozytorium tych image'y. Czyli słuchajcie, to co jest, to te spakowane tary + manifest, czyli JSON, który mówi co w danej warstwie jest i do niego metadane, wysyłamy w targi zipie pod spodem, jak popatrzycie dokładnie. W targi zip wysyłamy do takiego repozytorium, które też ma swoją specyfikację. I to co się dzieje wysyłamy sobie oddzielnie warstwy i w manifeście każda z tych warstw ma wyliczoną sumę kontrolną w sha256. Czyli z tego file systemu jest wyliczana suma kontrolna, wpychana do manifestu i my wysyłamy manifest, a następnie warstwy razem z ich check sumą.
+
+[00:23:37.15] **Szymon Warda:** Ten manifest możemy podejrzeć wykonując komendę docker inspect i dostaniemy bardzo ładnego JSON-a, który mówi nam o wszystkim, co się wydarzyło w tym obrazie.
+
+[00:23:45.20] **Łukasz Kałużny:** Tak. I z drugiej strony można też to sobie, w zależności od tego, jakie repozytorium używacie albo rejestr, w zależności jak tam, której nazwy używać, czego używacie do przechowywania, to też dają podgląd na takie coś zazwyczaj. Albo można, jako że API jest otwarte, to można sieknąć curlem i też sobie ściągnąć.
+
+[00:24:04.10] **Szymon Warda:** Tak. Dobra, to chyba tyle na ten odcinek, no nie?
+
+[00:24:06.22] **Łukasz Kałużny:** Tyle, kończymy, na razie.
+
+[00:24:08.22] **Szymon Warda:** Dzięki. Hej.
+

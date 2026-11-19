@@ -1,0 +1,25 @@
+url: https://en.wikipedia.org/wiki/Platform_as_a_service
+title: Platform as a service - Wikipedia
+created: 2025-04-18
+tldr:
+- PaaS to model usług cloud computing, w którym dostawca zapewnia platformę i infrastrukturę do tworzenia,
+  hostowania i wdrażania aplikacji, a użytkownik zarządza aplikacjami i danymi.
+- PaaS może działać jako usługa publiczna, prywatna za firewallem lub wdrożenie hybrydowe; dostawca zarządza
+  m.in. runtime, middleware, systemem operacyjnym, serwerami i siecią.
+- Platforma może zapewniać narzędzia do projektowania, developmentu, testowania i wdrażania, a także integracje,
+  bazy danych, bezpieczeństwo, skalowanie i współpracę zespołową.
+- Zaletami są mniejsza złożoność infrastruktury i sprawniejszy development; wady obejmują wyższe koszty
+  przy dużej skali, ograniczoną kontrolę oraz braki funkcji operacyjnych.
+- Wśród odmian wymieniono CPaaS do komunikacji głosowej, wideo i wiadomości w czasie rzeczywistym oraz
+  mPaaS zapewniające możliwości tworzenia aplikacji mobilnych.
+- Zimki, uruchomione przez Fotango w 2006 roku, było pierwszą publiczną platformą PaaS; jego historia
+  pokazała ryzyko zależności od jednego dostawcy.
+tags:
+- platform-as-a-service
+- paas
+- cloud-computing
+- cpaas
+- mpaas
+- public-cloud
+- private-cloud
+- hybrid-cloud

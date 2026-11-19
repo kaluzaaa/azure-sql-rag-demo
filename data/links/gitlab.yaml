@@ -1,0 +1,25 @@
+url: https://about.gitlab.com
+title: Gitlab
+created: 2025-04-18
+tldr:
+- GitLab oferuje platformę do agentic software engineering, łączącą pracę zespołów i agentów AI z kontrolą
+  nad całym cyklem tworzenia i wdrażania oprogramowania.
+- GitLab Duo Agent Platform pozwala konfigurować workflow i guardrails; agenci mogą zamieniać issues w
+  merge requests, naprawiać podatności i przeglądać kod.
+- Platforma obejmuje planowanie, source control i CI/CD, a projekty, wydania i kod korzystają ze wspólnego
+  źródła danych.
+- SAST, SCA, Secret Detection i DAST są zintegrowane z platformą; wyniki trafiają do merge requests i
+  IDE, a pipeline’y zbierają dowody audytowe.
+- Strona podaje przykładowe wyniki klientów, m.in. 82% krótszy cycle time dla Radio France i 80x szybsze
+  buildy CI dla Lockheed Martin.
+tags:
+- gitlab
+- gitlab-duo-agent-platform
+- devsecops
+- ci-cd
+- agentic-software-engineering
+- sast
+- sca
+- secret-detection
+- dast
+- merge-requests

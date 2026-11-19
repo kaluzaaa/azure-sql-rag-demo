@@ -1,0 +1,14 @@
+url: https://www.reddit.com/r/LocalLLM/comments/1qsqtyp/be_aware_of_possible_scams_with_the_moltbot
+title: Be aware of possible scams with the Moltbot / OpenClaw agent hype
+created: 2026-02-17
+tldr:
+- Wpis ostrzega przed możliwymi oszustwami związanymi z Moltbotem, ale jego treść została usunięta.
+- Komentarze pytają o bezpieczne uruchamianie Moltbota; pojawiają się rady, by go nie używać albo uruchamiać
+  w VM w DMZ.
+- Jeden z komentujących wskazuje, że wymagany dostęp do kluczy API Claude, OpenAI lub Gemini może stanowić
+  główny wektor ataku.
+tags:
+- moltbot
+- local-llm
+- api-keys
+- credential-security

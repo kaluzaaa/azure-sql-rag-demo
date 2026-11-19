@@ -1,0 +1,25 @@
+url: https://aidanfinn.com?p=23946
+title: What Happens When An Azure Region Is Destroyed?
+created: 2025-04-02
+tldr:
+- 'Azure nie zapewnia automatycznego disaster recovery do sparowanego regionu: replikację trzeba skonfigurować
+  i za nią zapłacić.'
+- Availability Sets i Availability Zones chronią przed awariami w obrębie regionu, ale nie przed zniszczeniem
+  całego regionu.
+- Failover usług opartych na GRS może zależeć od działań Microsoftu, a uruchomienie compute w regionie
+  zapasowym wymaga dostępnej lub zarezerwowanej pojemności.
+- Niektóre regiony nie mają pary dostępnej dla klientów; bez niezależnej replikacji dane, backupy i bazy
+  mogą zostać utracone wraz z regionem.
+- Lokalizacja resource group w niedostępnym regionie może utrudnić aktualizowanie zasobów działających
+  gdzie indziej.
+- Autor zaleca stateless compute odtwarzane z IaC, niezależnie replikowane dane, sprawdzenie dostępności
+  DevOps oraz backupy możliwe do odtworzenia poza Azure.
+tags:
+- azure-disaster-recovery
+- azure-regions
+- availability-zones
+- azure-storage
+- geo-replication
+- infrastructure-as-code
+- cloud-resilience
+- resource-groups

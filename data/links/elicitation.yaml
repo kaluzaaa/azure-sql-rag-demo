@@ -1,0 +1,21 @@
+url: https://modelcontextprotocol.io/specification/2025-06-18/client/elicitation
+title: Elicitation
+created: 2025-09-26
+tldr:
+- MCP elicitation lets servers request structured user input through clients, which retain control over
+  the interaction and data sharing.
+- Clients supporting elicitation must declare the `elicitation` capability; servers use `elicitation/create`
+  requests with a message and a restricted JSON Schema.
+- Schemas support flat objects with primitive string, number, integer, boolean, and enum properties; complex
+  nested structures and arrays are unsupported.
+- Responses distinguish `accept` with submitted content, `decline`, and `cancel`, which servers should
+  handle separately.
+- Servers must not request sensitive information; clients should identify the requesting server, allow
+  review and refusal, validate responses, and rate-limit requests.
+tags:
+- model-context-protocol
+- mcp-elicitation
+- json-rpc
+- json-schema
+- client-server-protocol
+- security

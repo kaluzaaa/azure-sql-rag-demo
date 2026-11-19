@@ -1,0 +1,21 @@
+url: https://docs.k3s.io/networking/distributed-multicloud
+title: Distributed hybrid or multicloud cluster - K3s
+created: 2025-05-22
+tldr:
+- K3s obsługuje klastry rozproszone między sieciami przez wbudowany WireGuard mesh albo eksperymentalną
+  integrację z Tailscale.
+- Wbudowane rozwiązanie używa websocket tunnel dla ruchu supervisor i WireGuard dla ruchu klastra; serwery
+  i agenty muszą mieć osiągalne, unikalne adresy IP.
+- 'Embedded etcd nie jest obsługiwane w takim wdrożeniu: wszystkie serwery muszą być osiągalne przez prywatne
+  IP i znajdować się w tej samej lokalizacji.'
+- Integracja z Tailscale jest dostępna od wersji v1.27.3, v1.26.6 i v1.25.11; wymaga klucza uwierzytelniającego,
+  zatwierdzenia węzłów i konfiguracji tras oraz ACL.
+- Przy zmianie dynamicznego IP trzeba zaktualizować `--node-external-ip`; przy wielu klastrach w jednej
+  sieci Tailscale należy skonfigurować ACL lub użyć różnych podCIDR.
+tags:
+- k3s
+- tailscale
+- wireguard
+- flannel
+- multicloud
+- kubernetes-networking

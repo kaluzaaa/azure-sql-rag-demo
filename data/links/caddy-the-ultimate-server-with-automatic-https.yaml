@@ -1,0 +1,25 @@
+url: https://caddyserver.com
+title: Caddy - The Ultimate Server with Automatic HTTPS
+author: Caddy Web Server
+created: 2025-05-22
+tldr:
+- Caddy to serwer WWW, który domyślnie automatycznie uzyskuje i odnawia certyfikaty TLS dla obsługiwanych
+  witryn.
+- On-Demand TLS umożliwia wystawianie certyfikatów podczas handshake TLS, m.in. dla domen klientów usług
+  SaaS.
+- Caddy obsługuje HTTPS dla localhost i adresów wewnętrznych, a także zarządzanie prywatnymi CA i wewnętrznym
+  PKI.
+- Konfigurację Caddy można eksportować jako JSON i modyfikować przez RESTful config API.
+- Reverse proxy Caddy obsługuje m.in. HTTP, HTTPS, WebSockets, gRPC i FastCGI; oferuje też load balancing
+  oraz health checks.
+tags:
+- caddy
+- automatic-https
+- on-demand-tls
+- tls
+- reverse-proxy
+- pki
+- acme
+- certificate-management
+- load-balancing
+- config-api

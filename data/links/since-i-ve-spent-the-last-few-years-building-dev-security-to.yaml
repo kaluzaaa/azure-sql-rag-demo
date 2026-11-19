@@ -1,0 +1,23 @@
+url: https://www.linkedin.com/posts/davidmytton_since-ive-spent-the-last-few-years-building-activity-7419405381766000640-p2Eu
+title: Since I've spent the last few years building dev security tools, most devs are surprised to hear
+  that I'm not against vibe-coding.
+author: David Mytton
+created: 2026-02-17
+tldr:
+- 'Ryzyko vibe codingu zależy od blast radius: tworzenie całego projektu od zera jest bardziej ryzykowne
+  niż niewielkie zmiany w znanym kodzie z testami.'
+- AI sprawdza się przy prototypach przeznaczonych do wyrzucenia oraz przy małych, weryfikowalnych zmianach
+  i kodzie łączącym sprawdzone komponenty.
+- W kodzie krytycznym dla bezpieczeństwa AI powinno konfigurować i testować sprawdzone biblioteki, a nie
+  wymyślać nową logikę zabezpieczeń, której nie da się zweryfikować.
+- Autor dopuszcza scaffolding wokół zweryfikowanych komponentów i małe zmiany w istniejącym kodzie; całe
+  projekty generowane od zera powinny być traktowane jako jednorazowe.
+- Autor przewiduje, że w 2026 r. więcej aplikacji tworzonych metodą vibe coding trafi do produkcji, zwiększając
+  tempo pracy, ale też ryzyko poważnych awarii.
+tags:
+- vibe-coding
+- ai-code-generation
+- application-security
+- secure-coding
+- software-testing
+- validated-libraries

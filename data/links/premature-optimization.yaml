@@ -1,0 +1,23 @@
+url: https://blog.alexewerlof.com/p/premature-optimization
+title: Premature optimization
+author: Alex Ewerlöf
+created: 2025-04-02
+tldr:
+- Dojrzała optymalizacja poprawia właściwe rzeczy, we właściwym czasie i przy świadomych kompromisach;
+  przedwczesna optymalizuje niewłaściwy cel, moment lub trade-offs.
+- Model 3T zaleca sprawdzić, czy optymalizujemy właściwy problem na podstawie danych, czy inwestycja jest
+  dobrze wybrana w czasie oraz jakie metryki i koszty ucierpią.
+- Przepisanie Java micro-servera na Rust nie pomoże, jeśli głównym źródłem opóźnień są zależności sieciowe
+  między regionami.
+- Budowanie infrastruktury na skalę Google przed potwierdzeniem product-market fit może pochłonąć budżet,
+  zanim startup znajdzie rynek.
+- Wskazówki dotyczą doboru metryk, eksperymentowania przed wdrożeniem na dużą skalę, kontroli diminishing
+  returns i ustalenia priorytetów; płatna część rozwija je przykładami.
+tags:
+- premature-optimization
+- performance-optimization
+- software-engineering
+- engineering-metrics
+- trade-offs
+- reliability-engineering
+- product-market-fit

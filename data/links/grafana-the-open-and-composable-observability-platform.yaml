@@ -1,0 +1,22 @@
+url: https://grafana.com
+title: 'Grafana: The open and composable observability platform'
+created: 2025-10-02
+tldr:
+- Grafana Cloud łączy full-stack observability z narzędziami AI na jednej platformie opartej na OpenTelemetry.
+- Grafana Assistant pomaga analizować telemetrykę, Investigations przyspiesza analizę przyczyn problemów,
+  a Agent Observability służy do oceny i ulepszania agentów AI.
+- Adaptive Telemetry ma ograniczać koszty telemetryki nawet o 80% przez identyfikowanie istotnych danych
+  i agregowanie pozostałych.
+- Platforma łączy sygnały telemetryczne i integruje się z istniejącymi narzędziami; korzysta z otwartych
+  standardów, takich jak OpenTelemetry i Prometheus, oraz setek integracji.
+- Grafana Cloud obejmuje także obsługę incydentów, testowanie i monitoring syntetyczny; dostępny jest
+  plan Free Forever.
+tags:
+- grafana-cloud
+- grafana-assistant
+- agent-observability
+- adaptive-telemetry
+- opentelemetry
+- prometheus
+- observability
+- synthetic-monitoring

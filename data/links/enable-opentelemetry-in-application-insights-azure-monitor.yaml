@@ -1,0 +1,25 @@
+url: https://learn.microsoft.com/en-us/azure/azure-monitor/app/opentelemetry-enable
+title: Enable OpenTelemetry in Application Insights - Azure Monitor
+author: AarDavMax
+created: 2025-10-02
+tldr:
+- Azure Monitor OpenTelemetry Distro pozwala zbierać dane telemetryczne aplikacji w Application Insights
+  i konfigurować ich wysyłanie do Azure Monitor.
+- Distro zapewnia automatyczne zbieranie traces, metrics, logs i exceptions, obsługuje też custom telemetry
+  oraz Live Metrics.
+- Instrukcje obejmują ASP.NET Core, .NET, Java, Node.js i Python; wymagane są subskrypcja Azure oraz zasób
+  Application Insights.
+- Pakiety instalacyjne to m.in. Azure.Monitor.OpenTelemetry.AspNetCore, Azure.Monitor.OpenTelemetry.Exporter,
+  @azure/monitor-opentelemetry i azure-monitor-opentelemetry; dla Java wskazano agent 3.7.9.
+- Wymagania obejmują Java 8+, Python 3.10+ oraz .NET Framework 4.6.2 i nowszy; dla Node.js wymagany jest
+  wspierany runtime.
+tags:
+- azure-monitor
+- application-insights
+- opentelemetry
+- azure-monitor-opentelemetry
+- dotnet
+- nodejs
+- python
+- java
+- live-metrics

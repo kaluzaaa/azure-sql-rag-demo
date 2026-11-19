@@ -1,0 +1,23 @@
+url: https://www.cybersecuritydive.com/news/flaw-microsoft-copilot-zero-click-attack/750456
+title: Critical flaw in Microsoft Copilot could have allowed zero-click attack
+author: David Jones
+created: 2025-09-25
+tldr:
+- EchoLeak (CVE-2025-32711) w Microsoft 365 Copilot mogło pozwolić zdalnemu atakującemu wykraść dane organizacji,
+  wysyłając email — bez interakcji użytkownika.
+- Według badaczy Aim Security był to pierwszy znany atak zero-click na agenta AI; podatność wiązała się
+  z naruszeniem zakresu LLM przez niezaufane dane wejściowe.
+- Potencjalnie narażone były dane dostępne Copilotowi, m.in. historia czatów, dokumenty OneDrive, treści
+  SharePoint i rozmowy Teams.
+- Microsoft poinformował, że problem został w pełni usunięty i klienci nie muszą podejmować dodatkowych
+  działań.
+- Badacze nie znaleźli dowodów, że klienci padli ofiarą ataków.
+tags:
+- microsoft-copilot
+- echoleak
+- cve-2025-32711
+- zero-click-attack
+- microsoft-365
+- llm-security
+- data-exfiltration
+- cybersecurity

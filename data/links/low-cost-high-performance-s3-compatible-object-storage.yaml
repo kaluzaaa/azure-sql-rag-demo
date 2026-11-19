@@ -1,0 +1,21 @@
+url: https://www.backblaze.com/cloud-storage
+title: Low Cost, High Performance S3 Compatible Object Storage
+created: 2025-05-22
+tldr:
+- Backblaze B2 Cloud Storage to kompatybilna z S3 usługa object storage dla AI, aplikacji i innych obciążeń
+  wymagających dużej ilości danych.
+- Strona podkreśla przewidywalne koszty, prostotę operacyjną i setki gotowych integracji, m.in. z Veeam,
+  Synology, Fastly, Snowflake i Rclone.
+- Funkcje bezpieczeństwa obejmują szyfrowanie, Object Lock, kontrolę kluczy API, logi dostępu do bucketów
+  i replikację między regionami.
+- Wymienione standardy i programy zgodności to SOC 2 Type 2, TX-RAMP, HECVAT, wsparcie HIPAA i PCI DSS.
+- 'Strona prezentuje przykład Hume AI: 0 USD opłat za egress, upload 10 GB/s i jeden zunifikowany object
+  store.'
+tags:
+- backblaze-b2
+- s3-compatible-storage
+- object-storage
+- object-lock
+- ai-storage
+- cloud-storage
+- data-migration

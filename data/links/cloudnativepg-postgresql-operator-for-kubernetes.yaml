@@ -1,0 +1,32 @@
+url: https://cloudnative-pg.io
+title: CloudNativePG - PostgreSQL Operator for Kubernetes
+created: 2025-04-18
+tldr:
+- CloudNativePG to Kubernetes operator zarządzający pełnym cyklem highly available PostgreSQL cluster
+  w architekturze primary/standby, z native streaming replication.
+- Automatyzuje wdrażanie, zarządzanie i failover PostgreSQL przez Kubernetes API, bez zewnętrznego narzędzia
+  do failover.
+- Zarządza własnym mechanizmem persistent volume claims dla PGDATA zamiast StatefulSets oraz oferuje self-healing,
+  rolling updates i skalowanie read-only replicas.
+- Domyślnie wspiera security contexts i szyfrowanie TLS, a także własne certyfikaty, cert-manager, TLS
+  client authentication oraz pgAudit.
+- High availability wykorzystuje streaming replication i file-based replication jako fallback; synchronous
+  replication można skonfigurować dla replik bez utraty danych.
+- Disaster recovery obejmuje ciągłe backupy do object stores oraz Point-In-Time Recovery przez uruchomienie
+  klastra z backupu dla wybranego timestampu.
+- Wbudowany exporter Prometheus obsługuje metryki definiowane w SQL, a logi bazy i audytu są wysyłane
+  do stdout w formacie JSON.
+- Obsługiwane są PgBouncer, replica clusters w różnych regionach oraz deklaratywne zarządzanie użytkownikami,
+  bazami, konfiguracją PostgreSQL i rozszerzeniami.
+tags:
+- cloudnativepg
+- postgresql-operator
+- kubernetes
+- postgresql
+- streaming-replication
+- high-availability
+- point-in-time-recovery
+- prometheus
+- pgbouncer
+- disaster-recovery
+- cert-manager

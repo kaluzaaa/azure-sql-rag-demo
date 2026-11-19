@@ -1,0 +1,28 @@
+url: https://cloud.google.com/blog/products/devops-sre/using-the-four-keys-to-measure-your-devops-performance
+title: Use Four Keys metrics like change failure rate to measure your DevOps performance
+author: Dina Graves Portman
+created: 2025-10-16
+tldr:
+- Cztery metryki DORA — częstotliwość wdrożeń, lead time zmian, change failure rate i czas przywrócenia
+  usługi — mierzą szybkość oraz stabilność dostarczania oprogramowania.
+- Open source Four Keys zbiera zdarzenia z repozytoriów i innych systemów przez webhooki HTTP, przesyła
+  je do BigQuery i przekształca w metryki DORA.
+- Pipeline używa zaplanowanych zapytań SQL w BigQuery; definicje zmian, wdrożeń i incydentów można dostosować
+  do wymagań zespołu.
+- W Four Keys wdrożenia codzienne oznaczają wdrażanie w większość dni roboczych; próg domyślny to mediana
+  co najmniej 3 dni z wdrożeniem tygodniowo.
+- Lead time wylicza się na podstawie czasu commita i wdrożenia, a change failure rate przez powiązanie
+  wdrożeń z incydentami.
+- Dashboard oparty na DataStudio pokazuje kategorie wyników DORA i bieżący zapis wydajności zespołu. W
+  2021 DORA dodało niezawodność jako piątą metrykę.
+tags:
+- four-keys
+- dora
+- bigquery
+- change-failure-rate
+- deployment-frequency
+- lead-time-for-changes
+- devops-metrics
+- data-studio
+- webhooks
+- etl

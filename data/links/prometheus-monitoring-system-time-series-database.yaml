@@ -1,0 +1,23 @@
+url: https://prometheus.io
+title: Prometheus - Monitoring system & time series database
+created: 2025-10-02
+tldr:
+- Prometheus to open source’owy system monitoringu, który zbiera, przechowuje i udostępnia metryki do
+  zapytań, alertów i dashboardów.
+- Dane są przechowywane jako szeregi czasowe z nazwą metryki i zestawem par klucz-wartość; PromQL służy
+  do ich odpytywania, korelowania i przekształcania.
+- Reguły alertów korzystają z PromQL, a osobny komponent Alertmanager obsługuje powiadomienia i wyciszanie.
+- Serwery Prometheus działają niezależnie i korzystają z lokalnego storage; projekt jest rozwijany w Go.
+- Dostępne są oficjalne i społecznościowe biblioteki instrumentacji oraz setki integracji do pobierania
+  metryk z istniejących systemów.
+- Prometheus integruje się z Kubernetes i innymi menedżerami chmury oraz kontenerów; jest projektem CNCF
+  na poziomie graduated i jest udostępniany na licencji Apache 2.
+tags:
+- prometheus
+- promql
+- alertmanager
+- time-series-database
+- metrics-monitoring
+- kubernetes
+- cloud-native
+- cncf

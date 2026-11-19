@@ -1,0 +1,21 @@
+url: https://helm.sh/docs/chart_template_guide/subcharts_and_globals
+title: Subcharts and Global Values | Helm
+created: 2025-12-04
+tldr:
+- Subcharty są samodzielne i nie odczytują wartości rodzica, ale rodzic może nadpisywać ich konfigurację
+  w sekcji nazwanej jak subchart.
+- Wartości przekazane subchartowi są dostępne w jego szablonach jako `.Values`, bez prefiksu nazwy subchartu.
+- Wartości globalne z `Values.global` mogą być odczytywane pod tą samą nazwą przez chart nadrzędny i subcharty;
+  trzeba je jawnie zadeklarować.
+- Szablony zdefiniowane w dowolnym charcie są współdzielone z pozostałymi chartami; `include` może dynamicznie
+  wskazywać szablon, a `template` przyjmuje tylko literał tekstowy.
+- Nie zaleca się używania `block` do nadpisywania szablonów, bo przy wielu implementacjach wybór jest
+  nieprzewidywalny; dokumentacja sugeruje `include`.
+tags:
+- helm
+- helm-charts
+- helm-subcharts
+- helm-templates
+- helm-values
+- go-templates
+- kubernetes

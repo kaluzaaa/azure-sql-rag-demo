@@ -1,0 +1,27 @@
+url: https://patoarchitekci.io/szkolenia/observability-stos-grafana
+title: Observability ze stosem Grafana
+author: Patoarchitekci
+created: 2025-10-21
+tldr:
+- Szkolenie obejmuje budowę stosu observability z narzędzi Grafana Labs oraz praktyczne warsztaty; 80%
+  czasu przeznaczono na ćwiczenia.
+- Program omawia metryki w Prometheusie, tracing w Tempo, logi w Loki oraz integrację Loki, Grafany, Tempo
+  i Prometheusa/Mimira.
+- Uczestnicy poznają OpenTelemetry, instrumentację aplikacji, eksport danych i rolę OpenTelemetry Collectora
+  w formie Grafana Alloy.
+- Szkolenie porusza optymalizację kosztów monitoringu; warsztaty korzystają z pełnego stosu LGTM.
+- Szkolenie prowadzi Szymon Warda, odbywa się online przez Microsoft Teams, a grupa liczy maksymalnie
+  12 osób.
+- Cena wynosi 2275,61 PLN netto lub 2799 PLN brutto; nowy termin jest w drodze.
+tags:
+- grafana
+- prometheus
+- loki
+- tempo
+- opentelemetry
+- grafana-alloy
+- observability
+- promql
+- logql
+- distributed-tracing
+- cost-optimization

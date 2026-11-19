@@ -1,0 +1,19 @@
+url: https://k3s.io
+title: K3S
+created: 2023-05-04
+tldr:
+- K3s to certyfikowana, lekka dystrybucja Kubernetes przeznaczona do IoT i edge computing.
+- Pojedynczy plik binarny K3s ma mniej niż 70 MB i ogranicza zależności oraz kroki potrzebne do uruchomienia
+  klastra produkcyjnego.
+- K3s wspiera ARM64 i ARMv7, a także x86_64; działa na urządzeniach od Raspberry Pi po serwery AWS.
+- Strona podaje instalację przez skrypt `curl -sfL https://get.k3s.io | sh -` i pokazuje konfigurację
+  węzła server oraz agent.
+- K3s jest przeznaczony m.in. do zastosowań edge, IoT i CI.
+tags:
+- k3s
+- kubernetes
+- edge-computing
+- iot
+- arm64
+- armv7
+- container-orchestration

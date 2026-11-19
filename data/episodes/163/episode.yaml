@@ -1,0 +1,55 @@
+episode_number: 163
+title: 'Prosto i praktycznie wyjaśniamy: MCP (Model Context Protocol)'
+date: 2025-09-26
+tags:
+- Prosto i praktycznie
+- MCP
+- AI
+- LLM
+- Architecture
+chapters:
+- 00:00:00 Intro
+- 00:01:04 Czym jest Model Context Protocol (MCP)
+- 00:01:51 Definicja i funkcja MCP
+- 00:03:23 Historia i rozwój standardu
+- 00:04:23 Architektura MCP - Client, Server i Transport
+- 00:06:19 Zastosowania lokalne i produktywność
+- 00:10:01 Zastosowania korporacyjne
+- 00:11:49 Primitives MCP - Tools i Resources
+- 00:15:36 Prompts, Sampling i Roots
+- 00:18:29 Uwierzytelnianie i bezpieczeństwo
+- 00:20:36 Prompt Shield i Content Protection
+- 00:24:37 MCP jako API Gateway dla LLM
+- 00:25:00 Problem z MCP Jiry i dostosowanie API
+- 00:27:26 Izolacja, rate limiting i monitoring
+- 00:29:45 Jak zacząć używać MCP
+- 00:30:35 SDK i gotowe rozwiązania
+- 00:31:03 Azure API Management i Logic Apps
+- 00:34:08 MCP Inspector i debugowanie
+- 00:35:24 Wyzwania praktyczne - za dużo narzędzi
+- 00:36:43 Schema validation i formaty danych
+- 00:37:26 Notyfikacje, long running jobs i paginacja
+- 00:39:43 Autonomiczni agenci i monitoring
+- 00:40:47 Human in the loop i weryfikacja
+- 00:42:19 Podsumowanie
+links:
+- specification-model-context-protocol
+- overview-model-context-protocol
+- tools
+- resources
+- prompts
+- roots-model-context-protocol
+- sampling
+- elicitation
+- owasp-top-10-for-large-language-model-applications-owasp-fou
+- critical-flaw-in-microsoft-copilot-could-have-allowed-zero-c
+- github-modelcontextprotocol-inspector-visual-testing-tool-fo
+- claude-model-context-protocol-mcp
+- example-servers-model-context-protocol
+- openai-platform
+- moj-setup-mcp-realnie-dzialajacy-w-2025
+- mcp-toolkit
+- set-up-standard-workflows-as-mcp-servers-azure-logic-apps
+ids:
+  youtube: yrNf0_dxVYQ
+  spotify: 7ELXEzuiy0Ep0NbFU6E1HN

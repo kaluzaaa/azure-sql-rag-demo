@@ -1,0 +1,23 @@
+url: https://www.oracle.com/database
+title: Database
+created: 2025-04-18
+tldr:
+- Oracle AI Database natywnie integruje AI z danymi biznesowymi, łącząc różne modele danych i obciążenia
+  w jednym silniku.
+- Oracle AI Database 26ai można testować bezpłatnie; strona promuje tworzenie aplikacji AI i agentów z
+  bezpiecznym dostępem do danych przedsiębiorstwa.
+- Baza działa w OCI, AWS, Microsoft Azure i Google Cloud, w środowiskach hybrydowych oraz lokalnie; obsługuje
+  otwarte standardy, takie jak SQL, REST, JavaScript i Apache Iceberg.
+- Funkcje bezpieczeństwa obejmują szyfrowanie, kontrolę dostępu, maskowanie danych, monitoring, audyt
+  i zabezpieczenia AI wbudowane w bazę.
+- Oracle przedstawia przykłady klientów i raporty analityków dotyczące m.in. wydajności OLTP, analityki,
+  dostępności oraz wdrażania agentów AI.
+tags:
+- oracle-ai-database
+- oracle-database-26ai
+- enterprise-database
+- ai-agents
+- multicloud
+- apache-iceberg
+- database-security
+- sql

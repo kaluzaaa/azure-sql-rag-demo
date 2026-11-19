@@ -1,0 +1,20 @@
+url: https://github.com/kubernetes-sigs/kustomize/blob/master/examples/configGeneration.md
+title: kustomize/examples/configGeneration.md at master · kubernetes-sigs/kustomize · GitHub
+created: 2025-12-04
+tldr:
+- Kustomize dopisuje hash do nazw ConfigMap tworzonych przez ConfigMapGenerator; zmiana ich zawartości
+  zmienia nazwę i uruchamia rolling update wdrożenia korzystającego z ConfigMap.
+- ConfigMap zadeklarowana jako zwykły resource nie otrzymuje hasha, a zmiana jej danych sama nie powoduje
+  aktualizacji podów.
+- Patch ConfigMap musi mieć taką samą wartość metadata/name jak zasób bazowy; namePrefix i nameSuffix
+  dodatkowo modyfikują wynikową nazwę.
+- W przykładzie overlay staging zmiana powitania z „pineapple” na „kiwi” tworzy nowy hash c2g8fcbf88,
+  widoczny w nazwie ConfigMap i dwóch odwołaniach w deployment.
+- Rollback polega na cofnięciu zmian konfiguracji w kontroli wersji, ponownym uruchomieniu Kustomize i
+  zastosowaniu zasobów.
+tags:
+- kustomize
+- kubernetes
+- configmapgenerator
+- configmap
+- rolling-updates

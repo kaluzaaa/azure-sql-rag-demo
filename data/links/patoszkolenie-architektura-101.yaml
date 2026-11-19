@@ -1,0 +1,21 @@
+url: https://patoarchitekci.io/szkolenia/architektura-101
+title: '[Patoszkolenie] Architektura 101'
+author: Patoarchitekci
+created: 2025-10-21
+tldr:
+- Szkolenie uczy projektowania architektury systemów poza kodem i wymaganiami biznesowymi; obejmuje teorię,
+  decyzje technologiczne oraz praktyczne architecture kata.
+- Program obejmuje style architektury, modularność, komponenty, charakterystyki systemów, bezpieczeństwo,
+  sieci, decyzje build vs. buy oraz Kubernetes i ekosystem CNCF.
+- 'Zajęcia prowadzi Łukasz Kałużny. Szkolenie online w Microsoft Teams odbywa się w czterech sesjach po
+  4 godziny: 17, 18, 24 i 25 listopada 2026.'
+- Cena wynosi 3089,42 PLN netto (3799,99 PLN brutto). Uczestnicy otrzymują certyfikat ukończenia.
+tags:
+- software-architecture
+- architecture-kata
+- kubernetes
+- cncf
+- network-security
+- load-balancing
+- dns
+- build-vs-buy

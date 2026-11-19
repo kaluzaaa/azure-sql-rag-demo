@@ -1,0 +1,18 @@
+url: https://owasp.org/www-project-top-10-for-large-language-model-applications
+title: OWASP Top 10 for Large Language Model Applications | OWASP Foundation
+created: 2025-09-26
+tldr:
+- Projekt OWASP Top 10 for Large Language Model Applications rozwinął się w OWASP GenAI Security Project,
+  obejmujący bezpieczeństwo LLM, systemów agentic AI i aplikacji opartych na AI.
+- OWASP GenAI Security Project publikuje wskazówki i narzędzia do identyfikowania oraz ograniczania zagrożeń
+  bezpieczeństwa i ryzyka dla bezpieczeństwa użytkowników generatywnej AI.
+- Projekt rozpoczął się w 2023 roku jako inicjatywa małej grupy specjalistów; według strony skupia ponad
+  600 ekspertów z ponad 18 krajów i niemal 8 000 aktywnych członków.
+- Najnowsza wersja OWASP Top 10 for LLM Applications jest dostępna na stronie projektu GenAI; strona wymienia
+  także wersję 2025 i tłumaczenia wersji 1.1.0.
+tags:
+- llm-security
+- generative-ai-security
+- agentic-ai
+- owasp-top-10
+- application-security

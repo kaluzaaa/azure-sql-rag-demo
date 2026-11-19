@@ -1,0 +1,20 @@
+url: https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows
+title: Hyper-V Technology Overview
+created: 2025-04-18
+tldr:
+- Dokumentacja zbiera specyfikację funkcjonalną Hyper-V oraz dokumentację API dla programistów.
+- Specyfikacja obejmuje m.in. hypercalls, partycje, procesory wirtualne, zarządzanie pamięcią, przerwania,
+  komunikację między partycjami i nested virtualization.
+- Dokumentacja API obejmuje m.in. Hyper-V WMI, Host Compute System API, Host Compute Network API, Windows
+  Hypervisor Platform API i interfejs dysków wirtualnych.
+- Strona odsyła także do dokumentacji produktu Hyper-V dla Windows Server.
+tags:
+- hyper-v
+- hypervisor
+- nested-virtualization
+- hypercalls
+- host-compute-system
+- host-compute-network
+- windows-hypervisor-platform
+- wmi
+- virtualization

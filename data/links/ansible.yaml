@@ -1,0 +1,25 @@
+url: https://www.ansible.com
+title: Ansible
+created: 2025-04-18
+tldr:
+- Ansible to darmowy, open source’owy silnik automatyzacji IT do provisioningu, zarządzania konfiguracją,
+  wdrażania aplikacji i orkiestracji.
+- 'Ansible Collaborative gromadzi materiały dla użytkowników, klientów i partnerów: dokumentację, interaktywne
+  laboratoria, szkolenia oraz forum społeczności.'
+- Strona udostępnia materiały do tworzenia playbooków, inventory i poznawania podstaw Ansible, a także
+  laboratoria dotyczące ansible-navigator, ansible-builder i Event-Driven Ansible.
+- Kolekcje Ansible Galaxy obejmują m.in. automatyzację Kafka i WildFly, zarządzanie Kubernetes i OpenShift
+  oraz infrastrukturą VMware.
+- Red Hat Ansible Automation Platform łączy projekty upstream w platformę dla przedsiębiorstw, z funkcjami
+  takimi jak event-driven automation, generative AI, rozszerzone bezpieczeństwo i wsparcie techniczne.
+tags:
+- ansible
+- ansible-galaxy
+- ansible-playbook
+- event-driven-ansible
+- ansible-automation-platform
+- ansible-navigator
+- ansible-builder
+- it-automation
+- kubernetes
+- openshift

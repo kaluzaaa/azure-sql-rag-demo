@@ -1,0 +1,23 @@
+url: https://grafana.com/oss/tempo
+title: Grafana Tempo OSS | Distributed tracing backend
+created: 2025-10-02
+tldr:
+- Grafana Tempo to open source’owy backend do rozproszonego tracingu, zaprojektowany do skalowania przy
+  minimalnych kosztach operacyjnych.
+- Do działania wymaga wyłącznie object storage; nie indeksuje trace’ów, co według strony obniża koszt
+  ich długoterminowego przechowywania.
+- Obsługuje protokoły Jaeger, Zipkin i OpenTelemetry oraz integruje się z Grafana, Prometheus i Loki.
+- Projekt rozpoczęto w Grafana Labs; Tempo osiągnęło wersję 1.0 w czerwcu 2021 roku i jest wydawane na
+  licencji AGPLv3.
+- Tempo można wdrożyć samodzielnie; Grafana oferuje też zarządzaną usługę Grafana Cloud Traces.
+tags:
+- grafana-tempo
+- distributed-tracing
+- opentelemetry
+- jaeger
+- zipkin
+- object-storage
+- prometheus
+- loki
+- observability
+- agplv3

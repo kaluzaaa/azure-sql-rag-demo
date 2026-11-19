@@ -1,0 +1,25 @@
+url: https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html
+title: Logging - OWASP Cheat Sheet Series
+created: 2025-10-29
+tldr:
+- Logowanie zdarzeń w aplikacji uzupełnia logi infrastruktury i powinno być spójne, używać standardów
+  oraz wspierać zarówno bezpieczeństwo, jak i operacje.
+- Dopasuj zakres logów do ryzyka i celu; loguj m.in. błędy walidacji, sukcesy i niepowodzenia uwierzytelniania,
+  błędy autoryzacji, problemy sesji oraz działania uprzywilejowane.
+- Kod aplikacji jest głównym źródłem zdarzeń, bo zna tożsamość, uprawnienia i kontekst; dane z innych
+  stref zaufania traktuj jako niezaufane.
+- Przechowuj logi z ograniczonymi uprawnieniami, poza publicznymi lokalizacjami; rozważ osobne partycje
+  lub konta bazodanowe oraz wysyłkę do centralnego SIEM.
+- Oddziel logi bezpieczeństwa od logów procesów, audytu i transakcji, gdy służą różnym celom; unikaj zarówno
+  nadmiaru, jak i braków, które utrudniają wykrywanie incydentów.
+tags:
+- application-logging
+- security-logging
+- audit-logging
+- siem
+- common-event-format
+- syslog
+- authentication-logging
+- input-validation
+- security-monitoring
+- owasp

@@ -1,0 +1,40 @@
+episode_number: 169
+title: Allegro Tech Radar z Bartoszem Gałkiem
+date: 2025-11-07
+guests:
+- bartosz-galek
+tags:
+- Technology Radar
+- Gość
+- Platform Engineering
+- Developer Experience
+- Architecture
+chapters:
+- 00:00:00 Intro
+- 00:01:57 Wprowadzenie do tematu i gościa
+- 00:03:07 Geneza i cel Tech Radaru
+- 00:05:47 Decyzja o upublicznieniu i transparentność
+- 00:07:29 Proces tworzenia Tech Radaru
+- 00:10:00 Wpływ Tech Radaru na organizację
+- 00:12:26 Zbieranie feedbacku i proces decyzyjny
+- 00:14:59 Wyzwania i zaskoczenia przy tworzeniu
+- 00:20:43 Cykl życia i utrzymanie Tech Radaru
+- 00:23:26 Poliglotyzm i języki programowania
+- 00:25:11 Bazy danych i infrastruktura
+- 00:26:27 Service mesh i standaryzacja
+- 00:28:35 Stos monitorujący i observability
+- 00:33:07 Kontekst i wartość opisów technologii
+- 00:34:14 Redis i cache'owanie
+- 00:35:36 Copilot vs Cursor - decyzje toolingowe
+- 00:37:56 Zakończenie
+links:
+- bartosz-galek-linkedin
+- bgalek-bartosz-galek-github
+- blog-allegro-tech
+- allegro-technology-radar
+- patoszkolenie-architektura-101
+- observability-ze-stosem-grafana
+- patoszkolenie-kubernetes-the-hard-way
+ids:
+  youtube: RpQX6i3q2KQ
+  spotify: 54ioSv9y0AdWM9clSEtB7L

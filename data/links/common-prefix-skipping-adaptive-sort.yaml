@@ -1,0 +1,23 @@
+url: https://smalldatum.blogspot.com/2026/01/common-prefix-skipping-adaptive-sort.html
+title: Common prefix skipping, adaptive sort
+author: Mark Callaghan
+created: 2026-02-17
+tldr:
+- Autor opisuje algorytm sortowania opracowany w Oracle, wdrożony w Oracle 10gR2 i osiągający często około
+  5× lepszą wydajność niż poprzedni algorytm.
+- Algorytm pomija wspólne prefiksy kluczy podczas porównań i adaptacyjnie przełącza się między quicksortem
+  a sortowaniem radix MSD.
+- Buforowanie kolejnych bajtów klucza ogranicza cache misses; posortowane wyniki mogą być przekazywane
+  dalej, zanim sortowanie się zakończy.
+- Według autora algorytm był szczególnie szybszy dla kluczy dłuższych niż 8 bajtów; jego wadami były brak
+  stabilności i niekorzystny, choć mało prawdopodobny, przypadek pesymistyczny.
+- Patent US7680791B2 wygasł. Autor proponuje nazwę „Orasort” dla algorytmu.
+tags:
+- common-prefix-skipping
+- adaptive-sort
+- quicksort
+- radix-sort
+- oracle-database
+- sorting-algorithms
+- cpu-cache
+- database-performance

@@ -1,0 +1,23 @@
+url: https://www.proxmox.com/en
+title: Proxmox - Powerful open-source server solutions
+created: 2025-04-18
+tldr:
+- 'Proxmox oferuje open-source’owe rozwiązania dla centrów danych: wirtualizację, backup oraz centralne
+  zarządzanie rozproszoną infrastrukturą.'
+- Proxmox Virtual Environment łączy zarządzanie VM, kontenerami, storage’em, siecią i klastrami high availability
+  w jednej platformie.
+- Proxmox Backup Server obsługuje backup przyrostowy, deduplikację, kompresję Zstandard i szyfrowanie
+  uwierzytelnione; służy do ochrony VM, kontenerów i hostów fizycznych.
+- Proxmox Datacenter Manager zapewnia wspólny interfejs do monitorowania i zarządzania wieloma zdalnymi
+  środowiskami Proxmox oraz koordynowania operacji w klastrach i centrach danych.
+- 'Strona wymienia wersje: Virtual Environment 9.2, Backup Server 4.2 i Datacenter Manager 1.1; dostępne
+  są też wsparcie, wdrożenia, szkolenia i dokumentacja.'
+tags:
+- proxmox-virtual-environment
+- proxmox-backup-server
+- proxmox-datacenter-manager
+- virtualization
+- virtual-machines
+- containerization
+- data-center
+- open-source

@@ -1,0 +1,25 @@
+url: https://modelcontextprotocol.io/specification/2025-06-18/client/sampling
+title: Sampling
+created: 2025-09-26
+tldr:
+- MCP pozwala serwerom prosić klientów o generowanie odpowiedzi przez LLM, pozostawiając klientom kontrolę
+  nad dostępem do modeli i uprawnieniami; serwery nie potrzebują własnych API keys.
+- Klient obsługujący sampling musi zadeklarować capability `sampling` podczas inicjalizacji, a serwer
+  wysyła żądania metodą `sampling/createMessage`.
+- Wiadomości mogą zawierać tekst, obrazy lub audio; żądanie może określać `systemPrompt`, `maxTokens`
+  i preferencje modelu.
+- Priorytety `costPriority`, `speedPriority` i `intelligencePriority` przyjmują wartości 0–1; wskazówki
+  modelu są niewiążące, a klient wybiera dostępny model lub jego odpowiednik.
+- Dla bezpieczeństwa klient powinien umożliwiać człowiekowi odrzucenie żądania, przegląd i edycję promptu
+  oraz sprawdzenie odpowiedzi przed jej przekazaniem.
+- Klienci powinni obsługiwać błędy, zatwierdzanie przez użytkownika i rate limiting; obie strony muszą
+  właściwie chronić wrażliwe dane.
+tags:
+- model-context-protocol
+- mcp-sampling
+- sampling-create-message
+- llm
+- json-rpc
+- model-selection
+- multimodal-ai
+- ai-security

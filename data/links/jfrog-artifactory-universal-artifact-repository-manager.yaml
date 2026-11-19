@@ -1,0 +1,26 @@
+url: https://jfrog.com/artifactory
+title: JFrog Artifactory - Universal Artifact Repository Manager
+created: 2025-04-18
+tldr:
+- JFrog Artifactory to uniwersalna platforma do zarządzania artefaktami, pełniąca rolę centralnego repozytorium
+  dla pakietów, binariów, kontenerów, modeli AI i zasobów agentów.
+- Obsługuje formaty takie jak Maven, npm, PyPI, Docker, Helm, NuGet, Debian, RPM i Terraform oraz modele
+  ML.
+- Udostępnia proxy i cache zależności, zarządzanie cyklem życia, kontrolę dostępu i funkcje wspierające
+  bezpieczeństwo łańcucha dostaw oprogramowania.
+- Integruje się z narzędziami CI/CD, w tym Jenkins, GitHub Actions i Azure DevOps; automatyzację umożliwiają
+  też API, JFrog CLI i provider Terraform.
+- Zarządza modelami AI/ML, serwerami MCP, umiejętnościami i wtyczkami agentów, zapewniając wersjonowanie,
+  kontrolę dostępu i nadzór.
+- JFrog SaaS działa w regionach AWS, Azure i GCP; strona podaje SLA dostępności 99,99% dla Premium Availability.
+tags:
+- jfrog-artifactory
+- artifact-management
+- package-registry
+- software-supply-chain
+- dependency-caching
+- ci-cd
+- ai-model-registry
+- mcp-servers
+- agent-skills
+- terraform

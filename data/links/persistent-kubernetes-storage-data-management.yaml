@@ -1,0 +1,25 @@
+url: https://portworx.com
+title: Persistent Kubernetes Storage & Data Management
+created: 2025-04-18
+tldr:
+- Portworx oferuje platformę do zarządzania danymi i storage dla Kubernetes w środowiskach on-premises,
+  public cloud i hybrid cloud.
+- Platforma zapewnia Kubernetes-native lifecycle management, automatyzację storage, backup, szyfrowanie
+  oraz HA/DR.
+- Umożliwia uruchamianie VM obok kontenerów na Kubernetes oraz zarządzanie ich storage, ochroną i skalowaniem.
+- Portworx promuje storage zoptymalizowany pod AI, aby ograniczać fragmentację datasetów, opóźnienia dostępu
+  do danych i ręczne operacje.
+- Integruje się m.in. z AWS, Azure, Google Cloud, IBM Cloud, Oracle, Red Hat OpenShift i SUSE.
+- 'Strona podaje przykłady wdrożeń: 25 000 transakcji na sekundę, migrację tysięcy VM do kontenerów oraz
+  skrócenie czasu analiz o 70% w zastosowaniu AI.'
+tags:
+- portworx
+- kubernetes-storage
+- kubernetes-data-management
+- container-storage
+- hybrid-cloud
+- kubernetes
+- virtualization
+- ai-ml
+- backup-disaster-recovery
+- red-hat-openshift

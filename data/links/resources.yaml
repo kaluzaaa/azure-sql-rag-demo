@@ -1,0 +1,21 @@
+url: https://modelcontextprotocol.io/specification/2025-06-18/server/resources
+title: Resources
+created: 2025-09-26
+tldr:
+- MCP Resources to ustandaryzowany sposób udostępniania przez serwery danych kontekstowych identyfikowanych
+  przez URI.
+- Klienci odkrywają zasoby przez `resources/list`, odczytują je przez `resources/read`, a szablony URI
+  pobierają przez `resources/templates/list`; operacje listowania obsługują paginację.
+- Serwery mogą opcjonalnie deklarować subskrypcje zmian zasobów (`subscribe`) i powiadomienia o zmianie
+  listy (`listChanged`).
+- Zawartość zasobów może być tekstowa lub binarna; adnotacje `audience`, `priority` i `lastModified` pomagają
+  klientom filtrować i priorytetyzować dane.
+- Specyfikacja omawia schematy URI `https://`, `file://`, `git://` oraz własne; serwery muszą walidować
+  URI i poprawnie kodować dane binarne.
+tags:
+- model-context-protocol
+- mcp-resources
+- json-rpc
+- uri-templates
+- resource-subscriptions
+- pagination

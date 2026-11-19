@@ -1,0 +1,25 @@
+url: https://kubernetes.io
+title: Kubernetes
+created: 2025-04-18
+tldr:
+- Kubernetes (K8s) to open source’owy system do automatyzacji wdrażania, skalowania i zarządzania aplikacjami
+  kontenerowymi.
+- Platforma grupuje kontenery w logiczne jednostki oraz obsługuje rollouts i rollbacks, service discovery,
+  load balancing i orkiestrację storage.
+- Kubernetes zarządza Secrets i konfiguracją, automatycznie rozmieszcza kontenery według wymagań zasobów
+  oraz obsługuje zadania batch i CI.
+- Funkcje samonaprawiania obejmują restart kontenerów, zastępowanie Podów i ponowne podłączanie storage;
+  skalowanie może być poziome lub pionowe.
+- Kubernetes działa w środowiskach on-premises, hybrydowych i public cloud oraz obsługuje dual-stack IPv4/IPv6.
+- Projekt Kubernetes uzyskał status graduated w CNCF.
+tags:
+- kubernetes
+- container-orchestration
+- kubernetes-deployment
+- kubernetes-pods
+- service-discovery
+- load-balancing
+- kubernetes-autoscaling
+- kubernetes-secrets
+- cloud-native
+- cncf

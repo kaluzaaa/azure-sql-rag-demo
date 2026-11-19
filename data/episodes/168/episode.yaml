@@ -1,0 +1,44 @@
+episode_number: 168
+title: Standaryzacja logów - nudne rzeczy, które trzeba ustalić
+date: 2025-10-31
+tags:
+- Logging
+- Observability
+- OpenTelemetry
+- Monitoring
+chapters:
+- 00:00:00 Intro
+- 00:01:02 Szkolenie Architektura 101
+- 00:03:53 Szkolenie Observability ze stosem Grafana
+- 00:07:08 Szkolenie Kubernetes The Hard Way
+- 00:09:42 Wprowadzenie do tematu logów
+- 00:10:05 Główne problemy z logami
+- 00:11:19 Rodzaje logów
+- 00:13:26 Logi biznesowe i diagnostyczne
+- 00:15:40 Sampling logów
+- 00:16:02 Kontekst wysyłania vs oglądania logów
+- 00:16:58 Sprzątanie logów w organizacji
+- 00:17:20 Format i struktura logów
+- 00:20:00 Wysyłanie logów - strategie wolumenu
+- 00:20:44 Buforowanie i batchowanie logów
+- 00:21:43 Wzbogacanie i filtrowanie logów
+- 00:22:00 Polityki i kontrola jakości logów
+- 00:23:15 Standardy nazewnictwa i formatowania
+- 00:24:03 Wymagane pola w logach
+- 00:24:23 Standardy zewnętrzne jako rozwiązanie konfliktów
+- 00:25:56 Pola opcjonalne i kontekstowe
+- 00:26:26 Service name i nazewnictwo
+- 00:27:27 Trace ID, Span ID i hierarchia
+- 00:28:48 Obsługa błędów i stacków
+- 00:29:19 Problem z multiline'ami
+- 00:30:11 Dokumentacja i zarządzanie polami
+links:
+- patoszkolenie-architektura-101
+- observability-ze-stosem-grafana
+- patoszkolenie-kubernetes-the-hard-way
+- opentelemetry-logging
+- logging-best-practices-aws-prescriptive-guidance
+- logging-owasp-cheat-sheet-series
+ids:
+  youtube: 8DAwLk8cXZM
+  spotify: 7k2TXNFKW6iopNd3RFrCH9

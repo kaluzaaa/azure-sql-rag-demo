@@ -1,0 +1,51 @@
+episode_number: 155
+title: Bieda-hosting, czyli miejsce na MVP, Side Projects i inne nasze zabawki
+date: 2025-05-23
+tags:
+- Docker
+- CI/CD
+- GitHub
+- Infrastructure as Code
+chapters:
+- 00:00:00 Intro
+- 00:02:01 Wprowadzenie do biedahostingu
+- 00:02:44 Historia i definicja homelabów
+- 00:05:29 Koszty energii jako problem homelabów
+- 00:07:13 Tanie VPS-y jako alternatywa
+- 00:09:36 VPS-y bieda-plus i hyperscalerzy
+- 00:13:11 Statyczne strony jako najlepsza opcja
+- 00:14:24 Cloudflare jako must have
+- 00:15:49 Technikalia deploymentu na VPS
+- 00:16:09 Odrzucenie Kubernetesa na VPS
+- 00:17:33 Budowanie w GitHub Actions
+- 00:19:14 Monorepo i Docker Compose
+- 00:20:49 Reverse proxy - Caddy i Traefik
+- 00:23:32 Backupy - szczęśliwi backupów nie robią
+- 00:27:04 Zarządzanie secretami
+- 00:31:03 Free tiery od chmur
+- 00:36:44 Dla kogo biedahosting i kiedy warto
+- 00:40:30 Podsumowanie
+- 00:41:22 Zakończenie odcinka
+links:
+- szkolenia-patoarchitekci
+- continuous-deployment-of-docker-compose-applications-using-g
+- mikrus-serwery-vps-dla-pasjonatow
+- zrobmy-sobie-firme-hostingowa-o-mikrusie-slow-kilka-jakub-mr
+- klaster-k8s-na-raspberry-pi-czyli-k3s-na-nowo
+- distributed-hybrid-or-multicloud-cluster-k3s
+- caddy-the-ultimate-server-with-automatic-https
+- traefik-docker-documentation-traefik
+- create-a-cloudflare-tunnel-cloudflare-learning-paths
+- github-rclone-rclone-rsync-for-cloud-storage-google-drive-s3
+- bezpieczne-przechowywanie-danych-z-r2
+- low-cost-high-performance-s3-compatible-object-storage
+- 1password-cli-1password-developer
+- load-secrets-into-the-environment-1password-developer
+- load-secrets-into-config-files-1password-developer
+- load-secrets-into-scripts-1password-developer
+- access-cloud-services-for-free
+- selfh-st-self-hosted-content-and-software
+- nextcloud-open-source-content-collaboration-platform
+ids:
+  youtube: bgRKhEk7m34
+  spotify: 765TPYveQUm9OhMEuIJFeO

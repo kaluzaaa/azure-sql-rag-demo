@@ -1,0 +1,26 @@
+url: https://patoarchitekci.io/szkolenia
+title: Szkolenia Patoarchitekci
+author: Patoarchitekci
+created: 2024-05-30
+tldr:
+- Patoarchitekci oferują praktyczne szkolenia technologiczne otwarte oraz dedykowane dla firm.
+- Tematy obejmują architekturę oprogramowania, Agentic AI, Model Context Protocol, Grafanę, Prometheus,
+  eBPF, Kubernetes, Azure, GitHub Actions i modelowanie danych.
+- Architektura 101 jest zaplanowana na 17, 18, 24 i 25 listopada 2026; kosztuje 3799,99 zł. Agentic AI
+  the Hard Way odbędzie się 3 grudnia 2026 i kosztuje 1999 zł.
+- Prowadzącymi są Łukasz Kałużny i Szymon Warda; wiele pozostałych szkoleń ma termin określony jako „Nowy
+  termin w drodze”.
+- Strona przedstawia opinie uczestników, firmy, które korzystały ze szkoleń, oraz kontakt w sprawie szkoleń
+  firmowych.
+tags:
+- software-architecture
+- agentic-ai
+- model-context-protocol
+- grafana
+- prometheus
+- ebpf
+- kubernetes
+- azure
+- github-actions
+- observability
+- technical-training

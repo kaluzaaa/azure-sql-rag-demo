@@ -1,0 +1,20 @@
+url: https://radar.allegro.tech
+title: Allegro Technology Radar
+created: 2025-11-04
+tldr:
+- 'Allegro Technology Radar klasyfikuje technologie w czterech obszarach: języki, frameworki i narzędzia,
+  bazy danych i infrastruktura oraz techniki i narzędzia.'
+- 'Każda technologia trafia do jednego z poziomów: Adopt, Trial, Assess lub Hold.'
+- Wśród języków w Adopt są Java, Kotlin, Python, Scala i TypeScript; Go znajduje się w Trial.
+- Kafka, Kubernetes, PostgreSQL i MongoDB są w Adopt, a Redis i Vertex AI w Trial.
+- GitHub Copilot i OpenAPI są w Adopt, natomiast Cursor (AI Code Editor) w Hold.
+tags:
+- technology-radar
+- allegro
+- kafka
+- kubernetes
+- postgresql
+- vertex-ai
+- github-copilot
+- openapi
+- technology-adoption

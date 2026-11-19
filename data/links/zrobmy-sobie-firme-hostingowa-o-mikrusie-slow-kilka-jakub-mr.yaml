@@ -1,0 +1,28 @@
+url: https://www.youtube.com/watch?v=8S8aLNgShAE&ab_channel=Jesie%C5%84Linuksowa
+title: Zróbmy sobie firmę hostingową! - o Mikrusie słów kilka – Jakub Mrugalski - Jesień Linuksowa 2024
+author: Jakub Mrugalski
+created: 2025-05-22
+tldr:
+- Mikrus zaczął jako projekt edukacyjny oferujący konta shellowe, a w 2014 roku udostępniał VPS-y z 32
+  MB RAM, na których użytkownicy uczyli się optymalizować usługi, np. WordPressa.
+- Niskie ceny osiągnięto m.in. przez overselling zasobów, użycie IPv6 ze współdzielonym IPv4 przez NAT
+  oraz ograniczanie zapotrzebowania VPS-ów na RAM i dysk.
+- Infrastruktura korzysta z Proxmox i LXC; VDO kompresuje i deduplikuje dane. W przykładzie 178 VPS-ów
+  zajmowało 77 GB, a oszczędność miejsca wynosiła około 85%.
+- Usługi takie jak bazy danych, hosting WWW i wybrane aplikacje są przenoszone na współdzielone lub zewnętrzne
+  maszyny, by odciążyć VPS-y; Cytrus zapewnia m.in. reverse proxy i obsługę PHP.
+- Zabezpieczenia obejmują pułapki z Canary tokens, blokowanie podejrzanych adresów i krajów, kontrolę
+  haseł oraz audyt haseł użytkowników.
+- Mikrus jest przedstawiany jako środowisko do nauki i developmentu, a nie produkcyjne; prelekcja omawia
+  też koszty, decyzje technologiczne i problemy operacyjne.
+tags:
+- mikrus
+- vps-hosting
+- proxmox
+- lxc
+- vdo
+- ipv6
+- cloudflare
+- reverse-proxy
+- linux
+- server-security

@@ -1,0 +1,26 @@
+url: https://www.rabbitmq.com
+title: RabbitMQ
+created: 2025-04-18
+tldr:
+- RabbitMQ to open-source’owy broker wiadomości i streamingu do komunikacji między aplikacjami, w tym
+  mikrousługami, systemami IoT i usługami działającymi w czasie rzeczywistym.
+- Obsługuje otwarte protokoły, m.in. AMQP 1.0 i MQTT 5.0, oraz oferuje biblioteki klienckie dla wielu
+  języków programowania.
+- Routing, filtrowanie, streamy, federation i shovels pozwalają dostosować przepływ wiadomości i łączyć
+  wdrożenia.
+- Potwierdzenia dostarczenia i quorum queues wspierają niezawodność; classic queues mogą zapewnić niższe
+  latency kosztem mniejszego bezpieczeństwa.
+- Strona przedstawia zastosowania takie jak odsprzęganie usług, RPC, streaming i IoT; RabbitMQ jest dostępny
+  na licencji MPL 2.0.
+- Wersja komercyjna Tanzu RabbitMQ od Broadcom obejmuje m.in. całodobowe wsparcie ekspertów, dłuższy cykl
+  życia i disaster recovery.
+tags:
+- rabbitmq
+- message-broker
+- amqp
+- mqtt
+- message-queues
+- streaming
+- rpc
+- iot
+- distributed-systems

@@ -1,0 +1,20 @@
+url: https://goharbor.io
+title: Harbor
+created: 2025-07-24
+tldr:
+- Harbor to open source’owy registry do bezpiecznego zarządzania artefaktami w środowiskach cloud native.
+- Stosuje polityki i role-based access control, skanuje obrazy pod kątem podatności oraz umożliwia ich
+  podpisywanie i walidację.
+- Oferuje obsługę wielu tenantów, extensible API i web UI, integrację tożsamości oraz replikację między
+  registry.
+- Można go zainstalować w środowisku Kubernetes lub w systemie obsługującym Docker. Projekt CNCF ma status
+  Graduated.
+tags:
+- harbor
+- container-registry
+- kubernetes
+- docker
+- vulnerability-scanning
+- image-signing
+- rbac
+- container-security

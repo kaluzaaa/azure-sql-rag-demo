@@ -1,0 +1,29 @@
+url: https://blog.allegro.tech
+title: Blog - Allegro Tech
+author: Cezary Sanecki
+created: 2025-11-04
+tldr:
+- Zestaw wpisów technicznych Allegro z 2026 roku obejmuje m.in. wyszukiwanie, architekturę, frontend,
+  Androida, testowanie i AI.
+- Wpis z 20 sierpnia dotyczy automatyzacji oceny trafności wyszukiwania z użyciem LLM-as-a-Judge.
+- AI agents skróciły migrację 500 modułów Gradle z Koin do Hilt z około tygodnia do mniej niż dwóch dni
+  na moduł.
+- Commander pozwala przeszukiwać ponad 150 000 encji Backstage; wykorzystuje TypeScript, Zod i cache po
+  stronie klienta.
+- Wpis o Spec-Driven Development wskazuje, że podejście specyfikacyjne ma ograniczać dług techniczny,
+  niespójność architektury i rozchodzenie się implementacji z intencją.
+- Pozostałe przykłady obejmują powrót części obciążeń z chmury do centrum danych, niezależne wdrożenia
+  micro-frontendów i zarządzanie testami w Jira.
+tags:
+- llm-as-a-judge
+- search-relevance
+- gradle
+- koin
+- hilt
+- android
+- backstage
+- spec-driven-development
+- micro-frontends
+- jira
+- testing
+- cloud

@@ -1,0 +1,29 @@
+url: https://www.infoq.com/articles/java-trends-report-2025
+title: InfoQ Java Trends Report 2025
+created: 2026-02-17
+tldr:
+- 'Java rozwija się jako platforma dla AI i modernizacji systemów: raport wskazuje rosnącą adopcję narzędzi
+  AI na JVM oraz aktualizację starszych aplikacji.'
+- Java 25 wyznacza nowoczesną bazę dla ekosystemu; nowe wydanie LTS poprawia czytelność, współbieżność
+  i wydajność, a frameworki standaryzują się na Java 17+.
+- Embabel, Koog, Spring AI i LangChain4j zwiększają możliwości tworzenia aplikacji AI i agentów na JVM;
+  Spring AI 1.0 obsługuje 20 modeli oraz MCP.
+- OpenRewrite zyskuje na znaczeniu w automatyzacji modernizacji, m.in. migracji przestrzeni nazw z javax
+  do jakarta.
+- Jakarta EE 11 przechodzi do kategorii wczesnych użytkowników, a prace nad Jakarta EE 12 obejmują 24
+  specyfikacje; premiera jest planowana na lipiec 2026.
+- GraalPy i GraalWasm zostały uznane za stabilne i odpowiednie do obciążeń produkcyjnych wraz z GraalVM
+  dla JDK 23.
+- Przedsiębiorstwa coraz częściej rozważają wdrożenia hybrydowe, regionalne lub on-prem, a zaangażowanie
+  społeczności Java rośnie.
+tags:
+- java-25
+- spring-ai
+- langchain4j
+- openrewrite
+- jakarta-ee
+- embabel
+- koog
+- mcp-java-sdk
+- graalvm
+- jvm

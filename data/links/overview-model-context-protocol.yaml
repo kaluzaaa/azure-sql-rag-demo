@@ -1,0 +1,25 @@
+url: https://modelcontextprotocol.io/specification/2025-06-18/basic
+title: Overview - Model Context Protocol
+created: 2025-09-26
+tldr:
+- MCP składa się z Base Protocol, zarządzania cyklem życia, autoryzacji, funkcji serwera i klienta oraz
+  utilities; każda implementacja MUST obsługiwać Base Protocol i zarządzanie cyklem życia.
+- 'Wiadomości MCP używają JSON-RPC 2.0: żądania mają niepuste ID, odpowiedzi towarzyszące żądaniom muszą
+  mieć to samo ID, a powiadomienia nie mają ID ani odpowiedzi.'
+- Odpowiedź JSON-RPC MUST zawierać `result` albo `error`, ale nie oba; błędy wymagają całkowitego kodu
+  i komunikatu.
+- Implementacje korzystające z transportu HTTP SHOULD stosować framework autoryzacji MCP; przy transporcie
+  STDIO SHOULD NOT go stosować i zamiast tego pobierać credentials ze środowiska.
+- TypeScript schema jest źródłem prawdy dla struktur protokołu, a JSON Schema jest z niej automatycznie
+  generowany.
+- MCP rezerwuje `_meta` na dodatkowe metadane; niektóre prefiksy, m.in. zawierające `modelcontextprotocol`
+  lub `mcp`, są zarezerwowane do użytku protokołu.
+tags:
+- model-context-protocol
+- json-rpc
+- typescript-schema
+- json-schema
+- mcp-authorization
+- stdio-transport
+- http-transport
+- protocol-design

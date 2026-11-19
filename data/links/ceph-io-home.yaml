@@ -1,0 +1,14 @@
+url: https://ceph.io/en
+title: Ceph.io — Home
+created: 2025-04-18
+tldr:
+- Ceph to otwartoźródłowy, rozproszony system storage.
+- Jeden klaster Ceph zapewnia interfejsy object, block i file storage.
+- Klaster można zbudować z komponentów commodity hardware.
+- Strona udostępnia linki do wdrożenia i zarządzania klastrem, dokumentacji oraz materiałów dla developerów.
+tags:
+- ceph
+- distributed-storage
+- object-storage
+- block-storage
+- file-storage

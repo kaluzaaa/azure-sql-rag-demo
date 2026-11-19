@@ -1,0 +1,26 @@
+url: https://patoarchitekci.io/121
+title: '#121 Wdrożenie metryk DORA w praktyce z Kingą Gaździńską'
+author: Patoarchitekci
+created: 2025-10-06
+tldr:
+- Kinga Gaździńska opowiada o wdrożeniu metryk DORA w Grupie Pracuj i wykorzystaniu ich do wskazywania
+  obszarów, które warto usprawnić.
+- Cztery metryki DORA to Lead Time for Changes, Deployment Frequency, Change Failed Percentage i Failed
+  Deployment Recovery Time.
+- Celem było przyspieszenie developmentu, porównanie wyników z branżą oraz mierzenie wpływu planowanych
+  zmian narzędzi CI/CD i środowiska on-premises.
+- Same metryki nie przyspieszają pracy — pomagają ustalić, w których obszarach procesu dostarczania oprogramowania
+  szukać przyczyn problemów.
+- Wdrożenie rozpoczęto od ankiety opartej na szacunkach zespołu i mapowania procesu; istniejąca platforma
+  developerska oraz integracje API GitHuba, TeamCity i Octopusa ułatwiły zbieranie danych.
+tags:
+- dora-metrics
+- devops
+- lead-time-for-changes
+- deployment-frequency
+- ci-cd
+- teamcity
+- octopus-deploy
+- github
+- developer-platform
+- platform-engineering

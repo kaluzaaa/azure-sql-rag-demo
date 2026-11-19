@@ -1,0 +1,25 @@
+url: https://www.cncf.io/blog/2025/02/26/kubescape-becomes-a-cncf-incubating-project
+title: Kubescape becomes a CNCF incubating project
+created: 2025-04-02
+tldr:
+- CNCF TOC przyjął Kubescape jako projekt incubating; wcześniej projekt należał do CNCF Sandbox od listopada
+  2022.
+- 'Kubescape to open-source’owe narzędzie do bezpieczeństwa Kubernetes: skanuje konfiguracje i podatności,
+  rekomenduje hardening oraz wykrywa anomalie z użyciem eBPF.'
+- Projekt udostępnia CLI do ręcznego skanowania i integracji CI/CD oraz operator Kubernetes monitorujący
+  klaster.
+- Kubescape obsługuje m.in. MITRE ATT&CK, Kubernetes CIS Benchmark i przewodnik CISA-NSA; integruje się
+  z OPA, Inspektor Gadget, ArgoCD, Prometheus i Headlamp.
+- Wśród wymienionych zastosowań są security prioritization w Intel, materiały edukacyjne AWS oraz poprawa
+  bezpieczeństwa Helm charts w Bitnami.
+- Podane kamienie milowe projektu to 10,4 tys. GitHub stars, 4385 pull requestów, 723 issues, 794 contributorów
+  i 1207 forków.
+tags:
+- kubescape
+- kubernetes-security
+- ebpf
+- kubernetes
+- open-policy-agent
+- mitre-att-ck
+- ci-cd
+- cncf

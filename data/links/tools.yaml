@@ -1,0 +1,24 @@
+url: https://modelcontextprotocol.io/specification/2025-06-18/server/tools
+title: Tools
+created: 2025-09-26
+tldr:
+- MCP pozwala serwerom udostępniać narzędzia, które modele mogą odkrywać i wywoływać; specyfikacja zaleca
+  zachowanie udziału człowieka przy wywołaniach.
+- Serwer obsługujący narzędzia musi deklarować capability `tools`; klient pobiera listę przez `tools/list`,
+  a narzędzie wywołuje przez `tools/call`.
+- Definicja narzędzia zawiera nazwę, opis i `inputSchema`; opcjonalne `outputSchema` określa strukturę
+  wyniku, którą serwer musi spełnić.
+- Wyniki mogą zawierać treść tekstową, obrazy, audio, linki do Resources, osadzone Resources lub obiekt
+  `structuredContent`.
+- 'Błędy JSON-RPC dotyczą m.in. nieznanych narzędzi i niepoprawnych argumentów; błędy wykonania narzędzia
+  są zwracane w wyniku z `isError: true`.'
+- Serwery muszą walidować wejście, kontrolować dostęp, ograniczać częstotliwość wywołań i oczyszczać wyniki;
+  klienci powinni pokazywać użytkownikowi wejście i prosić o potwierdzenie wrażliwych działań.
+tags:
+- model-context-protocol
+- mcp-tools
+- json-rpc
+- tool-calling
+- json-schema
+- structured-content
+- api-security

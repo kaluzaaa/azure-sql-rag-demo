@@ -1,0 +1,18 @@
+url: https://modelcontextprotocol.io/examples
+title: Example Servers - Model Context Protocol
+created: 2025-09-26
+tldr:
+- Oficjalne serwery referencyjne MCP pokazują obsługę prompts, resources i tools oraz dostęp do plików,
+  Git, pamięci, czasu i treści WWW.
+- Lista obejmuje serwery Everything, Fetch, Filesystem, Git, Memory, Sequential Thinking i Time.
+- Serwery TypeScript można uruchamiać przez npx, a serwery Python przez uvx lub pip.
+- Strona pokazuje konfigurację serwerów MCP w Claude, w tym ustawienia poleceń, argumentów i tokenu GitHub.
+tags:
+- model-context-protocol
+- mcp-servers
+- filesystem-server
+- git-server
+- memory-server
+- claude
+- npx
+- uvx

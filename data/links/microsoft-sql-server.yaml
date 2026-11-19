@@ -1,0 +1,25 @@
+url: https://www.microsoft.com/en-us/sql-server
+title: Microsoft SQL Server
+created: 2025-04-18
+tldr:
+- SQL Server 2025 to baza danych dla przedsiębiorstw z wbudowanymi funkcjami AI oraz naciskiem na bezpieczeństwo,
+  wydajność i dostępność.
+- Funkcje AI obejmują wyszukiwanie semantyczne, integrację z modelami AI i embeddings wektorowe; wspierane
+  są LangChain, Semantic Kernel i Entity Framework Core.
+- Ulepszenia dla programistów obejmują natywny typ JSON, indeksy i funkcje JSON, obsługę REST, RegEx oraz
+  strumieniowanie zdarzeń zmian.
+- Integracja z Azure obejmuje zarządzanie przez Azure Arc, replikację danych do Microsoft OneLake w Fabric
+  oraz odzyskiwanie po awarii i skalowanie odczytu do Azure SQL.
+- Developer edition jest bezpłatna do użytku nieprodukcyjnego, a bezpłatna Express edition obsługuje bazy
+  danych do 50 GB.
+- Enterprise edition jest przeznaczona do krytycznych obciążeń Tier 1; Standard oferuje funkcje dla aplikacji
+  średniej skali.
+tags:
+- sql-server-2025
+- sql-server
+- vector-embeddings
+- semantic-search
+- azure-arc
+- microsoft-onelake
+- langchain
+- entity-framework-core

@@ -1,0 +1,24 @@
+url: https://opentelemetry.io/docs/collector
+title: Collector
+created: 2025-10-02
+tldr:
+- OpenTelemetry Collector to neutralne względem dostawcy rozwiązanie do odbierania, przetwarzania i eksportowania
+  danych telemetrycznych.
+- Collector obsługuje traces, metrics i logs oraz może działać jako agent lub centralny collector, ograniczając
+  potrzebę utrzymywania wielu narzędzi.
+- Uruchomienie Collectora obok usług pozwala szybciej przekazywać dane i obsługiwać retry, batching, szyfrowanie
+  oraz filtrowanie wrażliwych danych.
+- Collector wspiera popularne protokoły i formaty, w tym OTLP, Jaeger, Prometheus i Fluent Bit, oraz wysyłanie
+  danych do wielu backendów.
+- Status Collectora jest określony jako mixed, ponieważ jego główne komponenty mają różne poziomy stabilności.
+- Dokumentacja zawiera instrukcje instalacji, wdrażania, konfiguracji, zarządzania, skalowania, rozszerzania
+  i rozwiązywania problemów.
+tags:
+- opentelemetry-collector
+- opentelemetry
+- otlp
+- telemetry
+- observability
+- distributed-tracing
+- metrics
+- logging

@@ -1,0 +1,24 @@
+url: https://pl.wikipedia.org/wiki/Metoda_5_why
+title: Metoda 5 why
+author: Współtwórcy projektów Fundacji Wikimedia
+created: 2025-10-16
+tldr:
+- Metoda 5 Whys wykrywa podstawową przyczynę problemu przez wielokrotne zadawanie pytania „Dlaczego?”.
+- Metodę stworzył Sakichi Toyoda; rozwinęła ją Toyota, a Taiichi Ohno opisywał ją jako element naukowego
+  podejścia do rozwiązywania problemów.
+- Analizę prowadzi się krok po kroku, odróżniając przyczyny od objawów i szukając przyczyn w procesach,
+  nie w ludziach.
+- Pytania zadaje się do ustalenia przyczyny, której eliminacja zapobiegnie ponownemu wystąpieniu błędu;
+  pomocne są zaangażowana grupa i atmosfera zaufania.
+- Przykład prowadzi od śliskiej podłogi i wycieku oleju do zużytej osłonki złączki oraz wskazuje na potrzebę
+  przeglądów prewencyjnych.
+- Metoda jest prosta, nie wymaga specjalistycznego przygotowania i wspiera analityczne myślenie; jest
+  wykorzystywana jako element Kaizen.
+tags:
+- 5-whys
+- root-cause-analysis
+- kaizen
+- toyota-production-system
+- lean-management
+- quality-management
+- problem-solving

@@ -1,0 +1,42 @@
+episode_number: 148
+title: 'Short #70: Kubernetes Security, Region Cloud Disaster, Loki Update, IaC Report, Manager Types'
+date: 2025-04-04
+tags:
+- Short
+- Kubernetes
+- Security
+- Infrastructure as Code
+- Monitoring
+- Loki
+chapters:
+- 00:00:00 Intro
+- 00:00:58 Kubescape - narzędzie do bezpieczeństwa Kubernetesa
+- 00:04:59 Problem bezpieczeństwa w narzędziach
+- 00:06:24 Strategie odzyskiwania po awarii w chmurze
+- 00:09:32 OpenSearch vs Elastic
+- 00:11:44 OpenAI i amerykański plan działania dla AI
+- 00:13:32 Grafana Loki 3.4 i jego nowości
+- 00:16:31 Raport The State of Infrastructure-as-Code
+- 00:21:38 Problem z .Net Aspire
+- 00:23:47 Przedwczesna optymalizacja w programowaniu
+- 00:27:43 Manager Anti-Patterns
+- 00:30:50 Raport o testach OWASP Top Ten
+- 00:32:02 Multi-node cluster w środowiskach deweloperskich
+links:
+- rekrutacja-cloud-devops-engineer-w-protopia-patoarchitekci
+- kubescape-becomes-a-cncf-incubating-project
+- what-happens-when-an-azure-region-is-destroyed
+- report-opensearch-bests-elasticsearch-at-vector-modeling
+- openais-proposals-for-the-u-s-ai-action-plan
+- grafana-loki-3-4-standardized-storage-config-sizing-guidance
+- the-maturing-state-of-infrastructure-as-code-in-2025
+- aspire
+- premature-optimization
+- xkcd-is-it-worth-the-time
+- manager-antipatterns
+- veracode-reveals-half-of-organizations-burdened-by-critical
+- docker-desktop-update-version-4-38-0-with-kubernetes-multi-n
+- kind
+ids:
+  youtube: hky49H8Ny0g
+  spotify: 2GUP0qEjXlDULFTCEdvisn

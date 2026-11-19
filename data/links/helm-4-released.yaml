@@ -1,0 +1,22 @@
+url: https://helm.sh/blog/helm-4-released
+title: Helm 4 Released
+author: Matt Farina
+created: 2025-12-04
+tldr:
+- Helm v4.0.0 został wydany 12 listopada jako pierwsza nowa wersja główna Helm od 6 lat.
+- Helm 4 wprowadza przeprojektowany system pluginów z obsługą WebAssembly; post-renderery są teraz pluginami.
+- Nowości obejmują server-side apply, lepsze obserwowanie zasobów oparte na kstatus oraz lokalne cache
+  oparte na zawartości.
+- Dodano logowanie przez slog, odtwarzalne i idempotentne archiwa chartów oraz aktualizacje SDK, w tym
+  obsługę wielu wersji API chartów.
+- Helm v3 będzie otrzymywać poprawki błędów do 8 lipca 2026 i poprawki bezpieczeństwa do 11 listopada
+  2026; poza aktualizacjami bibliotek klienta Kubernetes nie będą backportowane funkcje.
+tags:
+- helm-4
+- helm
+- kubernetes
+- helm-charts
+- webassembly
+- server-side-apply
+- kstatus
+- slog

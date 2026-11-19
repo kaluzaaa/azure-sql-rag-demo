@@ -1,0 +1,25 @@
+url: https://kaluzny.io/moj-setup-mcp-realnie-dzialajacy-w-2025
+title: Mój setup MCP - realnie działający w 2025
+author: Łukasz Kałużny
+created: 2025-09-26
+tldr:
+- Autor korzysta z ograniczonego zestawu MCP, które sprawdzają się w codziennej pracy, i ostrzega przed
+  niesprawdzonymi serwerami ze względu na ryzyko kradzieży tokenów i podatności.
+- W jego setupie są Claude Desktop i Claude Code, ChatGPT jako wyszukiwarka oraz GitHub Copilot; używa
+  m.in. Filesystem, Context7, Terraform, Browser, Sequential Thinking, Microsoft Learn Docs i Azure MCP.
+- 'Wspomina CVE-2025-6514 w mcp-remote: podatność o CVSS 9.6 umożliwiała złośliwemu serwerowi wykonanie
+  spreparowanego URL jako komendy systemowej; dotyczyła wersji 0.0.5–0.1.15, a poprawka pojawiła się w
+  0.1.16.'
+- Autor stworzył też własne serwery MCP do obsługi podcastu i newslettera, M365 oraz ClickUp.
+- 'MCP może służyć jako szybki klej do jednorazowych zadań: migracja odcinków podcastu z Markdown do Airtable
+  zajęła około 10 minut na stworzenie serwera i 5 minut na testy oraz prompt.'
+tags:
+- model-context-protocol
+- mcp-security
+- claude-code
+- claude-desktop
+- context7
+- terraform-mcp
+- azure-mcp
+- microsoft-365
+- airtable

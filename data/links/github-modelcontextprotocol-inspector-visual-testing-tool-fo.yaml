@@ -1,0 +1,25 @@
+url: https://github.com/modelcontextprotocol/inspector
+title: 'GitHub - modelcontextprotocol/inspector: Visual testing tool for MCP servers'
+author: modelcontextprotocol
+created: 2025-09-26
+tldr:
+- MCP Inspector to narzędzie dla programistów do inspekcji serwerów Model Context Protocol przez interfejs
+  Web, CLI i TUI, udostępniane jako pakiet `@modelcontextprotocol/inspector`.
+- Wszystkie trzy tryby uruchamia binarka `mcp-inspector`; web używa Vite, React i Mantine, a TUI — Ink.
+- Do developmentu wymagany jest Node `>=22.19.0`; repozytorium udostępnia skrypty build, walidacji, coverage
+  i lokalnej bramki jakości.
+- Aktywna linia v2 rozwijana jest na `v2/main`; `main` przechowuje najnowsze wydanie v2, a v1 otrzymuje
+  tylko poprawki bezpieczeństwa.
+- Jeśli system nie ma keychaina, sekrety domyślnie trafiają do plaintextowego `~/.mcp-inspector/secrets.json`,
+  chyba że podano klucz.
+tags:
+- mcp-inspector
+- model-context-protocol
+- mcp-servers
+- typescript
+- vite
+- react
+- mantine
+- ink
+- cli
+- tui

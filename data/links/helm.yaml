@@ -1,0 +1,18 @@
+url: https://helm.sh
+title: Helm
+created: 2025-12-04
+tldr:
+- Helm zarządza aplikacjami Kubernetes; Helm Charts definiują, instalują i aktualizują aplikacje.
+- Charts można wersjonować, udostępniać i publikować w publicznych lub prywatnych repozytoriach.
+- Helm obsługuje aktualizacje w miejscu, custom hooks i cofanie wdrożeń poleceniem `helm rollback`.
+- Strona informuje, że Helm 4 jest już dostępny, i podaje v4.3.0 jako następne wydanie funkcjonalne.
+- Helm można zainstalować m.in. przez Homebrew, Chocolatey, Scoop lub Snap; wykresy można wyszukiwać w
+  Artifact Hub.
+- Helm jest projektem CNCF o statusie graduated, utrzymywanym przez społeczność.
+tags:
+- helm
+- kubernetes
+- helm-charts
+- artifact-hub
+- cncf
+- cloud-native

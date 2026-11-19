@@ -1,0 +1,25 @@
+url: https://www.malwarebytes.com/blog/threat-intel/2026/01/clawdbots-rename-to-moltbot-sparks-impersonation-campaign
+title: Clawdbot’s rename to Moltbot sparks impersonation campaign
+author: Stefan Dasic
+created: 2026-02-17
+tldr:
+- Po zmianie nazwy Clawdbot na Moltbot pojawiły się podszywające się domeny i sklonowane repozytorium,
+  które mogą przygotowywać grunt pod przyszły atak na łańcuch dostaw.
+- Badane zasoby obejmowały domeny moltbot.you, clawbot.ai i clawdbot.you oraz repozytorium GitHub gstarwd/clawbot.
+- Fałszywa strona przypisywała autorstwo Peterowi Steinbergerowi, kierowała do nieautoryzowanego repozytorium
+  i reklamowała 61 500+ gwiazdek skopiowanych z oryginalnego projektu.
+- Audyt statyczny nie wykrył w sklonowanym kodzie złośliwych skryptów npm, kradzieży danych uwierzytelniających,
+  obfuskacji, cryptominingu ani podejrzanej aktywności sieciowej.
+- Autor ostrzega, że późniejsza aktualizacja przez npm update lub git pull mogłaby dostarczyć złośliwy
+  payload do zaufanej instalacji i przejąć klucze API, tokeny oraz dane rozmów.
+- Użytkownikom zalecono sprawdzanie właściciela organizacji GitHub i korzystanie z zapisanych oficjalnych
+  repozytoriów; maintainerzy powinni monitorować typosquatting i koordynować zmianę nazw.
+tags:
+- moltbot
+- clawdbot
+- supply-chain-attack
+- typosquatting
+- github
+- npm
+- open-source-security
+- impersonation

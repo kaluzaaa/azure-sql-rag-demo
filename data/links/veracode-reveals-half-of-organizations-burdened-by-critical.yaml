@@ -1,0 +1,25 @@
+url: https://www.veracode.com/press-release/veracode-reveals-half-of-organizations-burdened-by-critical-security-debt
+title: Veracode Reveals Half of Organizations Burdened by Critical Security Debt, with 70% Stemming from
+  Third-party Code and the Software Supply Chain
+created: 2025-04-02
+tldr:
+- Raport Veracode State of Software Security 2025 wskazuje, że połowa organizacji ma krytyczny security
+  debt, a 70% tego długu pochodzi z kodu stron trzecich i łańcucha dostaw oprogramowania.
+- Średni czas naprawy podatności wzrósł w ciągu pięciu lat z 171 do 252 dni, czyli o 47%; usuwanie usterek
+  trwa teraz średnio 8,5 miesiąca.
+- Badanie objęło 1,3 mln aplikacji i 126,4 mln ustaleń; krytyczny security debt oznacza usterki pozostawione
+  bez naprawy przez ponad rok.
+- Pięć wskaźników do oceny dojrzałości bezpieczeństwa to częstość występowania usterek, zdolność ich naprawiania,
+  szybkość napraw, rozpowszechnienie security debt i dług w open source.
+- Odsetek aplikacji przechodzących OWASP Top 10 wzrósł o 63% w ciągu pięciu lat; raport wiąże poprawę
+  m.in. z nowymi regulacjami cyberbezpieczeństwa.
+tags:
+- veracode
+- security-debt
+- software-supply-chain
+- application-security
+- software-security
+- software-composition-analysis
+- sast
+- dast
+- owasp-top-10

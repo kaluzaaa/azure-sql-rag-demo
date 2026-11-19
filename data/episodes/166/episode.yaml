@@ -1,0 +1,48 @@
+episode_number: 166
+title: 'Platform Engineering: od pytania do strategii w firmie | #Discord'
+date: 2025-10-17
+tags:
+- Platform Engineering
+- GitHub Actions
+- Terraform
+- AWS
+- DevOps
+- Governance
+chapters:
+- 00:00:00 Wprowadzenie do problemu braku standaryzacji i chaosu w infrastrukturze
+- 00:03:16 Identyfikacja rzeczywistych problemów w organizacji
+- 00:08:00 Checklist - inwentaryzacja stanu obecnego i reality check
+- 00:12:00 Gotowość organizacji do zmian
+- 00:13:40 Business impact i koszty wdrażania standardów
+- 00:15:21 Finansowanie i wielkość platform teamu
+- 00:19:25 Kryteria sukcesu i mierzenie efektywności platformy
+- 00:20:47 Product management dla platformy i potrzeby użytkowników
+- 00:22:15 Kiedy olać platformę - red flagi
+- 00:25:45 Strategia pokazywania wartości i pit of success
+- 00:27:52 Czy potrzebujecie platformy - analiza przypadku
+- 00:28:58 Metody zbierania informacji od zespołów
+- 00:30:46 Problem z Terraformem i syndrom not invented here
+- '00:32:57 Plan działania - krok 1: sprzątanie AWS Organization'
+- '00:34:59 Krok 2: budowanie wspólnych modułów i rejestru'
+- 00:36:50 Strategia wdrażania modułów i pokazywania wartości
+- '00:39:47 Krok 3: GitHub Actions jako platform interface'
+- '00:41:47 Krok 4: mierzenie i iteracja'
+- 00:43:15 Metryki do mierzenia sukcesu platformy
+- 00:45:51 Jak robić standardy - konstytucja i ustawy
+- 00:48:20 Ownership i zaangażowanie zespołów
+- 00:48:28 Czego nie robić - kluczowe błędy
+- 00:50:20 Anty-wzorce organizacyjne
+- 00:51:13 Podsumowanie
+links:
+- metoda-5-why
+- google-sre-site-reliability-engineering-book-google-index
+- what-processes-should-i-automate-to-boost-business-efficienc
+- dora
+- use-four-keys-metrics-like-change-failure-rate-to-measure-yo
+- 121-wdrozenie-metryk-dora-w-praktyce-z-kinga-gazdzinska
+- 91-2023-state-of-devops-report
+- backstage
+- youtube
+ids:
+  youtube: ReAuQovGmvc
+  spotify: 3em8zkvA8YZNHn4Olhm66I

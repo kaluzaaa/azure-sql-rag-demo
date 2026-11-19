@@ -1,0 +1,28 @@
+url: https://github.com/HolmesGPT/holmesgpt
+title: 'GitHub - HolmesGPT/holmesgpt: Your 24/7 On-Call AI Agent - Solve Alerts Faster with Automatic
+  Correlations, Investigations, and More'
+author: HolmesGPT
+created: 2026-02-17
+tldr:
+- HolmesGPT to open-source agent SRE, który analizuje bieżące dane obserwowalności, bada incydenty produkcyjne
+  i pomaga ustalać ich przyczyny źródłowe.
+- Tryb Operator działa w tle 24/7, wykrywa problemy i wysyła informacje o nich na Slack; integracja z
+  GitHubem może otwierać PR-y z poprawkami.
+- Wbudowane integracje obejmują m.in. Prometheus, Grafana, Datadog, Kubernetes, AWS, Azure, GitHub i Jira;
+  można też podłączać własne toolsety i dowolne REST API.
+- Projekt obsługuje dostawców LLM, takich jak OpenAI, Anthropic, Azure, Bedrock i Gemini.
+- HolmesGPT działa na Kubernetes, maszynach wirtualnych, bare metal, w chmurze i kontenerach; Kubernetes
+  nie jest wymagany.
+- Mechanizmy filtrowania po stronie serwera, limitów pamięci i budżetowania wyników mają ograniczać zużycie
+  kontekstu i ryzyko OOM przy dużych zbiorach danych. Jest to projekt CNCF Sandbox.
+tags:
+- holmesgpt
+- sre-agent
+- incident-response
+- observability
+- aiops
+- kubernetes
+- prometheus
+- datadog
+- llm-agent
+- cncf

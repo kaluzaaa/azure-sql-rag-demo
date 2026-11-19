@@ -1,0 +1,25 @@
+url: https://nextcloud.com
+title: Nextcloud - Open source content collaboration platform
+created: 2025-05-22
+tldr:
+- Nextcloud to otwartoźródłowa, self-hosted platforma do przechowywania plików i współpracy, która pozwala
+  organizacjom zachować kontrolę nad danymi.
+- Nextcloud Hub łączy Files, Talk, Groupware, Office, Assistant i Flow w jednej platformie do współpracy.
+- Nextcloud podaje, że ma ponad 400 tys. wdrożeń; skala obejmuje instalacje od Raspberry Pi dla 2 osób
+  po systemy obsługujące dziesiątki milionów użytkowników.
+- Platforma oferuje synchronizację plików, czat i wideokonferencje, pocztę, kalendarz, edycję dokumentów,
+  lokalnego asystenta AI oraz automatyzację workflow.
+- Strona podkreśla kontrolę dostępu do danych, ochronę prywatności, audyt i funkcje zgodności, w tym egzekwowanie
+  polityk danych i szyfrowanie.
+tags:
+- nextcloud
+- nextcloud-hub
+- self-hosted
+- content-collaboration
+- cloud-storage
+- file-sync
+- nextcloud-talk
+- nextcloud-office
+- workflow-automation
+- data-sovereignty
+- local-ai

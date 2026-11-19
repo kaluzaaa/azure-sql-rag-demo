@@ -1,0 +1,18 @@
+url: https://www.postgresql.org
+title: 'PostgreSQL: The world''s most advanced open source database'
+created: 2025-04-18
+tldr:
+- PostgreSQL to open-source’owy obiektowo-relacyjny system bazodanowy, rozwijany aktywnie od ponad 35
+  lat, ceniony za niezawodność, funkcjonalność i wydajność.
+- PostgreSQL 19 Beta 4 udostępniono 24 września 2026 r.; społeczność zachęca do testowania, ale odradza
+  używanie wersji beta w produkcji.
+- PostgreSQL 14 przestanie otrzymywać poprawki 12 listopada 2026 r.; strona zaleca zaplanowanie aktualizacji
+  do nowszej, wspieranej wersji.
+- Strona udostępnia oficjalną dokumentację, pliki do pobrania, informacje o wydaniach, listy mailingowe
+  i wydarzenia społeczności.
+tags:
+- postgresql
+- relational-database
+- object-relational-database
+- sql
+- database

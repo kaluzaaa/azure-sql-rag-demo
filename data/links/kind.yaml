@@ -1,0 +1,19 @@
+url: https://kind.sigs.k8s.io
+title: kind
+created: 2025-04-02
+tldr:
+- kind uruchamia lokalne klastry Kubernetes, używając kontenerów Docker jako węzłów.
+- Do instalacji wymagany jest Go 1.17+; strona podaje polecenie `go install sigs.k8s.io/kind@v0.33.0`.
+- Klastry tworzy się poleceniem `kind create cluster`, a usuwa przez `kind delete cluster`.
+- kind obsługuje klastry wielowęzłowe, w tym HA, oraz systemy Linux, macOS i Windows.
+- Węzły są inicjalizowane przez kubeadm; projekt obejmuje pakiety Go, CLI i obrazy kontenerów.
+tags:
+- kind
+- kubernetes
+- kubeadm
+- docker
+- podman
+- nerdctl
+- go
+- local-development
+- ci

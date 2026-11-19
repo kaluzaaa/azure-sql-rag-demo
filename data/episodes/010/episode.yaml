@@ -1,0 +1,28 @@
+episode_number: 10
+title: Service Mesh dla architektów i CTO
+date: 2019-10-18
+tags:
+- Service Mesh
+- Istio
+- Kubernetes
+- Serverless
+- Okiem C-Level
+- Observability
+chapters:
+- 00:00:00 Intro
+- '00:00:37 Newsy: Knative poza CNCF i nieudana migracja banku'
+- 00:04:16 Czym jest Service Mesh i dlaczego zawsze z Kubernetesem
+- 00:06:32 Jak sprzedać Service Mesh CTO — argumenty, ryzyka i kompetencje zespołu
+- 00:11:25 Perspektywa architekta — boilerplate, wiele technologii i języków
+- '00:14:47 Funkcjonalności meshy: circuit breakery, observability i security'
+- 00:19:51 Service Mesh a serverless — porównanie i vendor lock-in
+- '00:21:57 Implementacje: Istio, Linkerd i Consul Connect'
+- 00:27:44 Service Fabric, Service Fabric Mesh i inicjatywa SMI
+- 00:33:02 Dlaczego NIE wchodzić w Service Mesh — ryzyka i przeciwwskazania
+- 00:35:57 Podsumowanie i zakończenie
+links:
+- an-update-on-knative-foundation-status
+- what-broke-the-bank
+ids:
+  youtube: D8723WF3AiM
+  spotify: 7npUvqf1NVXcyj5yOiGPl6

@@ -1,0 +1,22 @@
+url: https://gohugo.io
+title: The world's fastest framework for building websites
+created: 2025-12-19
+tldr:
+- Hugo to open-source static site generator napisany w Go, przeznaczony do szybkiego i elastycznego budowania
+  stron.
+- Projekt jest bezpłatny i udostępniany na licencji Apache 2.0; strona podaje 89 969 gwiazdek na GitHubie
+  według stanu na 2026-09-27.
+- Hugo obsługuje wielojęzyczne strony, system taksonomii i zaawansowane szablony; duże witryny renderuje
+  w sekundy lub krócej.
+- Pipeline zasobów obejmuje przetwarzanie obrazów, bundling JavaScript, Sass i obsługę TailwindCSS.
+- Wbudowany serwer WWW pozwala na bieżąco podglądać zmiany podczas developmentu.
+tags:
+- hugo
+- static-site-generator
+- go
+- tailwindcss
+- sass
+- javascript-bundling
+- image-processing
+- multilingual-sites
+- web-development

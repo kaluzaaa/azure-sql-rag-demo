@@ -1,0 +1,18 @@
+url: https://github.com/kubernetes-sigs/kustomize/blob/master/examples/patchMultipleObjects.md
+title: kustomize/examples/patchMultipleObjects.md at master · kubernetes-sigs/kustomize · GitHub
+created: 2025-12-04
+tldr:
+- Kustomize pozwala jednym patchem modyfikować wiele zasobów Kubernetes, wybieranych za pomocą target
+  selector.
+- Patche mogą używać strategic merge patch lub JSON patch; selektor może uwzględniać m.in. kind, nazwę,
+  namespace, labelSelector i annotationSelector.
+- Przykład dodaje kontener sidecar do wszystkich zasobów Deployment, a następnie pokazuje, jak przez labelSelector=key=value
+  ograniczyć zmianę do deploy2.
+- Pole name w selektorze może przyjmować wyrażenie regularne, np. foo.*.
+tags:
+- kustomize
+- kubernetes
+- strategic-merge-patch
+- json-patch
+- label-selector
+- yaml

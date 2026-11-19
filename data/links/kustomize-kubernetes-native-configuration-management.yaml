@@ -1,0 +1,14 @@
+url: https://kustomize.io
+title: Kustomize - Kubernetes native configuration management
+created: 2025-12-04
+tldr:
+- Kustomize dodaje, usuwa i aktualizuje opcje konfiguracji w manifestach Kubernetes bez forka.
+- Jest dostępny jako samodzielny binary oraz jako natywna funkcja kubectl.
+- Używa deklaratywnego podejścia, a wszystkie wykorzystywane artefakty są zwykłymi plikami YAML.
+- Pozwala zarządzać wieloma odmiennie dostosowanymi konfiguracjami Kubernetes.
+tags:
+- kustomize
+- kubernetes
+- kubectl
+- yaml
+- configuration-management

@@ -1,0 +1,16 @@
+url: https://github.com/kubernetes-sigs/kustomize/blob/master/examples/generatorOptions.md
+title: kustomize/examples/generatorOptions.md at master · kubernetes-sigs/kustomize · GitHub
+created: 2025-12-04
+tldr:
+- Kustomize pozwala konfigurować zachowanie generatorów ConfigMap i Secret za pomocą `generatorOptions`.
+- 'Opcja `disableNameSuffixHash: true` usuwa suffix z hasha z nazw generowanych zasobów.'
+- '`generatorOptions` może dodawać etykiety i adnotacje do generowanych zasobów.'
+- Przykład tworzy ConfigMap `my-configmap` z wartościami `foo=bar` i `baz=qux`, a następnie sprawdza nazwę,
+  etykietę i adnotację po `kustomize build`.
+tags:
+- kustomize
+- configmap-generator
+- secret-generator
+- generator-options
+- kubernetes
+- yaml

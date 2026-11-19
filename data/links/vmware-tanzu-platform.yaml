@@ -1,0 +1,25 @@
+url: https://tanzu.vmware.com
+title: VMware Tanzu Platform
+created: 2025-04-18
+tldr:
+- Tanzu Platform to prywatna platforma PaaS do tworzenia i obsługi aplikacji oraz bezpiecznego wdrażania
+  agentic AI w środowiskach prywatnych, hybrydowych i publicznych.
+- Platforma integruje Spring AI, zarządzanie MCP i kontrolę tożsamości, a także marketplace zatwierdzonych
+  modeli AI, serwerów MCP, umiejętności i usług.
+- Łączy dane wielomodalne w zarządzane produkty danych dostępne dla agentów AI; oferuje też usługi Postgres,
+  MySQL, Valkey i RabbitMQ.
+- Wspiera aplikacje Java i Spring, automatyczne buildy kontenerów z Buildpacks, rotację poświadczeń, łatanie
+  i naprawę CVE w całej flocie.
+- Analiza ESG obejmująca okres 3 lat podaje średnio do 30% krótszy czas developmentu, do 80% niższe koszty
+  zarządzania i 142% zwrotu z inwestycji.
+tags:
+- vmware-tanzu
+- spring-ai
+- mcp
+- agentic-ai
+- platform-as-a-service
+- platform-engineering
+- buildpacks
+- data-products
+- container-security
+- cloud-native

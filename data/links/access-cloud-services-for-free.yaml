@@ -1,0 +1,23 @@
+url: https://www.oracle.com/cloud/free
+title: Access Cloud Services for Free
+created: 2025-05-22
+tldr:
+- Oracle Cloud Free Tier obejmuje US$300 kredytu na maksymalnie 30 dni oraz usługi Always Free dostępne
+  bezterminowo, z zastrzeżeniem limitów.
+- Kredyt można wykorzystać na kwalifikujące się usługi OCI; okres próbny kończy się po upływie 30 dni
+  lub wyczerpaniu kredytu, zależnie od tego, co nastąpi wcześniej.
+- Po okresie próbnym konto nadal ma dostęp do Always Free; po przejściu na Pay As You Go opłaty obejmują
+  użycie przekraczające miesięczne bezpłatne limity.
+- Usługi Always Free obejmują m.in. AMD-based Compute, Arm-based Ampere A1 Compute, Object Storage, Block
+  Volume, Autonomous Database, APEX i Terraform Resource Manager.
+- Do rejestracji wymagane są dane karty kredytowej lub debetowej działającej jak kredytowa; Oracle może
+  założyć tymczasową blokadę autoryzacyjną.
+- Dozwolone jest jedno konto Free Trial lub Always Free na osobę; nieaktywne konta przez co najmniej 30
+  dni mogą zostać uznane za porzucone.
+tags:
+- oracle-cloud
+- oracle-cloud-infrastructure
+- oracle-cloud-free-tier
+- always-free
+- cloud-credits
+- cloud-computing

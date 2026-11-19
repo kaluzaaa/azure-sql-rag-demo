@@ -1,0 +1,21 @@
+url: https://github.com/harvester/harvester
+title: 'GitHub - harvester/harvester: Open source hyperconverged infrastructure (HCI) software'
+created: 2025-04-18
+tldr:
+- Harvester to otwartoźródłowa platforma HCI zbudowana na Kubernetes, łącząca wirtualizację i rozproszony
+  storage na serwerach bare metal.
+- Platforma obsługuje zarządzanie cyklem życia VM, live migration, backup, snapshoty i przywracanie maszyn.
+- Harvester zapewnia rozproszony storage blokowy oraz zarządzanie siecią, w tym VLAN i wiele kart NIC.
+- Integracja z Rancher pozwala zarządzać workloadami VM obok klastrów Kubernetes.
+- Minimalne wymagania produkcyjne obejmują CPU 16-core lub mocniejszy, 64 GB RAM, dysk 500 GB i sieć 10
+  Gbps.
+tags:
+- harvester
+- kubernetes
+- kubevirt
+- longhorn
+- rancher
+- virtualization
+- hyperconverged-infrastructure
+- distributed-storage
+- bare-metal

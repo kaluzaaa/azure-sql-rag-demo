@@ -1,0 +1,26 @@
+url: https://patoarchitekci.io/91
+title: '#91 2023 State of DevOps Report'
+author: Łukasz Kałużny, Szymon Warda
+created: 2025-10-06
+tldr:
+- Raport State of DevOps 2023 wskazuje, że wydajność organizacji wiąże się m.in. ze zdrową kulturą pracy,
+  koncentracją na użytkowniku i sprawną współpracą.
+- Organizacje ze zdrową kulturą pracy osiągają według raportu około 30% wyższą wydajność organizacyjną;
+  kulturę mierzy się m.in. dzieleniem wiedzy, stabilnością i równym rozkładem pracy.
+- Zespoły skoncentrowane na użytkowniku osiągają około 40% wyższą wydajność organizacyjną. Prowadzący
+  zaznaczają, że podejście to może być trudniejsze w projektach B2B i systemach szytych na miarę.
+- Około dwóch trzecich respondentów znalazło się w wysokim lub średnim zakresie DORA metrics; maksymalizowanie
+  tych metryk nie jest konieczne.
+- Szybsze code review skraca pętlę informacji zwrotnej, a lintery i SonarQube mogą ograniczać spory o
+  styl kodowania.
+- Raport podkreśla rolę dokumentacji i Trunk Based Development; w rozmowie przywołano ponad 12-krotny
+  wpływ dobrej dokumentacji na wydajność w tym kontekście.
+tags:
+- dora-metrics
+- trunk-based-development
+- code-review
+- software-documentation
+- user-centricity
+- organizational-culture
+- devops
+- software-architecture

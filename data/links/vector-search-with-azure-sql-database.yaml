@@ -1,0 +1,21 @@
+url: https://devblogs.microsoft.com/azure-sql/vector-search-with-azure-sql-database
+title: Vector Search with Azure SQL Database
+author: Muazma Zahid
+created: 2025-12-19
+tldr:
+- Azure AI Search integrated vectorization automatyzuje dzielenie danych z Azure SQL Database na chunki,
+  tworzenie embeddings i przygotowanie ich do wyszukiwania wektorowego.
+- Przykład wykorzystuje tabelę recenzji produktów Amazon oraz Python notebook; indexer pobiera dane z
+  SQL, a Split Skill i Azure OpenAI Embedding Skill przetwarzają tekst.
+- Indeks przechowuje wektory i tekst chunków wraz z danymi nadrzędnego wiersza, takimi jak Product Id,
+  recenzja, podsumowanie i ocena.
+- Aplikacja wyszukuje najbardziej trafne fragmenty przez Azure AI Search, a Azure OpenAI Completion tworzy
+  odpowiedź na zapytanie użytkownika.
+tags:
+- azure-sql-database
+- azure-ai-search
+- vector-search
+- integrated-vectorization
+- azure-openai
+- retrieval-augmented-generation
+- python

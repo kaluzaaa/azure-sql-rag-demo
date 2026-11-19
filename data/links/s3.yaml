@@ -1,0 +1,24 @@
+url: https://aws.amazon.com/s3
+title: S3
+created: 2025-04-18
+tldr:
+- Amazon S3 to skalowalna usługa object storage do przechowywania, zarządzania, analizowania i ochrony
+  danych w różnych zastosowaniach.
+- S3 deklaruje trwałość danych 99,999999999% i domyślną dostępność 99,99%; oferuje szyfrowanie, kontrolę
+  dostępu i klasy storage optymalizujące koszty.
+- S3 Tables obsługuje Apache Iceberg, a zarządzana usługa automatyzuje m.in. compaction, zarządzanie snapshotami
+  i czyszczenie plików.
+- S3 Express One Zone zapewnia jednocyfrowe opóźnienia w milisekundach i dostęp do danych do 10 razy szybszy
+  niż S3 Standard.
+- S3 Vectors umożliwia przechowywanie i wyszukiwanie wektorów; strona deklaruje redukcję kosztów tych
+  operacji do 90% przy subsecond query performance.
+tags:
+- amazon-s3
+- s3-vectors
+- s3-express-one-zone
+- s3-tables
+- apache-iceberg
+- object-storage
+- data-lake
+- semantic-search
+- generative-ai

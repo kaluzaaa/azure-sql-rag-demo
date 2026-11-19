@@ -1,0 +1,25 @@
+url: https://www.happyscribe.com
+title: AI-Notetaker, Transcription, Subtitles & Translation | HappyScribe
+created: 2025-12-19
+tldr:
+- HappyScribe łączy transkrypcję, napisy i tłumaczenie w ponad 150 językach z AI Notetakerem do spotkań
+  online i stacjonarnych.
+- Notetaker obsługuje Zoom, Google Meet i Microsoft Teams; aplikacja mobilna nagrywa także offline, a
+  nagrywanie z komputera może działać bez bota dołączającego do rozmowy.
+- Platforma tworzy podsumowania, decyzje i zadania z osobami odpowiedzialnymi oraz terminami; AI Chat
+  przeszukuje spotkania i odpowiada, podając cytaty z oznaczeniami czasu.
+- Funkcje obejmują rozpoznawanie mówców, automatyczne wykrywanie języka, glosariusz nazw i terminów oraz
+  integracje przez API, webhooks i MCP.
+- HappyScribe deklaruje certyfikację SOC 2 Type II, zgodność z GDPR, przechowywanie i przetwarzanie danych
+  w UE oraz brak użycia danych do trenowania AI bez zgody.
+tags:
+- ai-meeting-notetaker
+- ai-transcription
+- speech-to-text
+- speaker-diarization
+- meeting-summaries
+- mcp
+- transcription-api
+- multilingual-transcription
+- subtitles
+- meeting-intelligence

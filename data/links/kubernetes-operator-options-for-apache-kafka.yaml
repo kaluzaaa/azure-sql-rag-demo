@@ -1,0 +1,24 @@
+url: https://portworx.com/blog/choosing-the-right-kubernetes-operator-for-apache-kafka
+title: Kubernetes Operator Options for Apache Kafka
+author: Ryan Wallner
+created: 2025-04-18
+tldr:
+- Wybór operatora Kubernetes dla Apache Kafka powinien uwzględniać mocne strony i ograniczenia narzędzi;
+  artykuł zapowiada porównanie Strimzi i Confluent for Kafka.
+- Operatory rozszerzają Kubernetes API o kontrolery zarządzające custom resources i automatyzują cykl
+  życia aplikacji, w tym provisioning, skalowanie oraz backup i restore.
+- Strimzi to projekt open source z operatorami m.in. dla Kafka, ZooKeeper, Kafka Connect, Kafka MirrorMaker
+  i Kafka Exporter.
+- Strimzi jest projektem CNCF w fazie sandbox; oferuje rozbudowaną dokumentację, ale nie ma komercyjnego
+  wsparcia enterprise, a pomoc zapewnia społeczność.
+- Artykuł odnotowuje obawy związane z długim okresem beta Strimzi, ale wskazuje też na jego adopcję przez
+  IBM i Red Hat jako argument za gotowością produkcyjną.
+tags:
+- apache-kafka
+- strimzi
+- confluent-for-kafka
+- kubernetes-operators
+- kafka-connect
+- kafka-mirrormaker
+- zookeeper
+- kubernetes

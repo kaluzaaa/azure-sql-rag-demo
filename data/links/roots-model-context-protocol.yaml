@@ -1,0 +1,19 @@
+url: https://modelcontextprotocol.io/specification/2025-06-18/client/roots
+title: Roots - Model Context Protocol
+created: 2025-09-26
+tldr:
+- MCP roots pozwalają klientom udostępniać serwerom wybrane katalogi i pliki jako granice dostępu do systemu
+  plików.
+- Klient obsługujący roots deklaruje tę capability podczas inicjalizacji; `listChanged` określa, czy wysyła
+  powiadomienia o zmianach listy.
+- Serwer pobiera roots żądaniem JSON-RPC `roots/list`; URI rootu musi być URI `file://`, a czytelna nazwa
+  jest opcjonalna.
+- Po zmianie listy klient z `listChanged` wysyła `notifications/roots/list_changed`.
+- Klienci powinni ograniczać udostępniane roots zgodnie z uprawnieniami, walidować URI i ścieżki oraz
+  kontrolować dostęp; serwery powinny respektować granice rootów.
+tags:
+- model-context-protocol
+- mcp-roots
+- json-rpc
+- filesystem-access
+- protocol-specification

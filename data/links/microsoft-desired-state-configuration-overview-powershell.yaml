@@ -1,0 +1,22 @@
+url: https://learn.microsoft.com/en-us/powershell/dsc/overview
+title: Microsoft Desired State Configuration overview - PowerShell
+created: 2025-04-18
+tldr:
+- DSC v3 to deklaratywna, idempotentna platforma do opisywania i zarządzania stanem systemów; działa w
+  Linux, macOS i Windows bez zewnętrznych zależności.
+- Dokumenty konfiguracji w JSON lub YAML definiują pożądany stan przez instancje zasobów; zasoby udostępniają
+  operacje Get i Test, a większość także Set.
+- DSC nie wymaga PowerShell ani lokalnego Configuration Managera i jest uruchamiane jako polecenie, a
+  nie usługa.
+- DSC obsługuje zasoby PSDSC przez adaptery Microsoft.DSC/PowerShell i Microsoft.Windows/WindowsPowerShell.
+- Zintegrować DSC mogą narzędzia takie jak WinGet, Microsoft Dev Box i Azure Machine Configuration; schematy
+  JSON opisują zasoby, konfiguracje i wyniki.
+tags:
+- powershell-dsc
+- dsc-v3
+- configuration-management
+- desired-state-configuration
+- json
+- yaml
+- winget
+- azure-machine-configuration

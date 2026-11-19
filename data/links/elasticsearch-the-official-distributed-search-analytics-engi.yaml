@@ -1,0 +1,23 @@
+url: https://www.elastic.co/elasticsearch
+title: 'Elasticsearch: The Official Distributed Search & Analytics Engine'
+created: 2025-04-18
+tldr:
+- Elasticsearch to open source’owy, rozproszony silnik wyszukiwania i analityki, który przechowuje w czasie
+  rzeczywistym dane strukturalne, niestrukturalne i wektorowe.
+- Obsługuje full-text, semantic, hybrid i vector search oraz filtrowanie i ranking; wyszukiwanie o milisekundowych
+  opóźnieniach opiera się na Lucene.
+- Platforma obejmuje analitykę czasu rzeczywistego, analizę danych geospatial oraz zastosowania observability
+  i security.
+- Można wdrażać go lokalnie, w Elastic Cloud Hosted na AWS, Google Cloud i Azure lub w modelu serverless.
+- Strona podaje ponad 350 integracji oraz klienty m.in. dla Java, Python, Go, Ruby, Rust, .NET i PHP.
+tags:
+- elasticsearch
+- lucene
+- vector-search
+- hybrid-search
+- semantic-search
+- vector-database
+- elastic-cloud
+- observability
+- security-analytics
+- geospatial

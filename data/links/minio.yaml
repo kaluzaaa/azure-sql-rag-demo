@@ -1,0 +1,24 @@
+url: https://min.io
+title: MinIO
+created: 2025-04-18
+tldr:
+- MinIO pozycjonuje AIStor jako warstwę danych i trwałej pamięci dla firmowych obciążeń AI, agentów, trenowania
+  modeli i inferencji.
+- AIStor Memory zachowuje kontekst, decyzje i wiedzę z interakcji agentów, udostępniając je ponownie w
+  organizacji; strona podkreśla otwarte formaty, governance i audytowalność.
+- AI-Ready Lakehouse ma łączyć dane przedsiębiorstwa w jedną zarządzaną kopię dla analityki, aplikacji
+  AI i agentów.
+- AIStor deklaruje przepustowość do 23,5 TiB/s dla klastrów GPU; strona podaje też P99 poniżej 10 ms dla
+  inferencji z MemKV.
+- Według strony AIStor osiąga 95% wykorzystania GPU, a koszt tokena ma być o 50% niższy niż w alternatywach
+  chmurowych.
+tags:
+- minio
+- aistor
+- aistor-memory
+- memkv
+- ai-agent-memory
+- object-storage
+- data-lakehouse
+- ai-inference
+- gpu-training

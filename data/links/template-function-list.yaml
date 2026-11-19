@@ -1,0 +1,18 @@
+url: https://helm.sh/docs/chart_template_guide/function_list
+title: Template Function List
+created: 2025-12-04
+tldr:
+- Dokumentacja Helm 4.3.0 kataloguje funkcje używane w szablonach, m.in. logiczne, tekstowe, matematyczne,
+  daty, listy i obsługę Kubernetes.
+- Funkcje logiczne obejmują m.in. all, any, and, or, porównania oraz ternary; default zwraca wartość zastępczą,
+  gdy wejście jest puste.
+- Za puste uznawane są m.in. 0, pusty string, lista lub słownik, false i nil; required przerywa renderowanie
+  z podanym komunikatem, a coalesce zwraca pierwszą niepustą wartość.
+- Strona zawiera ostrzeżenie, że nie została jeszcze zaktualizowana dla Helm 4 i część treści może być
+  nieaktualna lub nie mieć zastosowania.
+tags:
+- helm
+- helm-templating
+- helm-charts
+- go-templates
+- kubernetes

@@ -1,0 +1,19 @@
+url: https://helm.sh/docs/chart_best_practices/dependencies
+title: Dependencies | Helm
+created: 2025-12-04
+tldr:
+- Dla zależności w Chart.yaml preferuj zakresy wersji; ~1.2.3 dopasowuje 1.2.3 i późniejsze poprawki poniżej
+  1.3.0.
+- Zakres ~1.2.3 nie obejmuje wersji prerelease; ~1.2.3-0 dopasowuje prerelease oraz poprawki.
+- Preferuj adresy repozytoriów https://, a dodane repozytoria można wskazywać aliasem. Puste pole repository
+  oznacza zależność w podkatalogu charts.
+- Dla opcjonalnych zależności używaj condition lub tags; wspólny tag pozwala włączać i wyłączać zestaw
+  zależności jednym ustawieniem.
+- Strona ostrzega, że nie została jeszcze zaktualizowana dla Helm 4, więc część informacji może być nieaktualna
+  lub nie mieć zastosowania.
+tags:
+- helm
+- helm-charts
+- chart-yaml
+- semver
+- dependency-management

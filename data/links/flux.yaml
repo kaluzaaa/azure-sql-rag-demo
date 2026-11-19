@@ -1,0 +1,24 @@
+url: https://fluxcd.io
+title: Flux
+created: 2023-01-31
+tldr:
+- Flux to otwarty zestaw rozwiązań GitOps do ciągłego i progresywnego wdrażania aplikacji oraz infrastruktury
+  na Kubernetes.
+- Flux automatycznie uzgadnia stan klastra z deklaracjami w Git zapisanymi w YAML; zmiany można audytować
+  i przywracać na podstawie historii Git.
+- W połączeniu z Flaggerem obsługuje canary, feature flags i wdrożenia A/B; może też automatycznie aktualizować
+  obrazy kontenerów w Git.
+- Obsługuje wiele klastrów i repozytoriów Git, Kubernetes RBAC przez impersonation, OCI oraz narzędzia
+  takie jak Helm i Kustomize.
+- Flux jest projektem CNCF na poziomie Graduated; strona zapowiada ogólną dostępność Flux 2.9.
+tags:
+- flux
+- gitops
+- kubernetes
+- flagger
+- helm
+- kustomize
+- oci-artifacts
+- continuous-delivery
+- progressive-delivery
+- cncf

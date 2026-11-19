@@ -1,0 +1,20 @@
+url: https://kaluzny.io/klaster-k8s-na-raspberry-pi-czyli-k3s-na-nowo
+title: Klaster K8s na Raspberry Pi, czyli K3s na nowo
+created: 2025-05-22
+tldr:
+- Pięciowęzłowy klaster K3s na Raspberry Pi 4 zapewnia wysoką dostępność control plane i usług LoadBalancer.
+- Trzy węzły control plane korzystają z wbudowanego etcd, a dwa węzły pełnią rolę workerów.
+- Nginx na workerach równoważy ruch do control plane i zapewnia failover; MetalLB rozgłasza adresy usług
+  przez L2/ARP.
+- Instrukcja obejmuje przygotowanie Raspberry Pi OS Lite 64-bit, instalację K3s oraz konfigurację puli
+  adresów MetalLB 192.168.1.80–192.168.1.99.
+- Przykład używa K3s v1.26.3+k3s1 i MetalLB v0.13.9.
+tags:
+- k3s
+- raspberry-pi
+- kubernetes
+- metallb
+- nginx
+- etcd
+- high-availability
+- home-lab

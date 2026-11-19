@@ -1,0 +1,21 @@
+url: https://opensearch.org
+title: Home - OpenSearch
+created: 2025-04-18
+tldr:
+- OpenSearch to otwarty silnik do wyszukiwania i observability, deklarujący neutralność względem dostawców
+  oraz licencję Apache 2.0 dla całego projektu.
+- Platforma obejmuje narzędzia AI/ML, vector search, wykrywanie anomalii, wyszukiwanie enterprise i dokumentów
+  oraz analizę logów i bezpieczeństwa.
+- OpenSearch umożliwia indeksowanie danych, a następnie ich wyszukiwanie, pobieranie i analizowanie.
+- Projekt należy do Linux Foundation; społeczność współpracuje przez forum, wydarzenia, blog, GitHub i
+  Slack.
+tags:
+- opensearch
+- vector-search
+- anomaly-detection
+- observability
+- security-analytics
+- enterprise-search
+- log-analysis
+- machine-learning
+- apache-2-0

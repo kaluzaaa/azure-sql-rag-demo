@@ -1,0 +1,23 @@
+url: https://helm.sh/docs/chart_template_guide/functions_and_pipelines
+title: Template Functions and Pipelines | Helm
+created: 2025-12-04
+tldr:
+- Helm templates provide over 60 functions from Go templates and Sprig for transforming values before
+  inserting them into YAML.
+- Pipelines chain transformations by passing each result as the next function’s last argument; examples
+  include `quote`, `upper`, `repeat` and `join`.
+- The `default` function supplies a fallback for missing values, while static defaults should generally
+  be defined in `values.yaml`; `default` is useful for computed values.
+- The `lookup` function queries Kubernetes resources using Helm’s cluster connection and fails template
+  processing if the API request errors.
+- To test `lookup` against a running cluster, use `--dry-run=server`; regular `--dry-run` operations do
+  not contact the Kubernetes API server.
+- Template operators such as `eq`, `ne`, `and` and `or` are implemented as functions.
+tags:
+- helm
+- helm-chart-templates
+- go-templates
+- sprig
+- kubernetes-lookup
+- kubernetes
+- yaml

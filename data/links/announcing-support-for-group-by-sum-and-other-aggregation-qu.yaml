@@ -1,0 +1,23 @@
+url: https://blog.cloudflare.com/r2-sql-aggregations
+title: Announcing support for GROUP BY, SUM, and other aggregation queries in R2 SQL
+created: 2026-02-17
+tldr:
+- R2 SQL obsługuje zapytania agregujące, takie jak GROUP BY, SUM i COUNT, umożliwiając analizę danych
+  przechowywanych w R2 Data Catalog.
+- W podejściu scatter-gather workery obliczają częściowe agregaty, a koordynator scala je w wynik końcowy;
+  przykładowo AVG wymaga sumy i liczby wierszy.
+- Sortowanie lub filtrowanie wyników agregacji wymaga poznania wartości dla wszystkich grup, więc samo
+  scatter-gather może przeciążyć koordynator przy kolumnach o dużej kardynalności.
+- Shuffling kieruje dane do workerów według deterministycznego hasha klucza GROUP BY, dzięki czemu każdy
+  worker może obliczyć pełne wyniki przypisanych mu grup.
+- Bariera synchronizacyjna czeka na zakończenie przetwarzania i opróżnienie buforów shuffle przez wszystkie
+  workery; potem workery lokalnie finalizują agregacje i mogą stosować HAVING oraz sortowanie.
+tags:
+- cloudflare-r2
+- r2-sql
+- sql-aggregations
+- group-by
+- apache-parquet
+- distributed-query-processing
+- data-catalog
+- grpc

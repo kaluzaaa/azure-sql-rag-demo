@@ -1,0 +1,21 @@
+url: https://cassandra.apache.org
+title: Apache Cassandra
+created: 2025-04-18
+tldr:
+- Apache Cassandra to rozproszona baza NoSQL typu open source, zaprojektowana pod kątem wysokiej dostępności,
+  wydajności i skalowania.
+- Architektura masterless i replikacja między centrami danych mają zapewniać odporność na awarie oraz
+  pracę bez pojedynczych punktów awarii.
+- Przepustowość odczytu i zapisu rośnie liniowo wraz z dodawaniem maszyn, bez przestojów aplikacji.
+- Projekt podkreśla obsługę synchronicznej i asynchronicznej replikacji, audytowania oraz analizy i odtwarzania
+  obciążeń przez fqltool.
+- Strona udostępnia materiały dla Cassandra 5.0, Quickstart oraz nagrania wystąpień społeczności z Community
+  Over Code 2025.
+tags:
+- apache-cassandra
+- nosql
+- distributed-database
+- cql
+- replication
+- fault-tolerance
+- kubernetes

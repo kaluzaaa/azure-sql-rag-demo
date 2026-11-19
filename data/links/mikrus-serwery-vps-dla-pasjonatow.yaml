@@ -1,0 +1,28 @@
+url: https://mikr.us
+title: Mikrus - Serwery VPS dla pasjonatów
+created: 2026-05-27
+tldr:
+- Mikrus oferuje roczne serwery VPS dla pasjonatów i projektów developerskich, z pełnym dostępem root,
+  serwerami w Finlandii, polską pomocą i fakturą VAT.
+- 'Dostępnych jest 7 wariantów VPS: od 384 MB RAM, 5 GB SSD i 35 zł rocznie do 16 GB RAM, 160 GB SSD i
+  790 zł rocznie; dostępny jest też darmowy plan FROG.'
+- Serwery obsługują m.in. Docker, n8n, WordPress, bazy danych, WireGuard VPN, backupy przez SSH/SCP/Rsync
+  oraz reinstalację wielu dystrybucji Linux.
+- Testowy Mikrus 2.1 kosztuje 7 zł za 30 dni i nie odnawia się automatycznie; zamówienie nie wymaga karty
+  ani długoterminowego zobowiązania.
+- Panel umożliwia reinstalację, restart i zmianę hasła roota jednym kliknięciem, a parametry serwera można
+  tymczasowo zwiększać bezpłatnie.
+- Usługa działa od 2018 roku bez podwyżek cen; cena przedłużenia jest równa cenie zakupu. VPS-y są przeznaczone
+  do projektów online i nauki, nie do serwerów gier ani radia 24/7.
+tags:
+- vps
+- docker
+- n8n
+- wordpress
+- linux
+- wireguard
+- self-hosting
+- postgresql
+- mongodb
+- backup
+- cloud-hosting

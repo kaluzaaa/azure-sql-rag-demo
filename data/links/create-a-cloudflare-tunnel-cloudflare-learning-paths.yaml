@@ -1,0 +1,19 @@
+url: https://developers.cloudflare.com/learning-paths/clientless-access/connect-private-applications/create-tunnel
+title: Create a Cloudflare Tunnel · Cloudflare Learning Paths
+created: 2025-05-22
+tldr:
+- Cloudflare Tunnel udostępnia prywatną aplikację pod publicznym hostname; ruch przechodzi przez Cloudflare,
+  gdzie jest sprawdzany względem skonfigurowanych security policies.
+- Tunel tworzy się w panelu Cloudflare, wybiera system operacyjny, uruchamia skopiowane polecenie instalacyjne
+  na serwerze origin i czeka na połączenie.
+- Aby opublikować aplikację, dodaje się trasę Published application, określa subdomenę, domenę oraz Service
+  URL, np. http://localhost:8000.
+- Po dodaniu trasy aplikacja jest dostępna dla wszystkich użytkowników Internetu; dostęp można później
+  ograniczyć do uprawnionych użytkowników.
+tags:
+- cloudflare-tunnel
+- cloudflare-zero-trust
+- private-applications
+- published-application
+- dns
+- access-control

@@ -1,0 +1,16 @@
+url: https://github.com/rabbitmq/cluster-operator
+title: 'GitHub - rabbitmq/cluster-operator: RabbitMQ Cluster Kubernetes Operator'
+created: 2025-04-18
+tldr:
+- Operator wdraża i zarządza klastrami RabbitMQ w Kubernetes, obsługując ich tworzenie, aktualizacje i
+  graceful shutdown.
+- Instalacja wymaga Kubernetes 1.31 lub nowszego; wersje operatora 2.20 i nowsze wymagają także cert-manager.
+- Operator domyślnie wdraża RabbitMQ 4.3.4 i powinien obsługiwać wspierane wersje RabbitMQ oraz Kubernetes.
+- Repozytorium zawiera custom controller, CRD, przykłady wdrożeń i instrukcje instalacji.
+tags:
+- rabbitmq
+- kubernetes
+- kubernetes-operator
+- cert-manager
+- custom-resource-definitions
+- go

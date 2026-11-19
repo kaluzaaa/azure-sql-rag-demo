@@ -1,0 +1,24 @@
+url: https://www.gitops.tech
+title: GitOps
+created: 2025-04-18
+tldr:
+- GitOps wdraża Continuous Deployment dla aplikacji cloud native, używając repozytorium Git jako deklaratywnego
+  źródła pożądanego stanu infrastruktury.
+- Automatyczny proces uzgadnia stan środowiska z konfiguracją w repozytorium; zmiany można wdrażać i cofać
+  przez aktualizacje Git, z historią audytową.
+- Typowy układ obejmuje repozytorium aplikacji oraz repozytorium konfiguracji środowiska, zawierające
+  manifesty wdrożeniowe i opis docelowej infrastruktury.
+- Wariant push-based uruchamia wdrożenia z pipeline’u CI/CD i wymaga przekazania mu poświadczeń; pull-based
+  używa operatora, który porównuje stan i uzgadnia go z repozytorium.
+- 'Pull-based jest przedstawiany jako bezpieczniejszy: operator działa w środowisku docelowym, może wykrywać
+  i cofać nieopisane w Git zmiany, ale sam wymaga monitorowania.'
+- GitOps może obsługiwać wiele aplikacji i środowisk oraz nie jest ograniczony do Kubernetes — można go
+  stosować do infrastruktury opisywanej i obserwowanej deklaratywnie.
+tags:
+- gitops
+- kubernetes
+- flux
+- continuous-deployment
+- ci-cd
+- infrastructure-as-code
+- declarative-configuration

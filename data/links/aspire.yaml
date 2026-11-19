@@ -1,0 +1,15 @@
+url: https://x.com/davidfowl/status/1901874008624406625
+title: Aspire 🤢🤮
+author: David Fowler
+created: 2025-04-02
+tldr:
+- Post pokazuje uproszczone przypisywanie RBAC w Azure przy użyciu .NET Aspire.
+- Kod konfiguruje Azure Storage i zasób Blob Storage, uruchamiając Storage jako emulator z trwałym czasem
+  życia kontenera.
+- Projekt API otrzymuje referencję do Blob Storage oraz rolę StorageBlobDataContributor.
+tags:
+- azure
+- dotnet-aspire
+- rbac
+- azure-blob-storage
+- azure-provisioning

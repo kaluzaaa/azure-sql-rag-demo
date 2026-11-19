@@ -1,0 +1,21 @@
+url: https://www.openstack.org
+title: OpenStack
+created: 2025-04-18
+tldr:
+- OpenStack to rozwijane przez społeczność oprogramowanie open source do zarządzania infrastrukturą chmurową.
+- Zarządza pulami zasobów compute, storage i networking przez API lub dashboard; obsługuje maszyny wirtualne,
+  bare metal i kontenery.
+- Można wdrażać je lokalnie, korzystać z publicznych chmur OpenStack działających w ponad 180 centrach
+  danych lub używać na edge.
+- Najnowsze wydanie to OpenStack 2026.1 „Gazpacho”; „Hibiscus” jest w fazie rozwoju.
+- OpenStack zarządza ponad 40 mln cores na świecie; Walmart używa chmury z ponad 170 tys. cores w ponad
+  30 regionach.
+tags:
+- openstack
+- cloud-infrastructure
+- iaas
+- open-source-cloud
+- bare-metal
+- edge-computing
+- cloud-computing
+- containers

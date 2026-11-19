@@ -1,0 +1,47 @@
+episode_number: 151
+title: Technology Radar vol. 32 - Review
+date: 2025-04-25
+tags:
+- Technology Radar
+- AI
+- Cursor
+- Claude
+- Observability
+- DevOps
+chapters:
+- 00:00:00 Intro
+- 00:01:04 Technology Radar - wprowadzenie i struktura
+- 00:02:41 Kręgi Radaru i ich znaczenie
+- 00:03:47 Fast Testing dla modeli AI
+- 00:06:32 Software Bill of Materials (SBOM) i regulacje prawne
+- 00:08:17 Architecture Advice Process i decentralizacja decyzji
+- 00:11:17 Just-in-time privileged access management
+- 00:12:13 GenAI w analizie legacy code
+- 00:13:07 AI-powered UI Testing
+- 00:14:29 AI accelerated shadow IT
+- 00:15:19 Local coding assistant - lokalne modele AI
+- 00:16:28 SAFe (Scaled Agile Framework) na holdzie
+- 00:17:26 Modele AI i narzędzia do kodowania
+- 00:20:55 Narzędzia do wizualizacji i diagramów
+- 00:24:47 Alternatywy dla standardowych narzędzi
+- 00:26:51 Narzędzia monitoringu i obserwabilności
+- 00:28:05 AnythingLLM - łączenie modeli z dokumentami
+- 00:28:43 Hurl - testowanie API
+- 00:30:49 GitLab CI/CD i Dapr
+- 00:33:06 Ekosystem Grafana
+- 00:34:36 DeepSeek - chiński model AI
+- 00:36:11 Deno - alternatywa dla Node.js
+- 00:37:01 Model Context Protocol (MCP)
+- 00:38:38 Tyk Hybrid API Management
+- 00:39:16 Open Telemetry
+- 00:40:00 Biblioteki i narzędzia Microsoftu
+- 00:44:09 Browser Use - dostęp LLM do przeglądarki
+- 00:44:31 Node overload i polyglot programming
+- 00:46:23 Podsumowanie Technology Radar
+links:
+- szkolenia-patoarchitekci
+- technology-radar-guide-to-technology-landscape
+- pdf-technology-radar-vol-32
+ids:
+  youtube: 4PhyUdjE1WE
+  spotify: 2zJ6FzaJV3NVTdyyhtJ53A

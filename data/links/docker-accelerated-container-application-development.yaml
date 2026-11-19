@@ -1,0 +1,24 @@
+url: https://www.docker.com
+title: 'Docker: Accelerated Container Application Development'
+created: 2025-04-18
+tldr:
+- Docker promuje bezpieczne uruchamianie autonomicznych agentów dzięki izolacji, zweryfikowanym komponentom
+  i zarządzaniu politykami.
+- 'Platforma rozszerza istniejący stos Docker na agentów: wykorzystuje obrazy, registry i CI bez konieczności
+  migracji do nowego ekosystemu.'
+- Izolacja opiera się na kontenerach i microVMs; zadania można uruchamiać lokalnie lub przenosić do Cloud
+  Sandboxes.
+- Docker deklaruje zgodność ze standardem OCI i niezależność od platformy, a audyt ma obejmować podpisywane
+  działania oraz egzekwowane polityki.
+- Docker Desktop łączy kontenery i pełny cykl developerski; według strony z Dockera korzysta 91% firm
+  z Fortune 100, Docker Hub obsługuje ponad 20 mld pobrań miesięcznie, a 20 mln programistów buduje z
+  Dockerem każdego dnia.
+tags:
+- docker
+- docker-desktop
+- ai-agent-security
+- agent-governance
+- microvms
+- containers
+- oci
+- docker-hub

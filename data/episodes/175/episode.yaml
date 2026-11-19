@@ -1,0 +1,41 @@
+episode_number: 175
+title: Jak Łukasz agentów popędza - publikacja pato
+date: 2025-12-19
+tags:
+- AI Agents
+- MCP
+- OpenAI
+- Claude
+- AI
+chapters:
+- 00:00:00 Zapowiedź szkoleń
+- 00:11:23 Nagrywanie i pierwsze kroki publikacji
+- 00:12:09 Automatyzacja uploadu i generowanie okładek
+- 00:13:15 Wykorzystanie Claude'a i MCP
+- 00:16:23 Transkrypcja i generowanie contentu
+- 00:17:05 Agent Jane i proces publikacji
+- 00:21:16 Human Touch i finalne kroki publikacji
+- 00:23:01 GitHub Actions i TARS
+- 00:23:59 Stos technologiczny i dobór modeli AI
+- 00:27:15 Kiedy stosować agentów a kiedy normalny kod
+- 00:30:39 Plany na MCP do RAG-a Pato i zmiany w protokole
+- 00:32:45 Zakończenie
+links:
+- pato-200-konferencja
+- konferencja-pato-200
+- szkolenia-patoarchitekci
+- k3s
+- vector-search-with-azure-sql-database
+- introducing-the-model-context-protocol-anthropic
+- github-openai-swarm-educational-framework-exploring-ergonomi
+- airtable-ai-app-building-for-enterprise-airtable
+- make-ai-workflow-automation-software-tools-make
+- ecwid-1-fast-and-easy-e-commerce-shopping-cart-solution-try
+- riverside-hd-podcast-video-software-free-recording-editing
+- ai-notetaker-transcription-subtitles-translation-happyscribe
+- automate-your-image-generation
+- the-world-s-fastest-framework-for-building-websites
+- simple-notifications-for-android-iphone-ipad-and-desktop
+ids:
+  youtube: JXKRqxsczoY
+  spotify: 6KS63864zbEICtLbAlQejr

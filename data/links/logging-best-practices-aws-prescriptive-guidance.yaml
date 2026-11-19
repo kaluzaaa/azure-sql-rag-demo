@@ -1,0 +1,22 @@
+url: https://docs.aws.amazon.com/prescriptive-guidance/latest/logging-monitoring-for-application-owners/logging-best-practices.html
+title: Logging best practices - AWS Prescriptive Guidance
+created: 2025-10-29
+tldr:
+- Log only useful, actionable data; excessive logging can hurt performance, raise storage and processing
+  costs, and make issues or security events harder to detect.
+- Consider logging only HTTP 400- and 500-level responses; disable info and debug logging in production
+  to limit volume.
+- Do not log secrets or sensitive data such as access tokens, passwords, session IDs, encryption keys,
+  payment data, or unconsented personal information; remove, mask, sanitize, hash, or encrypt it.
+- Anonymize, hash, or encrypt potentially revealing data such as file paths, internal network details,
+  names, phone numbers, and email addresses when appropriate.
+- Restrict the ability to pause logging or change its configuration to administrators, enable log integrity
+  validation when available, and manage changes through approved processes.
+tags:
+- application-logging
+- log-levels
+- log-integrity
+- data-masking
+- pii
+- access-control
+- aws-prescriptive-guidance

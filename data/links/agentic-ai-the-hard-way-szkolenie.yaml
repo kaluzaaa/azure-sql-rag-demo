@@ -1,0 +1,30 @@
+url: https://patoarchitekci.io/szkolenia/agentic-ai-the-hard-way
+title: Agentic AI The Hard Way - Szkolenie
+author: Patoarchitekci
+created: 2025-12-04
+tldr:
+- 'Jednodniowe szkolenie uczy budowy agenta AI od podstaw, bez frameworków: w Pythonie, z użyciem OpenAI
+  API, context window, function calling, narzędzi i pętli ReAct.'
+- 'Program obejmuje 13 modułów: od pierwszego requestu OpenAI API i typów wiadomości po error handling,
+  human-in-the-loop, persistencję, Supervisor, Pipeline oraz zabezpieczenia.'
+- Uczestnicy implementują narzędzia read_file, write_file, http_get i execute_sql, a także poznają JSON
+  Schema, retry patterns, limity iteracji, allowlisting i sandboxing.
+- Warsztat trwa jeden dzień, zakłada 90% praktyki i odbywa się online w Microsoft Teams; kodowanie prowadzone
+  jest w Pythonie i GitHub Codespaces.
+- Szkolenie jest przeznaczone dla inżynierów IT, architektów i zaawansowanych programistów z doświadczeniem
+  w programowaniu.
+- Termin to 03.12.2026, godz. 9:30–17:00; cena wynosi 1625,20 PLN netto lub 1999 PLN brutto, a organizator
+  deklaruje 10 dostępnych miejsc.
+tags:
+- openai-api
+- function-calling
+- react-agents
+- context-window
+- python
+- ai-agents
+- tool-use
+- human-in-the-loop
+- multi-agent-systems
+- prompt-engineering
+- llm-security
+- github-codespaces

@@ -1,0 +1,21 @@
+url: https://pushover.net
+title: Simple Notifications for Android, iPhone, iPad, and Desktop
+created: 2025-12-19
+tldr:
+- Pushover dostarcza powiadomienia push na Androida, iPhone’a, iPada i komputery stacjonarne, także na
+  Android Wear i Apple Watch.
+- Usługa pozwala odbierać powiadomienia z dziesiątek zintegrowanych witryn, usług i aplikacji po podaniu
+  User Key lub adresu e-mail Pushover.
+- API umożliwia wysyłanie powiadomień przez żądania HTTP; strona pokazuje przykłady dla curl, Python,
+  Ruby, Go, Perl i PHP.
+- Pushover for Teams to miesięczna oferta dla organizacji z funkcjami zarządzania użytkownikami i automatycznego
+  wdrażania.
+- 'Korzystanie indywidualne nie wymaga subskrypcji: po 30-dniowym okresie próbnym dostęp jest rozliczany
+  jednorazowym zakupem w aplikacji na każdej używanej platformie.'
+tags:
+- pushover
+- push-notifications
+- pushover-api
+- http-api
+- mobile-notifications
+- system-monitoring

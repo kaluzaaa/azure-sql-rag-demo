@@ -1,0 +1,86 @@
+episode_number: 150
+title: Architektura on-premises PaaS - open source jako alternatywa dla chmury
+date: 2025-04-18
+tags:
+- Platform Engineering
+- Kubernetes
+- DevOps
+- Cloud Native
+- Observability
+- Monitoring
+chapters:
+- 00:00:00 Intro
+- 00:01:31 Motywacje do budowania własnej platformy PaaS na onpremie
+- 00:02:43 Powody regulacyjne i trend powrotu z chmury
+- 00:05:03 Problemy z chmurą i vendor lock-in
+- 00:06:00 Kluczowe elementy platformy aplikacyjnej
+- 00:06:55 Kubernetes jako podstawa platformy
+- 00:07:47 Alternatywy dla Kubernetesa
+- 00:09:37 Podejście selekcyjne do komponentów Kubernetesa
+- 00:09:56 Obsługa systemów Windows w PaaS
+- 00:10:47 Warstwa tożsamości - Identity Provider
+- 00:12:17 Repozytorium kodu i CI/CD
+- 00:15:35 GitOps i automatyzacja platformy
+- 00:17:43 Warstwy i usługi platformy PaaS
+- 00:18:53 Rancher jako platforma zarządzania Kubernetesem
+- 00:21:51 Opcje hostowania i wirtualizacji
+- 00:23:16 Warstwa bare metal i wpływ VMWare na rynek
+links:
+- github-harvester-harvester-open-source-hyperconverged-infras
+- red-hat-openshift-virtualization
+- proxmox-powerful-open-source-server-solutions-25a56246
+- jfrog-artifactory-universal-artifact-repository-manager
+- harbor
+- cloudnativepg-postgresql-operator-for-kubernetes
+- how-to-use-prometheus-for-anomaly-detection-in-gitl-365cdb9e
+- github-rabbitmq-cluster-operator-rabbitmq-cluster-kubernetes
+- kubernetes-operator-options-for-apache-kafka
+- platform-as-a-service-wikipedia
+- internal-developer-platform
+- kubernetes
+- openstack
+- kamal-deploy-web-apps-anywhere
+- ansible
+- microsoft-desired-state-configuration-overview-powershell
+- how-openid-connect-works-openid-foundation
+- active-directory-federation-services-overview
+- keycloak
+- dex
+- lightweight-directory-access-protocol-wikipedia
+- github-build-and-ship-software-on-a-single-collaborative-pla
+- jenkins
+- gitlab
+- github-actions-github
+- gitops
+- argo-cd
+- flux
+- enterprise-kubernetes-management-platform-software
+- red-hat-openshift-enterprise-application-platform
+- vmware-tanzu-platform
+- harvester
+- proxmox-powerful-open-source-server-solutions
+- hyper-v-technology-overview
+- docker-accelerated-container-application-development
+- postgresql-the-world-s-most-advanced-open-source-database
+- microsoft-sql-server
+- database
+- mongodb-the-worlds-leading-modern-database
+- redis-the-real-time-data-platform
+- elasticsearch-the-official-distributed-search-analytics-engi
+- home-opensearch
+- apache-cassandra
+- longhorn
+- ceph-io-home
+- persistent-kubernetes-storage-data-management
+- minio
+- s3
+- opentelemetry
+- grafana-the-open-and-composable-observability-platform
+- grafana-loki-oss-log-aggregation-system
+- prometheus-monitoring-system-time-series-database
+- rabbitmq
+- apache-kafka
+- backstage
+ids:
+  youtube: EHx_KxRxwps
+  spotify: 4IMVJkkQe84Kz17SO7HahA

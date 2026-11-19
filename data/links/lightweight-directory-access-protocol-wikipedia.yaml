@@ -1,0 +1,24 @@
+url: https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol
+title: Lightweight Directory Access Protocol - Wikipedia
+created: 2025-04-18
+tldr:
+- LDAP to protokół dostępu do usług katalogowych zgodnych z modelami danych i usług X.500.
+- LDAP umożliwia udostępnianie w sieci uporządkowanych informacji, takich jak dane użytkowników, systemów
+  i usług.
+- Częstym zastosowaniem LDAP jest centralne przechowywanie nazw użytkowników i haseł oraz ich weryfikacja
+  przez różne aplikacje.
+- LDAP działa przez TCP/IP jako lżejsza alternatywa dla X.500 DAP; standardowe porty to 389 dla LDAP i
+  636 dla LDAPS.
+- LDAPv3 opublikowano w 1997 roku; dodał m.in. rozszerzalność i obsługę Simple Authentication and Security
+  Layer (SASL).
+- Specyfikacje LDAP obejmują m.in. RFC 4510 i RFC 4511, a model katalogu i schematy opisują RFC 4512 i
+  RFC 4519.
+tags:
+- ldap
+- x-500
+- directory-services
+- ldapv3
+- active-directory
+- sasl
+- authentication
+- identity-management

@@ -1,0 +1,22 @@
+url: https://www.infoq.com/news/2026/01/aws-european-sovereign-cloud
+title: AWS Launches European Sovereign Cloud amid Questions about U.S. Legal Jurisdiction
+author: Steef-Jan Wiggers
+created: 2026-02-17
+tldr:
+- AWS udostępnił European Sovereign Cloud w Brandenburgii; odrębna infrastruktura, systemy IAM i billing
+  mają działać w UE, pod zarządem europejskich pracowników.
+- Izolacja techniczna ogranicza dostęp pracowników spoza środowiska, ale według relacji inżyniera AWS
+  utrudnia debugowanie i może wydłużać naprawy z dni do miesiąca.
+- Artykuł wskazuje, że amerykańskie przepisy, w tym CLOUD Act i FISA, mogą nadal obejmować AWS ze względu
+  na jego amerykańską własność, mimo lokalizacji infrastruktury w UE.
+- Usługa startuje z około 90 usługami AWS; inwestycja wynosi 7,8 mld euro, a AWS planuje sovereign Local
+  Zones w Belgii, Holandii i Portugalii.
+- Artykuł podkreśla nierozstrzygnięte pytania o dostęp władz USA, zdalne wyłączenie infrastruktury i niezależność
+  stosu oprogramowania; wskazuje też europejskich dostawców, takich jak Hetzner i Scaleway.
+tags:
+- aws-european-sovereign-cloud
+- cloud-act
+- fisa
+- data-sovereignty
+- cloud-computing
+- aws

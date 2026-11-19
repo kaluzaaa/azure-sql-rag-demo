@@ -1,0 +1,25 @@
+url: https://helm.sh/docs/topics/charts
+title: Charts | Helm
+created: 2025-12-04
+tldr:
+- Helm charts to pakiety plików opisujące powiązane zasoby Kubernetes; można je wersjonować, pakować i
+  wdrażać.
+- Podstawowy układ chartu obejmuje Chart.yaml, values.yaml, katalog templates/ oraz opcjonalne charts/,
+  crds/, README.md i LICENSE.
+- 'Chart.yaml określa m.in. nazwę, wersję, zależności, obsługiwane wersje Kubernetes przez kubeVersion
+  oraz typ chartu: application lub library.'
+- Wersja chartu powinna stosować SemVer 2 i służy do identyfikacji pakietu; appVersion opisuje wersję
+  aplikacji i nie wpływa na wersję chartu.
+- 'apiVersion: v2 wprowadza deklarowanie zależności w Chart.yaml i pole type; charty v1 nadal można instalować
+  w Helm 3.'
+- Pole deprecated pozwala oznaczyć chart jako przestarzały; strona ostrzega, że nie została jeszcze zaktualizowana
+  dla Helm 4.
+tags:
+- helm
+- helm-charts
+- kubernetes
+- chart-yaml
+- semver
+- helm-3
+- kubernetes-versions
+- chart-dependencies

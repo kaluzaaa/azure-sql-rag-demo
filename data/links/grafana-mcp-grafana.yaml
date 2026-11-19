@@ -1,0 +1,25 @@
+url: https://github.com/grafana/mcp-grafana
+title: grafana/mcp-grafana
+created: 2026-02-17
+tldr:
+- Serwer MCP udostępnia Grafana i powiązany ekosystem klientom takim jak Claude Desktop i Cursor.
+- 'Obsługuje dashboardy: wyszukiwanie, pobieranie i wersjonowanie, podsumowania, JSONPath, tworzenie,
+  aktualizację oraz patchowanie bez pełnego JSON.'
+- Umożliwia zapytania do Prometheus, Loki, InfluxDB, SQL, CloudWatch, Graphite oraz Elasticsearch/OpenSearch.
+- Narzędzia zapytań są domyślnie wyłączone dla panel queries, examples, InfluxDB, SQL, CloudWatch, Graphite
+  i Elasticsearch.
+- Wymaga Grafana 9.0 lub nowszej dla pełnej funkcjonalności; konfiguracja używa uvx oraz GRAFANA_URL i
+  GRAFANA_SERVICE_ACCOUNT_TOKEN.
+- Repozytorium ma 3 473 stars, 449 forks i jest napisane w Go.
+tags:
+- mcp
+- grafana
+- model-context-protocol
+- prometheus
+- loki
+- influxdb
+- sql
+- cloudwatch
+- graphite
+- elasticsearch
+- go

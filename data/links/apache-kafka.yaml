@@ -1,0 +1,22 @@
+url: https://kafka.apache.org
+title: Apache Kafka
+created: 2025-07-24
+tldr:
+- Apache Kafka to open-source’owa, rozproszona platforma event streamingowa do data pipelines, analytics,
+  integracji danych i aplikacji krytycznych.
+- Klastry mogą osiągać przepustowość ograniczoną siecią i latency nawet 2 ms; obsługują do tysiąca brokerów,
+  biliony wiadomości dziennie i petabajty danych.
+- Platforma zapewnia trwałe przechowywanie danych, wysoką dostępność, gwarantowaną kolejność i przetwarzanie
+  exactly-once.
+- Wbudowane stream processing obsługuje joins, agregacje, filtrowanie i transformacje; Kafka Connect integruje
+  się z setkami źródeł i odbiorników, m.in. Postgres, JMS, Elasticsearch i AWS S3.
+- Ponad 80% firm z listy Fortune 100 korzysta z Apache Kafka, a projekt ma ponad 5 mln unikalnych pobrań
+  w całym okresie działalności.
+tags:
+- apache-kafka
+- event-streaming
+- kafka-connect
+- stream-processing
+- data-pipelines
+- distributed-systems
+- exactly-once-processing

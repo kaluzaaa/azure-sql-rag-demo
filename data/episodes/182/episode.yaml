@@ -1,0 +1,53 @@
+episode_number: 182
+title: 'Short #76: Human in the Loop, OpenAI Postgres na Azure, Holmes GPT'
+date: 2026-02-20
+tags:
+- Short
+- Azure
+- PostgreSQL
+- Kubernetes
+- AI
+- Observability
+chapters:
+- 00:00:00 Intro
+- 00:04:11 Autonomiczne agenty AI i ich zastosowania
+- 00:08:59 Problemy z bezpieczeństwem w chmurze
+- 00:10:41 Low code i no code w praktyce
+- 00:11:29 Natural language jako język programowania
+- 00:11:46 Kubernetes 1.35 - nowy release
+- 00:12:31 AWS European Sovereign Cloud
+- 00:13:17 Holmes GPT i troubleshooting w Kubernetes
+- 00:14:56 Grafana - MCP i LLM plugin
+- 00:18:17 OpenAI i Postgres - architektura pod ChatGPT
+- 00:19:11 eBPF i networking w Kubernetes
+- 00:20:17 Service Mesh - problemy i wyzwania
+- 00:22:01 Logging i Open Telemetry w praktyce
+- 00:25:13 Java Trends Report 2025
+- 00:26:13 Cloudflare R2 to SQL
+- 00:26:19 Zakończenie
+links:
+- pato-200-konferencja
+- agentic-ai-the-hard-way-szkolenie
+- szkolenia-patoarchitekci
+- observability-ze-stosem-grafana
+- clawdbots-rename-to-moltbot-sparks-impersonation-campaign
+- moltbot-gets-another-new-name-openclaw-and-triggers-security
+- one-step-away-from-a-massive-data-breach-what-we-found-insid
+- openclaw-formerly-moltbot-clawdbot-may-signal-the-next-ai-se
+- be-aware-of-possible-scams-with-the-moltbot-openclaw-agent-h
+- moltbook-social-media-site-for-ai-agents-had-big-security-ho
+- since-i-ve-spent-the-last-few-years-building-dev-security-to
+- kubernetes-v1-35-timbernetes-the-world-tree-release
+- aws-launches-european-sovereign-cloud-amid-questions-about-u
+- github-holmesgpt-holmesgpt-your-24-7-on-call-ai-agent-solve
+- grafana-mcp-grafana
+- common-prefix-skipping-adaptive-sort
+- scaling-postgresql-to-power-800-million-chatgpt-users
+- supporting-chatgpt-on-postgresql-in-azure
+- cisco-is-using-ebpf-to-rethink-firewalls-vulnerability-mitig
+- logging-sucks
+- infoq-java-trends-report-2025
+- announcing-support-for-group-by-sum-and-other-aggregation-qu
+ids:
+  youtube: Kzm3szYOCjY
+  spotify: 0QDbZfYNYo7IQbJWkQsET8

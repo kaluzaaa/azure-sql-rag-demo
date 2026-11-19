@@ -1,0 +1,22 @@
+url: https://kubernetes.io/docs/tasks/manage-kubernetes-objects/kustomization
+title: Declarative Management of Kubernetes Objects Using Kustomize
+created: 2025-12-04
+tldr:
+- Kustomize pozwala deklaratywnie dostosowywać i zarządzać obiektami Kubernetes za pomocą pliku kustomization.
+- Polecenie `kubectl kustomize <directory>` wyświetla wygenerowane zasoby, a `kubectl apply -k <directory>`
+  je stosuje; kubectl obsługuje tę funkcję od wersji 1.14.
+- '`configMapGenerator` i `secretGenerator` tworzą ConfigMaps i Secrets z plików lub par klucz-wartość;
+  ConfigMap można też generować z pliku `.env`.'
+- Kustomize dodaje generowanym ConfigMaps i Secrets suffix z hashem zawartości, dzięki czemu zmiana danych
+  tworzy nowy zasób; `generatorOptions.disableNameSuffixHash` wyłącza ten mechanizm.
+- Wspólne ustawienia dla zasobów obejmują namespace, prefiks i suffix nazw, labels oraz annotations.
+- Pole `resources` łączy konfiguracje z różnych plików, a Kustomize umożliwia też stosowanie patches i
+  innych modyfikacji.
+tags:
+- kustomize
+- kubectl
+- kubernetes
+- configmap
+- kubernetes-secrets
+- kubernetes-deployment
+- yaml

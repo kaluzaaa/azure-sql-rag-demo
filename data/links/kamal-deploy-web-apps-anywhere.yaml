@@ -1,0 +1,26 @@
+url: https://kamal-deploy.org
+title: Kamal - Deploy web apps anywhere
+created: 2025-04-18
+tldr:
+- Kamal to open-source narzędzie do wdrażania i zarządzania konteneryzowanymi aplikacjami webowymi w produkcji
+  na dowolnej infrastrukturze, bez uzależnienia od dostawcy chmury.
+- Zapewnia zero-downtime deploys, rolling restarts, asset bridging, remote builds i zarządzanie accessory
+  services z użyciem Docker.
+- Działa z dowolną aplikacją, którą można skonteneryzować; początkowo powstał dla aplikacji Rails.
+- Konfiguracja może zawierać adresy IP zwykłych serwerów Ubuntu z kluczem SSH; Kamal automatycznie instaluje
+  Docker i uruchamia aplikację.
+- Narzędzie korzysta z imperative commands, przypominając Capistrano for Containers, i ma być prostsze
+  w obsłudze niż Kubernetes oraz Docker Swarm.
+- Kamal został wykorzystany przez 37signals do przeniesienia HEY i innych aplikacji z chmury na własny
+  sprzęt.
+tags:
+- kamal
+- docker
+- container-deployment
+- zero-downtime-deployment
+- ruby-on-rails
+- self-hosting
+- bare-metal
+- capistrano
+- kubernetes-alternatives
+- cloud-portability

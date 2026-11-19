@@ -1,0 +1,20 @@
+url: https://www.forbes.com/sites/ronschmelzer/2026/01/30/moltbot-molts-again-and-becomes-openclaw-pushback-and-concerns-grow
+title: Moltbot Gets Another New Name, OpenClaw, And Triggers Security Fears And Scams
+created: 2026-02-17
+tldr:
+- Projekt AI o nazwie Clawdbot został przemianowany na Moltbot, a następnie na OpenClaw po sporze prawnym
+  o znak towarowy z Anthropic.
+- OpenClaw to agent AI działający lokalnie, obsługiwany przez platformy komunikacyjne (WhatsApp, Slack,
+  Discord), który może wykonywać rzeczywiste akcje na komputerze użytkownika, często z uprawnieniami administratora.
+- Setki paneli kontrolnych Moltbot/OpenClaw były publicznie dostępne w internecie, ujawniając logi czatów,
+  klucze API i możliwość zdalnego wykonywania komend z powodu błędnej konfiguracji.
+- Zmiany nazwy wywołały falę domen typosquattingowych, sklonowanych repozytoriów GitHub z złośliwym kodem,
+  fałszywego tokena kryptowalutowego oraz przejęcie konta GitHub twórcy narzędzia.
+- 22% klientów firmy Token Security miało pracowników korzystających z wariantów Clawdbot bez zgody działów
+  bezpieczeństwa, a ponad połowa klientów Noma Security udzieliła narzędziu nieautoryzowanego dostępu
+  z uprawnieniami.
+tags:
+- openclaw
+- moltbot
+- security
+- scams

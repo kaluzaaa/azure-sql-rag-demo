@@ -1,0 +1,21 @@
+url: https://github.com/getsops/sops
+title: sops
+created: 2025-12-04
+tldr:
+- SOPS to edytor zaszyfrowanych plików do zarządzania sekretami, obsługujący formaty YAML, JSON, ENV,
+  INI i BINARY.
+- Szyfrowanie działa z AWS KMS, GCP KMS, Azure Key Vault, HuaweiCloud KMS, age i PGP.
+- Projekt powstał w Mozilli w 2015 roku, został przekazany CNCF jako Sandbox project w 2023 roku i jest
+  udostępniany na licencji Mozilla Public License 2.0.
+tags:
+- sops
+- secret-management
+- secret-encryption
+- aws-kms
+- gcp-kms
+- azure-key-vault
+- huawei-cloud-kms
+- age
+- pgp
+- go
+- cncf

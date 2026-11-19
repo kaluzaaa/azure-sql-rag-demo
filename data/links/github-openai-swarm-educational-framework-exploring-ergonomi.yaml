@@ -1,0 +1,23 @@
+url: https://github.com/openai/swarm
+title: 'GitHub - openai/swarm: Educational framework exploring ergonomic, lightweight multi-agent orchestration.
+  Managed by OpenAI Solution team.'
+author: openai
+created: 2025-12-19
+tldr:
+- Swarm to eksperymentalny, edukacyjny framework OpenAI do lekkiej orkiestracji wielu agentów; projekt
+  zastąpił OpenAI Agents SDK.
+- 'Framework opiera się na dwóch abstrakcjach: agentach z instrukcjami i narzędziami oraz handoffs, które
+  przekazują rozmowę innemu agentowi.'
+- Swarm korzysta z Chat Completions API i nie przechowuje stanu między wywołaniami; `client.run()` obsługuje
+  m.in. wywołania funkcji, przekazywanie agentów i zmienne kontekstu.
+- Wymaga Python 3.10+. Repozytorium zawiera przykłady m.in. agenta triage, obsługi klienta linii lotniczej
+  i personal shoppera.
+- OpenAI zaleca migrację do Agents SDK we wszystkich zastosowaniach produkcyjnych.
+tags:
+- openai-swarm
+- openai-agents-sdk
+- multi-agent-orchestration
+- python
+- chat-completions-api
+- function-calling
+- agent-handoffs

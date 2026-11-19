@@ -1,0 +1,25 @@
+url: https://backstage.io
+title: Backstage
+created: 2025-07-24
+tldr:
+- Backstage to open source framework do budowania portali developerskich, oparty na centralnym katalogu
+  oprogramowania.
+- Software Catalog pokazuje usługi, biblioteki, strony i modele ML wraz z właścicielami, zależnościami
+  oraz powiązanymi zasobami.
+- Software Templates tworzą projekty zgodne z praktykami organizacji, np. projekt Spring Boot z repozytorium
+  na GitHubie i uruchomionym CI.
+- TechDocs umożliwia pisanie dokumentacji w Markdown obok kodu, a Backstage Search pozwala indeksować
+  m.in. TechDocs, Confluence i Stack Overflow.
+- Wtyczka Kubernetes zbiera wdrożenia usług w jednym widoku i korzysta z Kubernetes API, dzięki czemu
+  działa z różnymi dostawcami chmury.
+- Backstage można rozszerzać własnymi wtyczkami; projekt jest w inkubacji Cloud Native Computing Foundation.
+tags:
+- backstage
+- software-catalog
+- developer-portals
+- techdocs
+- software-templates
+- kubernetes
+- plugin-architecture
+- developer-platform
+- cncf

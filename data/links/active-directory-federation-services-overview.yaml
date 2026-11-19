@@ -1,0 +1,20 @@
+url: https://learn.microsoft.com/en-us/windows-server/identity/active-directory-federation-services
+title: Active Directory Federation Services Overview
+created: 2025-04-18
+tldr:
+- AD FS umożliwia federacyjne zarządzanie tożsamością i dostępem, bezpiecznie udostępniając tożsamości
+  cyfrowe i uprawnienia między granicami organizacji.
+- Rozszerza single sign-on na aplikacje internetowe, zapewniając dostęp klientom, partnerom i dostawcom.
+- Microsoft zdecydowanie zaleca migrację z AD FS do Microsoft Entra ID zamiast aktualizacji AD FS do najnowszej
+  wersji.
+- Dokumentacja obejmuje scenariusze OpenID Connect/OAuth, wymagania AD FS i FAQ.
+- Strona dotyczy Windows Server 2016, 2019, 2022 i 2025.
+tags:
+- ad-fs
+- active-directory-federation-services
+- microsoft-entra-id
+- openid-connect
+- oauth
+- single-sign-on
+- federated-identity
+- windows-server

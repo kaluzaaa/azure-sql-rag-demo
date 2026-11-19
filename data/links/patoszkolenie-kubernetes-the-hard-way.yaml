@@ -1,0 +1,22 @@
+url: https://patoarchitekci.io/szkolenia/kubernetes-the-hard-way
+title: '[Patoszkolenie] Kubernetes the Hard Way'
+author: Patoarchitekci
+created: 2025-10-21
+tldr:
+- Zaawansowane szkolenie uczy ręcznego budowania klastra Kubernetes od podstaw, aby zrozumieć działanie
+  jego komponentów i architekturę.
+- Program obejmuje m.in. własne CA i certyfikaty TLS, kubeconfig, szyfrowanie danych at-rest, etcd, control
+  plane, węzły robocze, routing Podów i CoreDNS.
+- Uczestnicy przeprowadzają testy funkcjonalne, sprawdzają wysoką dostępność klastra i symulują awarie
+  węzłów; szkolenie nie korzysta z managed Kubernetes ani gotowych skryptów.
+- Szkolenie prowadzi Łukasz Kałużny online przez Microsoft Teams; cena wynosi 1462,60 PLN netto, limit
+  to 12 osób, a nowy termin jest w drodze.
+tags:
+- kubernetes
+- etcd
+- coredns
+- kubelet
+- containerd
+- kubernetes-networking
+- tls-certificates
+- kubernetes-training

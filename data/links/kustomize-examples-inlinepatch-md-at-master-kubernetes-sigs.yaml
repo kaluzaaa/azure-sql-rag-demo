@@ -1,0 +1,18 @@
+url: https://github.com/kubernetes-sigs/kustomize/blob/master/examples/inlinePatch.md
+title: kustomize/examples/inlinePatch.md at master · kubernetes-sigs/kustomize · GitHub
+created: 2025-12-04
+tldr:
+- Kustomize pozwala umieszczać treść patcha bezpośrednio w pliku kustomization.yaml, bez tworzenia osobnych
+  plików.
+- Od wersji 3.2.0 inline patch działa z polami patchesStrategicMerge, patchesJSON6902 i patches.
+- Przykłady pokazują zmianę obrazu kontenera Deployment z nginx na nginx:latest przy użyciu JSON Patch
+  oraz Strategic Merge Patch.
+- 'Strategic Merge Patch obsługuje dyrektywy $patch: delete i $patch: replace; przykład usuwa kontener
+  nginx.'
+tags:
+- kustomize
+- kubernetes
+- strategic-merge-patch
+- json-patch
+- kustomization
+- yaml

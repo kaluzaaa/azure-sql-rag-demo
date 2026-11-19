@@ -1,0 +1,21 @@
+url: https://helm.sh/docs/chart_best_practices/templates
+title: Templates | Helm
+created: 2025-12-04
+tldr:
+- Dokumentacja Helm 4.3.0 zaleca osobny plik szablonu dla każdego zasobu, rozszerzenie `.yaml` dla wyjścia
+  YAML i nazwy plików z myślnikami.
+- Nazwy szablonów tworzonych przez `{{ define }}` są globalne dla wykresu i jego podwykresów, dlatego
+  powinny być opatrzone namespace, np. `nginx.fullname`.
+- Szablony należy formatować wcięciem dwóch spacji, bez tabulatorów; dyrektywy powinny mieć odstępy wewnątrz
+  nawiasów klamrowych, a zbędne białe znaki należy usuwać.
+- Komentarze szablonów `{{- /* */}}` nie trafiają do wyniku. Komentarze YAML pozostają widoczne przy `helm
+  install --debug` i mogą spowodować błąd renderowania, gdy zawierają wywołanie `required`.
+- JSON może poprawić czytelność prostych struktur, takich jak listy, ale nie jest zalecany do bardziej
+  złożonych konstrukcji; nadaje się do czystego JSON osadzonego w YAML.
+tags:
+- helm
+- helm-charts
+- go-templates
+- yaml
+- kubernetes
+- json

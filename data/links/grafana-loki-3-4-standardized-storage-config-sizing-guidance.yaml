@@ -1,0 +1,24 @@
+url: https://grafana.com/blog/2025/02/13/grafana-loki-3.4-standardized-storage-config-sizing-guidance-and-promtail-merging-into-alloy
+title: 'Grafana Loki 3.4: Standardized storage config, sizing guidance, and Promtail merging into Alloy'
+author: Julie Stickler
+created: 2025-04-02
+tldr:
+- Loki 3.4 wprowadza opcjonalnego klienta Thanos Object Storage Client, ujednolicając konfigurację storage
+  i umożliwiając ponowne użycie ustawień z Grafana Mimir i Pyroscope.
+- Nowe wskazówki sizingowe pomagają dobrać CPU i pamięć dla wdrożeń w microservices mode; rekomendacje
+  oparto na wolumenie ingestii i p90 wykorzystania zasobów.
+- 'Obsługa logów out-of-order obejmuje teraz dowolnie stare wpisy; funkcję włącza się przez `time_sharding_enabled:
+  true`.'
+- Loki 3.4 dodaje ekstrakcję pól do structured metadata podczas ingestii oraz usprawnienia Helm chart,
+  w tym `topologySpreadConstraints` i overrides exporter.
+- 'Promtail został połączony z Grafana Alloy: LTS rozpoczęło się 2025-02-13, a EOL zaplanowano na 2026-03-02.'
+- Dokumentacja migracji zawiera narzędzie konwertujące konfigurację Promtail do Alloy jednym poleceniem.
+tags:
+- grafana-loki
+- loki-3-4
+- thanos-object-storage
+- grafana-alloy
+- promtail
+- structured-metadata
+- opentelemetry
+- object-storage

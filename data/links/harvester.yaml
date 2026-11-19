@@ -1,0 +1,21 @@
+url: https://harvesterhci.io
+title: Harvester
+created: 2025-04-18
+tldr:
+- Harvester to open-source’owe rozwiązanie HCI dla serwerów bare metal, przeznaczone do uruchamiania workloadów
+  cloud-native i maszyn wirtualnych w centrach danych oraz na edge.
+- Wykorzystuje Linux, KVM, Kubernetes, KubeVirt i Longhorn do zarządzania wirtualizacją oraz workloadami
+  cloud-native z jednego interfejsu.
+- Strona wskazuje zastosowania obejmujące Kubernetes w VM, kontenery na serwerach bare metal oraz modernizację
+  workloadów.
+- Harvester jest bezpłatny i ma ograniczać koszty licencji dzięki wykorzystaniu otwartego oprogramowania.
+tags:
+- harvester
+- hyperconverged-infrastructure
+- kubevirt
+- longhorn
+- kubernetes
+- kvm
+- virtual-machines
+- bare-metal
+- edge-computing

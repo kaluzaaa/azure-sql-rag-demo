@@ -1,0 +1,23 @@
+url: https://modelcontextprotocol.io/specification/2025-06-18/server/prompts
+title: Prompts
+created: 2025-09-26
+tldr:
+- MCP pozwala serwerom udostępniać klientom szablony promptów, które użytkownicy mogą odkrywać, wybierać
+  i dostosowywać argumentami.
+- Serwer obsługujący prompty musi zadeklarować capability `prompts`; `listChanged` sygnalizuje, czy wysyła
+  powiadomienia o zmianach listy.
+- Klienci używają żądań `prompts/list` z paginacją do wyszukiwania promptów oraz `prompts/get` do pobierania
+  ich treści.
+- Wiadomości promptów mogą zawierać tekst, obrazy, audio i osadzone zasoby; dane obrazów i audio muszą
+  być zakodowane w base64 i mieć prawidłowy MIME type.
+- Błędy nieprawidłowej nazwy promptu lub brakujących argumentów używają kodu JSON-RPC `-32602`; błędy
+  wewnętrzne używają `-32603`.
+- Implementacje powinny walidować argumenty i wejścia/wyjścia promptów, obsługiwać paginację oraz uzgadniać
+  capabilities.
+tags:
+- model-context-protocol
+- mcp-prompts
+- json-rpc
+- multimodal-prompts
+- prompt-templates
+- mcp-servers

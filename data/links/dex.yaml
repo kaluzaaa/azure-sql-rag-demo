@@ -1,0 +1,20 @@
+url: https://dexidp.io
+title: Dex
+created: 2025-04-18
+tldr:
+- 'Dex to federacyjny dostawca OpenID Connect: integruje upstreamowe źródła tożsamości, a aplikacjom udostępnia
+  jeden endpoint OIDC.'
+- Obsługuje m.in. LDAP, SAML, GitHub, Google, GitLab, Microsoft, Gitea i innych dostawców przez konektory.
+- Aplikacje komunikują się z Dex przez OIDC; można dodawać dostawców tożsamości bez zmian w kodzie aplikacji.
+- Dex jest lekkim binarnym programem w Go, działa m.in. na Kubernetes i nie ma własnego magazynu użytkowników.
+- Konfiguracja obejmuje klientów, storage i konektory w jednym pliku YAML; projekt jest w programie CNCF
+  Sandbox.
+tags:
+- dex
+- openid-connect
+- oauth-2-0
+- identity-federation
+- ldap
+- saml
+- kubernetes
+- cncf

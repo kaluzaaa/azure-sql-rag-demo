@@ -1,0 +1,22 @@
+url: https://www.thoughtworks.com/radar
+title: Technology Radar | Guide to technology landscape
+created: 2025-07-23
+tldr:
+- Technology Radar Thoughtworks to półroczny przegląd narzędzi, technik, platform, języków i frameworków;
+  Vol 34 pochodzi z kwietnia 2026.
+- AI utrudnia ocenę technologii przez szybkie pojawianie się narzędzi i niestabilne znaczenie terminów;
+  generowany kod może zwiększać cognitive debt.
+- W erze AI warto zachować fundamenty inżynierii oprogramowania, takie jak pair programming, mutation
+  testing, clean code, testability i accessibility.
+- Agenci wymagający dostępu do prywatnych danych i systemów są narażeni na prompt injection oraz nieprzewidywalne
+  zachowanie; zalecane są least privilege, defense in depth i ograniczone pipeline’y agentów.
+- Radar klasyfikuje blips w pierścieniach Adopt, Trial, Assess i Caution, wskazujących poziom rekomendacji.
+tags:
+- technology-radar
+- coding-agents
+- ai-agents
+- prompt-injection
+- cognitive-debt
+- zero-trust-architecture
+- model-context-protocol
+- software-engineering

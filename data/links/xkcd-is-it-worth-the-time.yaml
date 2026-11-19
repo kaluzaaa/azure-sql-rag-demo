@@ -1,0 +1,17 @@
+url: https://xkcd.com/1205
+title: 'xkcd: Is It Worth the Time?'
+created: 2025-04-02
+tldr:
+- Komiks pokazuje, jak długo warto usprawniać rutynowe zadanie, zanim czas poświęcony na optymalizację
+  przewyższy oszczędności w ciągu pięciu lat.
+- Tabela zestawia częstotliwość wykonywania zadania z czasem oszczędzanym przy każdym wykonaniu i podaje
+  maksymalny czas pracy nad usprawnieniem.
+- Dla zadania wykonywanego codziennie, które oszczędza minutę za każdym razem, tabela pozwala poświęcić
+  na usprawnienie jeden dzień.
+- Do kosztu optymalizacji dolicz czas potrzebny na znalezienie i przeczytanie tabeli; autor przypomina,
+  że każda sekunda liczy się do bilansu.
+tags:
+- productivity
+- time-management
+- workflow-optimization
+- automation

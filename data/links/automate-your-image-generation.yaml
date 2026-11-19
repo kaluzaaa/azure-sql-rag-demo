@@ -1,0 +1,22 @@
+url: https://renderform.io
+title: Automate your image generation!
+created: 2025-12-19
+tldr:
+- RenderForm tworzy warianty obrazów z szablonów i danych — według strony może wygenerować tysiące w kilka
+  sekund.
+- API pozwala dostosowywać obrazy danymi i integrować generowanie z aplikacjami; obrazy można też tworzyć,
+  zmieniając link.
+- Z tych samych szablonów i API można generować krótkie filmy MP4 lub WebM z animacjami komponentów.
+- Dane do generowania obrazów można importować z Excel, Numbers i Airtable.
+- Integracje obejmują m.in. Zapier, Make.com, n8n, MCP Server, REST API, CLI, Google Sheets i WordPress.
+tags:
+- renderform
+- image-generation-api
+- video-generation
+- template-rendering
+- mcp
+- zapier
+- make-com
+- n8n
+- airtable
+- google-sheets

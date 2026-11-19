@@ -1,0 +1,28 @@
+url: https://www.thoughtworks.com/content/dam/thoughtworks/documents/radar/2025/04/tr_technology_radar_vol_32_en.pdf
+title: PDF - Technology Radar vol. 32
+author: Thoughtworks Technology Advisory Board
+created: 2025-04-24
+tldr:
+- Thoughtworks Technology Radar vol. 32 highlights supervised AI coding assistants, evolving observability,
+  retrieval-augmented generation (RAG) and the growing importance of managing complex enterprise data.
+- 'The Radar groups technologies and techniques into four quadrants and four recommendation rings: Adopt,
+  Trial, Assess and Hold.'
+- The Technology Advisory Board discussed this edition in Bangkok in February 2025; the board comprises
+  21 senior technologists.
+- The report favors supervised coding assistants that navigate and modify code, update tests and run commands,
+  while cautioning that developers must steer agents and review generated code.
+- LLM observability is growing, with tools including Weights & Biases Weave, Arize Phoenix, Helicone and
+  Humanloop; OpenTelemetry is helping standardize observability.
+- RAG approaches highlighted include GraphRAG, Fusion-RAG, Self-RAG and FastGraphRAG; the report also
+  emphasizes data product thinking and unstructured data management.
+tags:
+- thoughtworks-technology-radar
+- coding-assistants
+- llm-observability
+- opentelemetry
+- rag
+- graphrag
+- data-product-thinking
+- model-context-protocol
+- fuzz-testing
+- software-bill-of-materials

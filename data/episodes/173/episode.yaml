@@ -1,0 +1,59 @@
+episode_number: 173
+title: Helm vs Kustomize
+date: 2025-12-05
+tags:
+- Helm
+- Kubernetes
+- DevOps
+- GitOps
+- Cloud Native
+chapters:
+- 00:00:00 Intro
+- 00:01:45 Wprowadzenie do Helm versus Customize
+- 00:02:12 Czym są Customize i Helm
+- 00:03:20 Helm jako package manager i narzędzie do dystrybucji
+- 00:04:19 Wsparcie narzędziowe dla Helm i Customize
+- 00:05:07 Problemy z nadmierną logiką w Helmie
+- 00:06:49 Dobre praktyki pisania Helma
+- 00:07:32 Helm buduje abstrakcję dla zespołów
+- 00:08:23 Wersjonowanie w Helmie
+- 00:09:52 Kiedy używać Helm a kiedy Customize
+- 00:10:50 Customize dla aplikacji wewnętrznych
+- 00:11:26 Generatory w Customize
+- 00:13:59 Problem over-architektury w Customize
+- 00:15:01 Możliwość skrzywdzenia się w każdym narzędziu
+- 00:16:15 Problem Master Helma z logiką warunkową
+- 00:18:30 Kiedy ifologia jest uzasadniona
+- 00:19:28 Helm z Customize - hybryda
+- 00:22:49 Hooki i testy w Helmie
+- 00:25:16 Krytyka hooków do migracji bazy
+- 00:28:05 Podsumowanie preferencji
+- 00:32:48 Informacja o Helm 4.0
+- 00:36:08 Zakończenie
+links:
+- patoszkolenie-kubernetes-the-hard-way
+- agentic-ai-the-hard-way-szkolenie
+- szkolenia-patoarchitekci
+- helm
+- kustomize-kubernetes-native-configuration-management
+- artifact-hub
+- declarative-management-of-kubernetes-objects-using-kustomize
+- kustomize-examples-configgeneration-md-at-master-kubernetes
+- kustomize-examples-generatoroptions-md-at-master-kubernetes
+- managing-secrets-using-kustomize
+- sops
+- kustomize-examples-patchmultipleobjects-md-at-master-kuberne
+- kustomize-examples-inlinepatch-md-at-master-kubernetes-sigs
+- chart-template-guide-helm
+- template-functions-and-pipelines-helm
+- template-function-list
+- templates-helm
+- chart-hooks-helm
+- charts-helm
+- helm-dependency-helm
+- subcharts-and-global-values-helm
+- dependencies-helm
+- helm-4-released
+ids:
+  youtube: UHbgZ2zpv7I
+  spotify: 7zjntvme4WjqVhxQXG2Wbw

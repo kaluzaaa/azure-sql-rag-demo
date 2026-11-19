@@ -1,0 +1,23 @@
+url: https://grafana.com/oss/loki
+title: Grafana Loki OSS | Log aggregation system
+created: 2025-10-02
+tldr:
+- Grafana Loki to skalowalny, wysoce dostępny, wielodostępny system agregacji logów inspirowany Prometheusem.
+- Indeksuje etykiety strumieni logów, a nie ich pełną treść, co ogranicza rozmiar indeksu i koszty przechowywania.
+- Przechowuje logi w object storage; strona podkreśla trwałość, skalowanie do petabajtów i wysoką przepustowość.
+- LogQL służy do przeszukiwania logów w Grafanie lub przez LogCLI; z logów można też tworzyć metryki i
+  alerty.
+- Promtail zbiera logi, a integracje z Prometheus, Grafana i Kubernetes umożliwiają pracę z metrykami,
+  logami i trace’ami w jednym interfejsie.
+- Loki jest udostępniany na licencji AGPLv3; można go uruchamiać samodzielnie lub korzystać z zarządzanej
+  usługi Grafana Cloud Logs.
+tags:
+- grafana-loki
+- logql
+- promtail
+- log-aggregation
+- prometheus
+- object-storage
+- kubernetes
+- observability
+- log-management

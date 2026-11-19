@@ -1,0 +1,24 @@
+url: https://learn.microsoft.com/en-us/azure/logic-apps/set-up-model-context-protocol-server-standard
+title: Set up Standard Workflows as MCP Servers - Azure Logic Apps
+author: ecfan
+created: 2025-09-25
+tldr:
+- Azure Logic Apps (Standard) może udostępniać workflowy jako narzędzia zdalnego serwera MCP, które klienci
+  MCP odkrywają i wywołują.
+- Workflowy muszą działać w Workflow Service Plan lub App Service Environment v3, zaczynać się od wyzwalacza
+  When an HTTP request is received i kończyć akcją Response.
+- Serwer MCP można utworzyć z istniejących workflowów lub wygenerować z akcji konektorów; uwierzytelnianie
+  obsługuje klucze API albo Microsoft Entra ID z OAuth.
+- Dokumentacja opisuje testowanie serwera MCP w Visual Studio Code oraz grupowanie wielu serwerów MCP
+  w jednej aplikacji Logic Apps Standard.
+- Azure Logic Apps oferuje ponad 1 400 konektorów i różne modele łączności, w tym prywatne endpointy,
+  sieci wirtualne i zasoby lokalne.
+tags:
+- azure-logic-apps
+- model-context-protocol
+- mcp-server
+- azure-logic-apps-standard
+- microsoft-entra-id
+- oauth
+- visual-studio-code
+- ai-agents

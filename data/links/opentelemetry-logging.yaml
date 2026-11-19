@@ -1,0 +1,24 @@
+url: https://opentelemetry.io/docs/specs/otel/logs
+title: OpenTelemetry Logging
+created: 2025-10-29
+tldr:
+- OpenTelemetry integruje istniejące biblioteki i źródła logów ze wspólnym modelem obserwowalności, zamiast
+  wymagać zastąpienia dotychczasowych rozwiązań.
+- Specyfikacja definiuje model danych logów, Logs API i SDK do emitowania, przetwarzania oraz eksportowania
+  LogRecords.
+- OpenTelemetry Collector może mapować istniejące formaty logów na wspólny model danych; nowe systemy
+  powinny emitować logi zgodne z tym modelem.
+- Logi można korelować z innymi sygnałami przez czas, kontekst wykonania (TraceId i SpanId) oraz Resource.
+- Collector może jednolicie wzbogacać logi, traces i metrics o atrybuty źródła, na przykład informacje
+  o Kubernetes Pod.
+- Logi systemowe, takie jak Syslog i Windows Event Logs, zwykle nie zawierają użytecznego trace context,
+  ale można dodać do nich informacje o zasobie hosta.
+tags:
+- opentelemetry-collector
+- opentelemetry-logs
+- log-data-model
+- trace-context
+- log-correlation
+- distributed-tracing
+- observability
+- telemetry

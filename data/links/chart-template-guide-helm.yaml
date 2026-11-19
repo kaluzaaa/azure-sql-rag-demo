@@ -1,0 +1,18 @@
+url: https://helm.sh/docs/chart_template_guide
+title: Chart Template Guide | Helm
+created: 2025-12-04
+tldr:
+- Szablony Helm generują manifesty YAML opisujące zasoby zrozumiałe dla Kubernetes.
+- Przewodnik dla Helm 4.3.0 omawia język szablonów, strukturę chartów oraz pisanie i debugowanie szablonów
+  Go.
+- Opisuje używanie values, wbudowane obiekty, funkcje i pipelines, sterowanie przepływem oraz zmienne.
+- Obejmuje named templates, dostęp do plików, pliki NOTES.txt, subcharts i wartości globalne.
+- Zawiera wskazówki dotyczące pliku .helmignore oraz technik YAML i typów danych Go.
+tags:
+- helm
+- helm-charts
+- go-templates
+- kubernetes
+- yaml
+- helm-values
+- helm-subcharts

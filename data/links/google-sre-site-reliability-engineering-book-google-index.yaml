@@ -1,0 +1,24 @@
+url: https://sre.google/sre-book/table-of-contents
+title: Google SRE - Site reliability engineering book Google index
+created: 2025-10-16
+tldr:
+- 'Spis treści książki Google SRE obejmuje 34 rozdziały podzielone na pięć części: wprowadzenie, zasady,
+  praktyki, zarządzanie i wnioski.'
+- Część o zasadach omawia m.in. zarządzanie ryzykiem, Service Level Objectives, ograniczanie pracy ręcznej
+  (toil), monitoring systemów rozproszonych i release engineering.
+- Część o praktykach obejmuje dyżury on-call, reagowanie na awarie, zarządzanie incydentami, postmortem,
+  testowanie niezawodności i load balancing.
+- Dalsze rozdziały poruszają przeciążenia, awarie kaskadowe, distributed consensus, harmonogramowanie
+  z Cron i pipeline’y przetwarzania danych.
+- Książkę uzupełnia sześć dodatków, m.in. tabela dostępności, przykładowy postmortem i lista kontrolna
+  koordynacji wdrożenia.
+tags:
+- site-reliability-engineering
+- sre
+- service-level-objectives
+- incident-management
+- distributed-systems
+- load-balancing
+- monitoring
+- reliability-engineering
+- on-call

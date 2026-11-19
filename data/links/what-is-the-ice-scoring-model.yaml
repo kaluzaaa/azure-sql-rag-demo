@@ -1,0 +1,21 @@
+url: https://www.productplan.com/glossary/ice-scoring-model
+title: What is the ICE Scoring Model?
+created: 2025-03-07
+tldr:
+- ICE pomaga szybko priorytetyzować projekty i pomysły, mnożąc oceny Impact, Confidence i Ease.
+- Każdy z trzech czynników otrzymuje ocenę od 1 do 10; wyższy iloczyn oznacza wyższy priorytet.
+- 'Przykład: oceny 7, 6 i 5 dają wynik 210, a 9, 7 i 2 — 126, ponieważ niski Ease obniża wynik drugiego
+  pomysłu.'
+- Model, stworzony przez Seana Ellisa, jest prostszy niż RICE, ale oceny są subiektywne i zależą od osób
+  je przyznających.
+- ICE sprawdza się przy porównywaniu kilku opcji lub wyłanianiu najlepszych pozycji z backlogu, lecz może
+  faworyzować łatwe zadania kosztem projektów o większym długoterminowym wpływie.
+- Spójne definicje skali 1–10 i udział zespołu technicznego w ocenie Ease mogą ograniczyć rozbieżności;
+  ICE nie uwzględnia dobrze wielu równoległych celów organizacji.
+tags:
+- ice-scoring
+- product-prioritization
+- rice-scoring
+- weighted-scoring
+- product-management
+- growth-hacking

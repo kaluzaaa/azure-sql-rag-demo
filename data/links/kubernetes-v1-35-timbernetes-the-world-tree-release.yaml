@@ -1,0 +1,26 @@
+url: https://kubernetes.io/blog/2025/12/17/kubernetes-v1-35-release
+title: 'Kubernetes v1.35: Timbernetes (The World Tree Release)'
+author: Kubernetes v1.35 Release Team
+created: 2026-02-17
+tldr:
+- 'Kubernetes v1.35 zawiera 60 usprawnień: 17 stabilnych, 19 beta i 22 alpha.'
+- Aktualizacja zasobów CPU i pamięci Podów jest stabilna i nie wymaga restartu Podów ani kontenerów.
+- W wersji beta kubelet może wydawać Podom certyfikaty z automatyczną rotacją, wspierając tożsamość workloadów
+  i mTLS.
+- Funkcja alpha pozwala węzłom deklarować obsługiwane funkcje Kubernetes, by ułatwić schedulerowi unikanie
+  niekompatybilnych węzłów.
+- Do wersji stabilnej trafiły m.in. PreferSameNode dla routingu Service, pole managedBy w Job API oraz
+  śledzenie zmian Podów przez metadata.generation.
+- Stabilna konfiguracja topology managera pozwala zwiększyć limit NUMA ponad dotychczasowe 8 węzłów.
+- Downward API w wersji beta udostępnia Podom etykiety topologii węzła, takie jak region i strefa, przez
+  zmienne środowiskowe lub pliki wolumenów.
+tags:
+- kubernetes-v1-35
+- kubernetes
+- pod-certificates
+- in-place-pod-resize
+- downward-api
+- workload-identity
+- job-api
+- topology-manager
+- numa

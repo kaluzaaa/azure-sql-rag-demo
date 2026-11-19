@@ -1,0 +1,23 @@
+url: https://www.cloudflare.com/pl-pl/developer-platform/products/r2
+title: Bezpieczne przechowywanie danych z R2
+created: 2025-05-22
+tldr:
+- Cloudflare R2 to rozproszona pamięć obiektowa zgodna z S3, bez opłat za ruch wychodzący, przeznaczona
+  m.in. do przenośnych architektur wielochmurowych.
+- R2 integruje się z Cloudflare Workers, umożliwiając uwierzytelnianie, przekierowywanie żądań i wdrażanie
+  funkcji brzegowych w sieci obejmującej ponad 335 centrów danych.
+- Automatyczna migracja pozwala przenosić obiekty od dotychczasowych dostawców jednorazowo lub stopniowo.
+- R2 może przechowywać zbiory danych do trenowania AI i ML oraz checkpointy modeli; integracja z Apache
+  Iceberg obsługuje analizy i zapytania bez przenoszenia danych.
+- Standardowa pamięć kosztuje 0,015 USD/GB-miesiąc; w bezpłatnym przydziale jest 10 GB-miesiąc, 1 mln
+  operacji klasy A i 10 mln klasy B.
+tags:
+- cloudflare-r2
+- s3-compatible-storage
+- object-storage
+- cloudflare-workers
+- apache-iceberg
+- egress-fees
+- multi-cloud
+- cloud-storage
+- machine-learning

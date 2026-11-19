@@ -1,0 +1,26 @@
+url: https://docs.docker.com/ai/mcp-catalog-and-toolkit/toolkit
+title: MCP Toolkit
+created: 2025-09-26
+tldr:
+- Docker MCP Toolkit w Docker Desktop pozwala konfigurować i uruchamiać konteneryzowane serwery MCP oraz
+  udostępniać je klientom AI przez profile.
+- Toolkit integruje katalog MCP, eliminuje ręczne zarządzanie zależnościami i obsługuje klientów takich
+  jak Claude Desktop oraz Visual Studio Code.
+- Serwery są uruchamiane w kontenerach; narzędzia mają limit 1 CPU i 2 GB pamięci, domyślnie nie mają
+  dostępu do systemu plików hosta, a żądania zawierające sekrety są blokowane.
+- Obrazy serwerów MCP z katalogu Dockera są podpisywane, a każdy zawiera SBOM; Toolkit obsługuje też autoryzację
+  OAuth dla usług takich jak GitHub, Notion i Linear.
+- Strona opisuje konfigurację profili, łączenie Claude Desktop i VS Code z serwerami MCP oraz korzystanie
+  z Dynamic MCP do wyszukiwania i dodawania narzędzi na żądanie.
+- Instrukcje dotyczą interfejsu Docker Desktop 4.62 i nowszych; funkcja ma status beta.
+tags:
+- docker-mcp-toolkit
+- model-context-protocol
+- docker-desktop
+- mcp-servers
+- mcp-gateway
+- dynamic-mcp
+- oauth
+- claude-desktop
+- visual-studio-code
+- container-security

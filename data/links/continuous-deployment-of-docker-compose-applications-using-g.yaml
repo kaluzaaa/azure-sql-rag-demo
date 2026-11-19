@@ -1,0 +1,25 @@
+url: https://aaronstannard.com/docker-compose-tailscale
+title: Continuous Deployment of Docker Compose Applications Using GitHub Actions
+author: Aaronontheweb
+created: 2025-05-22
+tldr:
+- GitHub Actions i Tailscale SSH umożliwiają ciągłe wdrażanie aplikacji Docker Compose na prywatne maszyny
+  bez publicznych portów i zarządzania kluczami SSH.
+- Pipeline buduje obraz Docker, publikuje go w prywatnym registry, łączy się z hostem przez tailnet i
+  uruchamia aktualizację Docker Compose.
+- Tailscale tworzy efemeryczne urządzenie w GitHub Actions przy użyciu OAuth client ID i secret zapisanych
+  jako GitHub Actions Secrets.
+- Tag `tag:ci` oraz reguły ACL pozwalają urządzeniom CI łączyć się przez SSH z zasobami oznaczonymi `tag:server`.
+- Wdrożenie aktualizuje wartość `DOCKER_TAG` w pliku `.env`, a `docker-compose.yaml` używa jej do pobrania
+  właściwej wersji obrazu.
+tags:
+- docker-compose
+- tailscale
+- github-actions
+- tailscale-ssh
+- continuous-deployment
+- private-registry
+- docker
+- ci-cd
+- devops
+- homelab

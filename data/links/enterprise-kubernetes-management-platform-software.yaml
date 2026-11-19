@@ -1,0 +1,20 @@
+url: https://www.rancher.com
+title: Enterprise Kubernetes Management Platform & Software
+created: 2025-04-18
+tldr:
+- Rancher to open-source’owy stos do zarządzania Kubernetesem w wielu klastrach, od centrów danych po
+  chmurę i edge.
+- Platforma łączy narzędzia dla DevOps z funkcjami operacyjnymi i bezpieczeństwa dla obciążeń kontenerowych.
+- Ponad 30 000 zespołów korzysta z Ranchera; strona podaje 19,7 tys. GitHub stars, 5,2 mln zarządzanych
+  kontenerów i 650+ klientów enterprise.
+- Rancher oferuje dokumentację, szkolenia w Rancher Academy, wdrożenie oraz demonstrację produktu.
+- Strona wspomina o zarządzanym Rancherze dla Amazon EKS na AWS, dostępnym w bezpłatnym okresie próbnym.
+tags:
+- rancher
+- kubernetes
+- amazon-eks
+- kubernetes-management
+- container-management
+- multi-cluster
+- cloud-native
+- devops

@@ -1,0 +1,25 @@
+url: https://about.gitlab.com/blog/anomaly-detection-using-prometheus
+title: How to use Prometheus for anomaly detection in GitLab
+author: Sara Kassabian
+created: 2025-04-18
+tldr:
+- Prometheus Query Language może służyć do wykrywania anomalii w time series, diagnozowania incydentów,
+  wykrywania regresji wydajności, nadużyć i problemów bezpieczeństwa.
+- 'Najlepszy poziom agregacji to zwykle service level: należy zachować etykiety job i environment, a pominąć
+  instance, method, controller i status_code; przykładowe okno rate to 5 minut.'
+- Z-score oblicza się na podstawie średniej i odchylenia standardowego z tygodniowej historii; wartości
+  poza zakresem około -3 do +3 można traktować jako anomalie.
+- 'Przed użyciem z-score trzeba sprawdzić rozkład danych: zakres ekstremalnych z-score około +4 do -4
+  sugeruje poprawne założenie, a error rates, latencies i queue lengths często lepiej obsługiwać stałymi
+  progami.'
+- Seasonality wykorzystuje powtarzalne wzorce, na przykład tygodniowe zmiany RPS; predykcja może łączyć
+  wartość z poprzedniego tygodnia z trendem wzrostu i średnią z szerszego okna czasowego.
+tags:
+- prometheus
+- promql
+- gitlab
+- anomaly-detection
+- time-series
+- z-score
+- seasonality
+- prometheus-alerting

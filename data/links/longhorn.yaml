@@ -1,0 +1,19 @@
+url: https://longhorn.io
+title: Longhorn
+created: 2025-04-18
+tldr:
+- Longhorn to otwartoźródłowe, cloud-native rozproszone storage blokowe dla Kubernetes.
+- Zapewnia wysoce dostępne storage trwałe dla klastrów Kubernetes i działa bez kosztów licencyjnych rozwiązań
+  proprietary.
+- Wbudowane snapshoty i backupy przyrostowe chronią dane wolumenów; backupy można planować i zarządzać
+  nimi przez UI.
+- Umożliwia tworzenie wolumenów disaster recovery w innym klastrze Kubernetes i przełączanie na nie w
+  razie awarii, z określonym RPO i RTO.
+tags:
+- longhorn
+- kubernetes
+- block-storage
+- persistent-storage
+- disaster-recovery
+- incremental-snapshots
+- backup

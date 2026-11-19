@@ -1,0 +1,20 @@
+url: https://opentelemetry.io/docs
+title: Documentation
+created: 2025-10-02
+tldr:
+- OpenTelemetry (OTel) to otwartoźródłowy, niezależny od dostawców framework do instrumentowania, generowania,
+  zbierania i eksportowania danych telemetrycznych.
+- Framework obsługuje traces, metrics i logs; wspiera go ponad 90 dostawców rozwiązań observability.
+- Dokumentacja obejmuje koncepcje, instrukcje rozpoczęcia pracy, API i SDK języków programowania, zero-code
+  instrumentation oraz OpenTelemetry Collector.
+- Dostępne są też informacje o platformach, integracjach, specyfikacjach, bezpieczeństwie i wdrażaniu
+  OpenTelemetry.
+tags:
+- opentelemetry
+- observability
+- telemetry
+- distributed-tracing
+- metrics
+- logs
+- opentelemetry-collector
+- instrumentation

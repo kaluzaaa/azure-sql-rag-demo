@@ -1,0 +1,18 @@
+url: https://modelcontextprotocol.io/specification/2025-06-18
+title: Specification - Model Context Protocol
+created: 2025-09-26
+tldr:
+- Model Context Protocol (MCP) standaryzuje połączenia aplikacji LLM z zewnętrznymi źródłami danych i
+  narzędziami.
+- MCP używa komunikatów JSON-RPC 2.0 i łączy hosty, klientów oraz serwery; obsługuje negocjację capabilities
+  i połączenia stanowe.
+- Serwery mogą udostępniać resources, prompts i tools, a klienci — sampling, roots i elicitation.
+- Specyfikacja wymaga uwzględniania zgody użytkownika, prywatności danych i bezpieczeństwa narzędzi, w
+  tym uzyskania zgody przed ich uruchomieniem.
+tags:
+- model-context-protocol
+- mcp
+- json-rpc
+- llm-integration
+- ai-tools
+- protocol-specification
